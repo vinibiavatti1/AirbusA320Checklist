@@ -33,7 +33,7 @@
 8. Set `PACK FLOW` to (`NORM`: default, `HI`: climate is too warm, `LO`: climate is too cold)
 9. Adjust `COCKPIT`, `FWD CABIN`, and `AFT CABIN` selectors to your preference (12 o'clock (default) = 24°C)
 10. Press `EXT POWER` switch to turn it OFF (Light changes back to `AVAIL` green)
-11. Dismiss External Power (__Aircraft > Ground Services > External Power__)
+11. Dismiss External Power (_Aircraft > Ground Services > External Power_)
 
 ## 6. MCDU
 [ ] ...
