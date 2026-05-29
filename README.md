@@ -2,12 +2,12 @@
 
 ## 1 - Fueling
 
-- 1.1 - Call fuel truck (Aircraft > Ground Services > Fuel)
-- 1.2 - Add fuel (Avg: 13.000 Lbs)
-- 1.3 - Dismiss fuel truck (Aircraft > Ground Services > Fuel)
+- [ ] 1.1 - Call fuel truck (Aircraft > Ground Services > Fuel)
+- [ ] 1.2 - Add fuel (Avg: 13.000 Lbs)
+- [ ] 1.3 - Dismiss fuel truck (Aircraft > Ground Services > Fuel)
 
 ## 2 - Boarding
-[ ] 2.1 - Call ...
+- [ ] 2.1 - Call ...
 
 3 - External Power
 [ ] 3.1 - Turn on BAT 1 and BAT 2 switches
