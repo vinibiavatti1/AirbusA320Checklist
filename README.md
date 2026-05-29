@@ -2,9 +2,9 @@
 
 ## 1. Fueling
 
-1. Call fuel truck (Aircraft > Ground Services > Fuel)
+1. Call fuel truck (_Aircraft > Ground Services > Fuel_)
 2. Add fuel (Avg: 13.000 Lbs)
-3. Dismiss fuel truck (Aircraft > Ground Services > Fuel)
+3. Dismiss fuel truck (_Aircraft > Ground Services > Fuel_)
 
 ## 2. Boarding
 
@@ -13,7 +13,7 @@
 ## 3. External Power
 
 1. Turn on `BAT 1` and `BAT 2` switches
-2. Call external power (Aircraft > Ground Services > External Power)
+2. Call external power (_Aircraft > Ground Services > External Power_)
 3. Check `EXT PWR` light is `AVAIL` (Green)
 4. Press `EXT PWR` switch (Light changes to `ON` Blue)
 
@@ -24,16 +24,16 @@
 
 ## 5 - Auxiliary Power Unit (APU) & Cabin Comfort
 1. Turn on `APU MASTER` switch
-2. Press APU START switch (White ON light appears)
-3. Wait for green AVAIL light on APU START switch
-4. Turn on APU BLEED switch (Pneumatic air active)
-5. Check X-BLEED is set to AUTO
-6. Check PACK 1 and PACK 2 are ON (Lights OFF on panel = Active)
-7. Check HOT AIR switch is ON (Light OFF on panel = Active)
-8. Set PACK FLOW to NORM (or HI if the climate is too hot)
-9. Adjust COCKPIT, FWD CABIN, and AFT CABIN selectors to your preference (12 o'clock = 24°C)
-10. Press EXT POWER switch to turn it OFF (Light changes back to AVAIL Green)
-11. Dismiss External Power (Aircraft > Ground Services > External Power)
+2. Press `APU START` switch (White `ON` light appears)
+3. Wait for green `AVAIL` light on `APU START` switch
+4. Turn on `APU BLEED` switch (Pneumatic air active)
+5. Check `X-BLEED` is set to `AUTO`
+6. Check `PACK 1` and `PACK 2` are ON (Lights OFF on panel indicates active)
+7. Check `HOT AIR` switch is ON (Light OFF on panel indicates active)
+8. Set `PACK FLOW` to `NORM` (or `HI` if climate is too warm, `LO` if climate too cold)
+9. Adjust `COCKPIT`, `FWD CABIN`, and `AFT CABIN` selectors to your preference (12 o'clock = 24°C)
+10. Press `EXT POWER` switch to turn it OFF (Light changes back to `AVAIL` Green)
+11. Dismiss External Power (__Aircraft > Ground Services > External Power__)
 
 
 
