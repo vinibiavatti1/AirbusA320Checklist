@@ -6,14 +6,16 @@
 2. Add fuel (Avg: 13.000 Lbs)
 3. Dismiss fuel truck (_Aircraft > Ground Services > Fuel_)
 
-## 2. Boarding
+## 2. Enable Boarding Services
 
-1. Call ...
+1. Enable front and rear stairways (_Aircraft > Ground Services > Stairways_)
+2. Enable baggage ramp (_Aircraft > Ground Services > Baggage_)
+3. Enable and raise front and rear catering trucks (_Aircraft > Ground Services > Catering_)
 
 ## 3. External Power
 
 1. Check `BAT 1` and `BAT 2` are ON (lights OFF)
-2. Call external power (_Aircraft > Ground Services > External Power_)
+2. Call external power (_Aircraft > Ground Services > Enable External Power Box_)
 3. Check `EXT PWR` light is `AVAIL` (Green)
 4. Press `EXT PWR` switch (Light changes to `ON` Blue)
 
@@ -36,28 +38,31 @@
 11. Dismiss External Power (_Aircraft > Ground Services > External Power_)
 
 ## 6. MCDU
-[ ] ...
 
-## 7. Remove Boarding Stuff
-[ ] ...
+1. 
 
-Engines
-[ ] Turn on APU ENG 1 and APU ENG 2 Bleed switches
-[ ] ...
+## 7. Disable Boarding Services
 
-## 8. Taxi
+1. Disable front and rear stairways (_Aircraft > Ground Services > Stairways_)
+2. Disable baggage ramp (_Aircraft > Ground Services > Baggage_)
+3. Lower and disable front and rear catering trucks (_Aircraft > Ground Services > Catering_)
+4. Disable gear chocks (_Aircraft > Ground Services > Landing Gear_)
 
-## 9. Before Take Off
+## 8. Engines
 
-## 10. Take Off
+## X. Taxi
 
-## 11. After Take Off
+## X. Before Take Off
 
-## 12. Cruizer
+## X. Take Off
 
-## 13. Before Landing
+## X. After Take Off
 
-## 14. Approaching
+## X. Cruizer
+
+## X. Before Landing
+
+## X. Approaching
 
 ## 15. Landing
 
