@@ -1,4 +1,4 @@
-# Guruleni Pilot - A320 Checklist
+# Flight Gear - Airbus A320-family - Checklist
 
 ## 1. Fueling
 
