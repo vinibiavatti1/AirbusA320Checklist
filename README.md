@@ -50,18 +50,19 @@
 8. Press `IRS INIT` > `ALIGN ON REF` > `CONFIRM ALIGN` LCKs
 
 ## 7. MCDU - Fuel Prediction (INIT > FUEL PREDICTION)
-10. Access the `INIT 2` page
-11. Click `ZFW/ZFWCG` LCK to calculate the ??? automatically
-12. Press `FUEL PLANNING` LCK and wait for prediction
-13. Press `BLOCK CONFIRM` LCK
 
-## 7. MCDU - Take Off Performance (PERF > TAKE OFF)
+1. Access the `INIT 2` page
+2. Click `ZFW/ZFWCG` LCK to calculate the ??? automatically
+3. Press `FUEL PLANNING` LCK and wait for prediction
+4. Press `BLOCK CONFIRM` LCK
+
+## 8. MCDU - Take Off Performance (PERF > TAKE OFF)
 
 1. Access `PERF` page
 2. Set `V1`, `VR` and `V2` speeds based on the airplane weight (default: `130`, `135`, `140`)
 3. Set `FLAPS/THS` with the take off flaps level and trim (default: `1/UP0.1`)
 
-## 8. MCDU - Approaching Performance (PERF > APPR)
+## 9. MCDU - Approaching Performance (PERF > APPR)
 
 1. Access `PERF` page
 2. Navigate to `PERF - APPR` page
@@ -70,7 +71,7 @@
 5. Set `BARO` (default `200` ft)
 6. Set `MAG WIND` (default: `000/0` - no wind)
 
-## 9. Getting Departure-Arrival Runways Data
+## 10. Getting Departure-Arrival Runways Data
 
 1. Open map (_Equipament > Map_)
 2. Navigate to the departure airport
@@ -80,7 +81,7 @@
 6. Decide a ILS runway for landing
 7. Annotate the landing **runway code** and ILS **course** and **frequency** information (example: `SBGL 15 149 - 110.30MHz`)
 
-## 9. MCDU - Flight Plan Departure (F-PLN)
+## 11. MCDU - Flight Plan Departure (F-PLN)
 
 1. Access `F-PLN` page
 2. Select departure airport left LCK (ex: `SBGR`)
@@ -90,7 +91,7 @@
 6. Select `TMPY F-PLN`
 7. Select `TMPY INSERT *`
 
-## 10. MCDU - Flight Plan Arrival (F-PLN)
+## 12. MCDU - Flight Plan Arrival (F-PLN)
 
 1. Access `F-PLN` page
 2. Select destination airport left LCK (ex: `SBGL`)
@@ -100,7 +101,7 @@
 6. Select `TMPY F-PLN`
 7. Select `TMPY INSERT *`
 
-## 11. MCDU - Flight Plan Approaching Waypoint (F-PLN)
+## 13. MCDU - Flight Plan Approaching Waypoint (F-PLN)
 
 1. Access `F-PLN` page
 2. Select `---F-PLN DISCONTINUITY--` left LCK
@@ -110,13 +111,18 @@
 7. Select `TMPY INSERT *`
 8. Click the `CLR` button to insert `CLR` text, and select `---F-PLN DISCONTINUITY--` to remove it (do it for all discontinuity points)
 
-## 11. MCDU - Radio Navigation (RAD NAV)
+## 14. MCDU - Radio Navigation (RAD NAV)
 
 1. Open the `RAD NAV` page
 2. Set the `ILS/FREQ` with the ILS runway **frequency** information
 3. Set the `CRS` (below `ILS/FREQ`) with the **course** information
 
-## 7. Disable Boarding Services
+## 15. Review Map
+
+1. Open map (_Equipament > Map_)
+2. Review if the route is correct
+
+## 16. Disable Boarding Services
 
 1. Disable front and rear stairways (_Aircraft > Ground Services > Stairways_)
 2. Disable baggage ramp (_Aircraft > Ground Services > Baggage_)
