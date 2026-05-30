@@ -122,11 +122,32 @@
 3. Lower and disable front and rear catering trucks (_Aircraft > Ground Services > Catering_)
 4. Disable gear chocks (_Aircraft > Ground Services > Landing Gear_)
 
-## 8. Engines Start Procedure
+## 17. Engines Start Procedure
 
+1. Turn on wing fuel pumps `R TK PUMPS 1` and `R TK PUMPS 2` in `ENG 1` and `ENG 2` (lights OFF)
+2. Turn on central fuel pumps `L XFR` and `R XFR` in `CTR TK` (if center tank has fuel)
+3. Check `MODE SEL` is set to `AUTO` (lights OFF)
+4. Turn on `BEACON` to signalize that the engines are starting
+5. Turn `ENG MODE` selector to `IGN/START`
+6. Raise `ENG 2` master switch to `ON` and wait for engine stabilization (Engine 2 first to provide primary hydraulic pressure)
+7. Raise `ENG 1` master switch to `ON` and wait for engine stabilization
+8. Turn `ENG MODE` selector back to `NORM`
 
+## 18. Turn Off Auxiliary Power Unit (APU)
 
-## X. Taxi
+1. Turn off `APU BLEED` switch
+2. Turn off `APU MASTER` switch
+
+## 19. Taxi
+
+1. Turn `NOSE` light switch to `TAXI`
+2. Set flaps to takeoff position (default: `1`)
+3. Arm ground spoilers by pulling the `SPEED BRAKE` lever up (verify it stays in the `RET` position but armed)
+4. Set `AUTO BRK` to `MAX`
+5. Press `TO CONFIG` button to test takeoff configuration
+6. Check `ECAM` center screen and confirm it displays `T.O CONFIG NORMAL` in green
+7. Release `PARK BRK` (turn switch to `OFF`)
+8. Smoothly advance thrust levers to approximately 20%-25% `N1` to begin taxiing
 
 ## X. Before Take Off
 
