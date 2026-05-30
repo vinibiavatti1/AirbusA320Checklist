@@ -162,7 +162,7 @@
 2. Turn `NOSE` light switch to `TAXI`
 3. Set `FLAPS` to takeoff position (default: `1`)
 4. Adjust `PITCH TRIM` wheel to match MCDU target (default: `UP 0.1`)
-5. Arm ground spoilers by pulling the `SPEED BRAKE` lever up (verify it stays in the `RET` position but armed)
+5. Arm the ground spoilers by pulling UP the `SPEED BRAKE` lever (verify white band is visible)
 6. Set `AUTO BRK` to `MAX`
 7. Press `TO CONFIG` button to test takeoff configuration
 8. Check `ECAM` center screen and confirm it displays `T.O CONFIG NORMAL` in green
@@ -201,7 +201,8 @@
 6. Disarm ground spoilers (push the `SPEED BRAKE` lever down)
 7. Turn off `AUTO BRK` switch
 8. Turn off `RWY TURN OFF` and `NOSE` lights
-9. Leave `LAND` lights on until passing 10.000 ft)
+9. Press the `BARO` knob on the `FCU`  to set `STD` (Standard)
+10. Leave `LAND` lights on until passing 10.000 ft)
 
 ## 26. Cruise (Level Off)
 
@@ -212,17 +213,48 @@
 
 1. Identify the destination airport `ATIS` frequency (_AI > CTA Services_)
 2. Click the `COM1` button to tune `VHF1` radio channel into the `ATIS` frequency, and ensure weather broadcast audio reception
-3. Select the `VHF1` channel and turn on `VHF1` audio reception
+3. Select the `VHF1` channel and turn on `VHF1` audio reception in `RMP`
 4. On the `MCDU`, access the `PERF` page and navigate to `PERF - APPR`
 5. Listen to the `ATIS` broadcast and insert the `QNH`, `TEMP` and `MAG WIND`.
-6. At the `T/D` (Top of Descent) point on the `ND` screen, push the `ALTITUDE` knob IN to initiate Managed Descent (DES)
+6. Turn off the `VHF1` audio reception
+7. At the `T/D` (Top of Descent) point on the `ND` screen, push the `ALTITUDE` knob IN to initiate Managed Descent (DES)
 
 ## 28. Approaching
 
+1. Turn on the `ILS` audio reception on `RMP`
+1. Press the `BARO` knob on the FCU to switch from `STD` to the local QNH captured from the `ATIS`
+2. When passing 10.000 feet, turn on `LAND` (Landing), `RWY TURN OFF`, and `NOSE` (set to `TAXI`) lights
+3. Turn on `SEAT BELTS` sign
+4. Set the `AUTO BRK` (Autobrake) to `LOW` or `MED` (depending on runway length)
+5. Trigger `Cpt - Prepare for Landing` announcement (_Aircraft > Announcements_)
+6. Press the `LS` button on the `EFIS` panel to display the ILS localizer and glideslope scales on your `PFD`
 
+## 29. Final Approach & Configuration
 
-## 15. Landing
+1. As the aircraft approaches the `DECELERATION POINT` (magenta `D` circle on the `ND` screen), verify the autothrust automatically starts reducing speed towards `VAPP`
+2. When speed drops below the green max flaps speed indicator `VFE`, move `FLAPS` lever to `1`
+3. Press the `APPR` (Approach) button on the `FCU` to arm the ILS guidance (verify `LOC` and `G/S` appear armed on the `PFD` screen)
+4. Lower the `LANDING GEARS` lever to `DOWN`
+5. When speed permits, move `FLAPS` lever to `2`
+6. Ensure the glide slope (G/S) get captured by checking that the purple LS diamonds are aligned on `PFD` screen
+7. Arm the ground spoilers by pulling UP the `SPEED BRAKE` lever (verify white band is visible)
+8. Move `FLAPS` lever to `3` and then `FULL` (Full landing configuration)
 
-## 16. Taxi
+## 30. Landing & Touchdown
+
+1. (Optional) Disengage `AP1` (Autopilot) to fly manually, or leave it `ON` for an automatic landing (Autoland)
+2. Set `THRUST LEVERS` to `IDLE` (shortcut: `E`)
+3. Smoothly pull back on the joystick to raise the nose to perform flare (use `TAB` to control)
+4. Upon touchdown, apply `MAX REVERSE` thrust (shortcut: `DELETE`) and use manual breaking if needed (shortcut: `B`)
+5. At 60 knots, cancel reverse thrust (click `DELETE` again)
+6. Transition smoothly to the exit the runway (use `TAB + Hold Left Click` to control the nose wheel steering)
+
+## 16. Taxi After Landing (Vacating Runway)
+
+1. Retract `FLAPS` to `0` (Clean configuration)
+2. Push the `SPEED BRAKE` lever down
+3. Turn off `LAND` lights
+4. Turn off `RWY TURN OFF` lights
+5. Set `TCAS` (Transponder) to `STBY`
 
 ## 17. Parking
