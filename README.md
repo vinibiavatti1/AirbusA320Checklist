@@ -224,7 +224,7 @@
 
 ## 28. Cruise (Level Off)
 
-1. Check `ALT *` changes to `ALT` on the `PFD` screen (confirming the aircraft leveled off at cruise altitude)
+1. Check `ALT CRZ*` is displayed on the `PFD` screen (confirming the aircraft leveled off at cruise altitude)
 2. Turn off `SEAT BELTS` sign (if the flight is smooth and free of turbulence)
 
 ## 29. Descent Preparation (Top of Descent)
