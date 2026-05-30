@@ -151,10 +151,10 @@
 
 1. Setup pushback route (_Aircraft > Pushback > Route > Enter_)
 2. Mark `CONNECT` to connect the pushback truck
-3. Release `PARK BRK` (turn switch to `OFF`)
+3. Release `PARK BRK` (turn switch to `OFF`) (shortcut: `Shift + B`)
 4. Start auto-push (_Aircraft > Pushback > Autopush > Start_) and wait
 5. Unmark `CONNECT` to disconnect the pushback truck
-6. Set `PARK BRK` to `ON`
+6. Set `PARK BRK` to `ON` (shortcut: `Shift + B`)
 
 ## 22. Engines Start Procedure
 
@@ -184,28 +184,30 @@
 8. Check `ECAM` center screen and confirm it displays `T.O CONFIG NORMAL` in green
 9. Release `PARK BRK` (turn switch to `OFF`)
 10. Smoothly advance thrust levers to approximately 20%-25% `N1` to begin taxiing
-11. Taxi the aircraft to the takeoff runway holding point (use `TAB + Hold Left Click` to control the nose wheel steering)
+11. Taxi the aircraft to the takeoff runway holding point (use `TAB + Hold Left Click` to control the nose wheel steering and `B` to break)
 12. Trigger `Cpt - Doors Check` announcement (_Aircraft > Announcements_)
 
 ## 25. Before Takeoff
 
-1. Turn `STROBE` light switch to `AUTO`
-2. Turn `RWY TURN OFF` light switches to `ON`
-3. Turn `NOSE` light switch to `T.O` (Takeoff)
-4. Turn on `LAND` (Landing) lights (extend and turn on both wings lights)
-5. Set `TCAS` (Transponder) switch to `TA/RA`
-6. Check `PWS` (Predictive Windshear System) switch is set to `AUTO`
-7. Press `ALL` button on the `CALLS` panel to advise cabin crew
-8. Trigger `Cpt - Prepare for Takeoff` announcement (_Aircraft > Announcements_)
+1. Set `PARK BRK` to `ON` (shortcut: `Shift + B`)
+2. Turn `STROBE` light switch to `AUTO`
+3. Turn `RWY TURN OFF` light switches to `ON`
+4. Turn `NOSE` light switch to `T.O` (Takeoff)
+5. Turn on `LAND` (Landing) lights (extend and turn on both wings lights)
+6. Set `TCAS` (Transponder) switch to `TA/RA`
+7. Check `PWS` (Predictive Windshear System) switch is set to `AUTO`
+8. Press `ALL` button on the `CALLS` panel to advise cabin crew
+9. Trigger `Cpt - Prepare for Takeoff` announcement (_Aircraft > Announcements_)
 
 ## 26. Line Up & Takeoff
 
-1. Align the aircraft perfectly with the runway centerline
-2. Check `ENG MODE` selector is set to `NORM` (re-verify)
-3. Check `FLAPS` and `PITCH TRIM` are set accordingly
-4. Advance `THRUST LEVERS` smoothly to 50% `N1`, wait for engines to stabilize, then push to `TOGA` (shortcut: `F`)
-5. Maintain runway centerline using rudder pedals (`TAB + Hold Left Click`)
-6. At `VR` speed (around 135 knots), gently pull the joystick back to rotate the aircraft nose up to 15 degrees
+1. Release `PARK BRK` (turn switch to `OFF`) (shortcut: `Shift + B`)
+2. Align the aircraft perfectly with the runway centerline
+3. Check `ENG MODE` selector is set to `NORM` (re-verify)
+4. Check `FLAPS` and `PITCH TRIM` are set accordingly
+5. Advance `THRUST LEVERS` smoothly to 50% `N1`, wait for engines to stabilize, then push to `TOGA` (shortcut: `F`)
+7. Maintain runway centerline using rudder pedals (`TAB + Hold Left Click`)
+8. At `VR` speed (around 135 knots), gently pull the joystick back to rotate the aircraft nose up to 15 degrees
 
 ## 27. Climb (After Lift-Off)
 
@@ -263,7 +265,7 @@
 3. Set `THRUST LEVERS` to `IDLE` (shortcut: `E`)
 5. Upon touchdown, apply `MAX REVERSE` thrust (shortcut: `DELETE`) and use manual breaking if needed (shortcut: `B`)
 6. At 60 knots, cancel reverse thrust (click `DELETE` again)
-7. Transition smoothly to the exit the runway (use `TAB + Hold Left Click` to control the nose wheel steering)
+7. Transition smoothly to the exit the runway (use `TAB + Hold Left Click` to control the nose wheel steering and `B` for breaks)
 
 ## 33. Taxi After Landing (Vacating Runway)
 
@@ -276,7 +278,7 @@
 
 ## 34. Parking At the Gate
 
-1. Set `PARK BRK` to `ON`
+1. Set `PARK BRK` to `ON` (shortcut: `Shift + B`)
 2. Turn on `APU MASTER` switch
 3. Press `APU START` switch (Blue `ON` light appears) and wait for `AVAIL` green light
 4. Move `ENG 1` and `ENG 2` master switches to `OFF`
