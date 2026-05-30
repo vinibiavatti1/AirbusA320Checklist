@@ -147,7 +147,15 @@
 3. Lower and disable front and rear catering trucks (_Aircraft > Ground Services > Catering_)
 4. Disable gear chocks (_Aircraft > Ground Services > Landing Gear_)
 
-## 21. Engines Start Procedure
+## 21. Request Pushback
+
+1. Setup pushback route (_Aircraft > Pushback > Route > Enter_)
+2. Mark `CONNECT` to connect the pushback truck
+3. Release `PARK BRK` (turn switch to `OFF`)
+4. Start auto-push (_Aircraft > Pushback > Autopush > Start_) and wait
+5. Unmark `CONNECT` to disconnect the pushback truck
+
+## 22. Engines Start Procedure
 
 1. Turn on wing fuel pumps `R TK PUMPS 1` and `R TK PUMPS 2` in `ENG 1` and `ENG 2` (lights OFF)
 2. Turn on central fuel pumps `L XFR` and `R XFR` in `CTR TK` (if center tank has fuel)
@@ -158,12 +166,12 @@
 7. Raise `ENG 1` master switch to `ON` and wait for engine stabilization
 8. Turn `ENG MODE` selector back to `NORM`
 
-## 22. Turn Off Auxiliary Power Unit (APU)
+## 23. Turn Off Auxiliary Power Unit (APU)
 
 1. Turn off `APU BLEED` switch
 2. Turn off `APU MASTER` switch
 
-## 23. Taxi
+## 24. Taxi
 
 1. Trigger `Cpt - Welcome` announcement (_Aircraft > Announcements_)
 2. Turn `NOSE` light switch to `TAXI`
@@ -173,12 +181,11 @@
 6. Set `AUTO BRK` to `MAX`
 7. Press `TO CONFIG` button to test takeoff configuration
 8. Check `ECAM` center screen and confirm it displays `T.O CONFIG NORMAL` in green
-9. Release `PARK BRK` (turn switch to `OFF`)
-10. Smoothly advance thrust levers to approximately 20%-25% `N1` to begin taxiing
-11. Taxi the aircraft to the takeoff runway holding point (use `TAB + Hold Left Click` to control the nose wheel steering)
-12. Trigger `Cpt - Doors Check` announcement (_Aircraft > Announcements_)
+9. Smoothly advance thrust levers to approximately 20%-25% `N1` to begin taxiing
+10. Taxi the aircraft to the takeoff runway holding point (use `TAB + Hold Left Click` to control the nose wheel steering)
+11. Trigger `Cpt - Doors Check` announcement (_Aircraft > Announcements_)
 
-## 24. Before Takeoff
+## 25. Before Takeoff
 
 1. Turn `STROBE` light switch to `AUTO`
 2. Turn `RWY TURN OFF` light switches to `ON`
@@ -189,7 +196,7 @@
 7. Press `ALL` button on the `CALLS` panel to advise cabin crew
 8. Trigger `Cpt - Prepare for Takeoff` announcement (_Aircraft > Announcements_)
 
-## 25. Line Up & Takeoff
+## 26. Line Up & Takeoff
 
 1. Align the aircraft perfectly with the runway centerline
 2. Check `ENG MODE` selector is set to `NORM` (re-verify)
@@ -198,7 +205,7 @@
 5. Maintain runway centerline using rudder pedals (`TAB + Hold Left Click`)
 6. At `VR` speed (around 135 knots), gently pull the joystick back to rotate the aircraft nose up to 15 degrees
 
-## 26. Climb (After Lift-Off)
+## 27. Climb (After Lift-Off)
 
 1. When positive climb is confirmed on the `PFD` screen (altitude raising), set the `LANDING GEARS` lever to `UP`
 2. At acceleration altitude (around 1500 ft above ground), move `THRUST LEVERS` to `CL` (Climb) detent (shortcut: `SHIFT + F`)
@@ -211,12 +218,12 @@
 9. Press the `BARO` knob on the `FCU`  to set `STD` (Standard)
 10. Leave `LAND` lights on until passing 10.000 ft)
 
-## 27. Cruise (Level Off)
+## 28. Cruise (Level Off)
 
 1. Check `ALT *` changes to `ALT` on the `PFD` screen (confirming the aircraft leveled off at cruise altitude)
 2. Turn off `SEAT BELTS` sign (if the flight is smooth and free of turbulence)
 
-## 28. Descent Preparation (Top of Descent)
+## 29. Descent Preparation (Top of Descent)
 
 1. Identify the destination airport `ATIS` frequency (_AI > CTA Services_)
 2. Click the `COM1` button to tune `VHF1` radio channel into the `ATIS` frequency, and ensure weather broadcast audio reception
@@ -226,7 +233,7 @@
 6. Turn off the `VHF1` audio reception
 7. At the `T/D` (Top of Descent) point on the `ND` screen, push the `ALTITUDE` knob IN to initiate Managed Descent (DES)
 
-## 29. Approaching
+## 30. Approaching
 
 1. Turn on the `ILS` audio reception on `RMP`
 1. Press the `BARO` knob on the FCU to switch from `STD` to the local QNH captured from the `ATIS`
@@ -236,7 +243,7 @@
 5. Trigger `Cpt - Prepare for Landing` announcement (_Aircraft > Announcements_)
 6. Press the `LS` button on the `EFIS` panel to display the ILS localizer and glideslope scales on your `PFD`
 
-## 30. Final Approach & Configuration
+## 31. Final Approach & Configuration
 
 1. As the aircraft approaches the `DECELERATION POINT` (magenta `D` circle on the `ND` screen), verify the autothrust automatically starts reducing speed towards `VAPP`
 2. When speed drops below the green max flaps speed indicator `VFE`, move `FLAPS` lever to `1`
@@ -247,7 +254,7 @@
 8. Arm the ground spoilers by pulling UP the `SPEED BRAKE` lever (verify white band is visible)
 9. Move `FLAPS` lever to `3` and then `FULL` (Full landing configuration)
 
-## 31. Landing & Touchdown
+## 32. Landing & Touchdown
 
 1. (Optional) Disengage `AP1` (Autopilot) to fly manually, or leave it `ON` for an automatic landing (Autoland)
 2. Smoothly pull back on the joystick to raise the nose to perform flare (use `TAB` to control)
@@ -256,7 +263,7 @@
 6. At 60 knots, cancel reverse thrust (click `DELETE` again)
 7. Transition smoothly to the exit the runway (use `TAB + Hold Left Click` to control the nose wheel steering)
 
-## 32. Taxi After Landing (Vacating Runway)
+## 33. Taxi After Landing (Vacating Runway)
 
 1. Retract `FLAPS` to `0` (Clean configuration)
 2. Push the `SPEED BRAKE` lever down
@@ -265,7 +272,7 @@
 5. Set `TCAS` (Transponder) to `STBY`
 6. Drive airplane to the airport gate
 
-## 33. Parking At the Gate
+## 34. Parking At the Gate
 
 1. Set `PARK BRK` to `ON`
 2. Turn on `APU MASTER` switch
@@ -274,13 +281,13 @@
 5. Turn off `BEACON` light
 6. Turn off `SEAT BELTS` sign
 
-## 34. Enable Boarding Services
+## 35. Enable Boarding Services
 
 1. Enable front and rear stairways (_Aircraft > Ground Services > Stairways_)
 2. Enable baggage ramp (_Aircraft > Ground Services > Baggage_)
 3. Enable and raise front and rear catering trucks (_Aircraft > Ground Services > Catering_)
 
-## 35. Shut Down & Post-Flight
+## 36. Shut Down & Post-Flight
 
 1. If a turnaround flight is planned, return to Step 1 of this checklist
 2. If this is the final flight of the day, proceed with the aircraft decommissioning below:
