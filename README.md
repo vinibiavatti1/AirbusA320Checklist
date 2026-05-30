@@ -118,7 +118,7 @@
 1. Access `F-PLN` page
 2. Select `---F-PLN DISCONTINUITY--` left LSK
 3. Calculate the reverse of the ILS course: If the course is less than 180, do `{COURSE} + 180`. If it is greater, do `{COURSE} - 180`. (Ex: `149 + 180 = 329`)
-4. Type into the scratchpad the following format: `{ICAO}/{INVERSE_COURSE}/{DIST}` (for example: `SBGL/329/50`)
+4. Type into the scratchpad the following format: `{ICAO}/{INVERSE_COURSE}/{DIST}` (for example: `SBGL/329/30`)
 5. Select `NEXT WPT` and `TMPY INSERT *`
 6. Click the `CLR` button on the MCDU keyboard, and then click the side button next to all `---F-PLN DISCONTINUITY--` to clear them and join the route.
 
