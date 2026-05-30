@@ -154,6 +154,7 @@
 3. Release `PARK BRK` (turn switch to `OFF`)
 4. Start auto-push (_Aircraft > Pushback > Autopush > Start_) and wait
 5. Unmark `CONNECT` to disconnect the pushback truck
+6. Set `PARK BRK` to `ON`
 
 ## 22. Engines Start Procedure
 
@@ -181,9 +182,10 @@
 6. Set `AUTO BRK` to `MAX`
 7. Press `TO CONFIG` button to test takeoff configuration
 8. Check `ECAM` center screen and confirm it displays `T.O CONFIG NORMAL` in green
-9. Smoothly advance thrust levers to approximately 20%-25% `N1` to begin taxiing
-10. Taxi the aircraft to the takeoff runway holding point (use `TAB + Hold Left Click` to control the nose wheel steering)
-11. Trigger `Cpt - Doors Check` announcement (_Aircraft > Announcements_)
+9. Release `PARK BRK` (turn switch to `OFF`)
+10. Smoothly advance thrust levers to approximately 20%-25% `N1` to begin taxiing
+11. Taxi the aircraft to the takeoff runway holding point (use `TAB + Hold Left Click` to control the nose wheel steering)
+12. Trigger `Cpt - Doors Check` announcement (_Aircraft > Announcements_)
 
 ## 25. Before Takeoff
 
