@@ -1,16 +1,14 @@
 # Flight Gear - Airbus A320-family - Checklist
 
-## 1. Fueling
+## 1. Gear Chocks
+
+1. Enable gear chocks (_Aircraft > Ground Services > Landing Gear_)
+
+## 2. Fueling (If Needed)
 
 1. Enable fuel truck (_Aircraft > Ground Services > Fuel_)
 2. Add fuel (Avg: 13.000 Lbs)
 3. Disable fuel truck (_Aircraft > Ground Services > Fuel_)
-
-## 2. Enable Boarding Services
-
-1. Enable front and rear stairways (_Aircraft > Ground Services > Stairways_)
-2. Enable baggage ramp (_Aircraft > Ground Services > Baggage_)
-3. Enable and raise front and rear catering trucks (_Aircraft > Ground Services > Catering_)
 
 ## 3. External Power
 
@@ -24,7 +22,7 @@
 1. Turn `IR1`, `IR2` and `IR3` selectors to `NAV`
 2. Check `ON BAT` light illuminates briefly and then turns OFF
 
-## 5 - Auxiliary Power Unit (APU) & Cabin Comfort
+## 5. Auxiliary Power Unit (APU) & Cabin Comfort
 
 1. Turn on `APU MASTER` switch
 2. Press `APU START` switch (Blue `ON` light appears) and wait for `AVAIL` green light
@@ -37,7 +35,20 @@
 9. Press `EXT POWER` switch to turn it OFF (light changes back to `AVAIL` green)
 10. Disable External Power (_Aircraft > Ground Services > External Power Box_)
 
-## 6. MCDU - Initialization (INIT)
+## 6. Turn Radio and Lights On
+
+1. Turn on the `RMP` (Radio Management Panel)
+2. Set `NAV & LOGO` light to `2`
+3. Turn on `WING` light
+4. Turn `SEATBELTS` and `NOSMOKING` signs to `ON`
+
+## 7. Enable Boarding Services
+
+1. Enable front and rear stairways (_Aircraft > Ground Services > Stairways_)
+2. Enable baggage ramp (_Aircraft > Ground Services > Baggage_)
+3. Enable and raise front and rear catering trucks (_Aircraft > Ground Services > Catering_)
+
+## 8. MCDU - Initialization (INIT)
 
 1. Access the `MCDU MENU`
 2. Select `FMGC` system and wait for system response
@@ -48,21 +59,21 @@
 7. Set `COST INDEX` to `50`
 8. Set `CRZ FL` to the cruizer altitude (ex: type `300` for 30.000 ft)
 
-## 7. MCDU - Fuel Prediction (INIT > FUEL PREDICTION)
+## 9. MCDU - Fuel Prediction (INIT > FUEL PREDICTION)
 
 1. Access the `INIT 2` page
 2. Click `ZFW/ZFWCG` LSK to calculate the zero fuel weight automatically
 3. Press `FUEL PLANNING` LSK and wait for prediction
 4. Press `BLOCK CONFIRM` LSK to confirm
 
-## 8. MCDU - Take Off Performance (PERF > TAKE OFF)
+## 10. MCDU - Take Off Performance (PERF > TAKE OFF)
 
 1. Access `PERF` page
 2. Set `V1`, `VR` and `V2` speeds based on the airplane weight (default: `130`, `135`, `140`)
 3. Set `FLAPS/THS` with the take off flaps level and trim (default: `1/UP0.1`)
 4. Adjust the `TRANS ALT` accordingly to the region (default: `18000` ft)
 
-## 9. MCDU - Approaching Performance (PERF > APPR)
+## 11. MCDU - Approaching Performance (PERF > APPR)
 
 1. Access `PERF` page and navigate to `PERF - APPR`
 2. Set `QNH` (default: `1013`)
@@ -70,14 +81,14 @@
 4. Set `MAG WIND` (default: `000/0` - no wind)
 5. Set `BARO` (default `200`)
 
-## 10. Getting Departure-Arrival Runways Data
+## 12. Runway & ILS Research
 
 1. Open map map (_Equipament > Map_)
 2. Navigate to the departure airport and decide a runway for take off. Annotate the code (ex: `SBGR 27L`)
 3. Navigate to the destination airport and decide an ILS runway for landing
 4. Annotate the **landing runway code**, **ILS course** and **ILS frequency** (example: `SBGL 15 149 - 110.30MHz`)
 
-## 11. MCDU - Flight Plan Departure (F-PLN)
+## 13. MCDU - Flight Plan Departure (F-PLN)
 
 1. Access `F-PLN` page
 2. Select departure airport left LSK (ex: `SBGR`)
@@ -86,7 +97,7 @@
 5. Select `NO SID`
 6. Select `TMPY F-PLN` and `TMPY INSERT *`
 
-## 12. MCDU - Flight Plan Arrival (F-PLN)
+## 14. MCDU - Flight Plan Arrival (F-PLN)
 
 1. Access `F-PLN` page
 2. Select destination airport left LSK (ex: `SBGL`)
@@ -95,34 +106,41 @@
 5. Select `NO STAR`
 6. Select `TMPY F-PLN` and `TMPY INSERT *`
 
-## 13. MCDU - Flight Plan Approaching Waypoint (F-PLN)
+## 15. MCDU - Flight Plan Approaching Waypoint (F-PLN)
 
 1. Access `F-PLN` page
 2. Select `---F-PLN DISCONTINUITY--` left LSK
-3. Calculate the reverse course of the track: If the course is less than 180, do `{COURSE} + 180`. If it is greater, do `{COURSE} - 180`. (Ex: `149 + 180 = 329`)
+3. Calculate the reverse of the ILS course: If the course is less than 180, do `{COURSE} + 180`. If it is greater, do `{COURSE} - 180`. (Ex: `149 + 180 = 329`)
 4. Type into the scratchpad the following format: `{ICAO}/{INVERSE_COURSE}/{DIST}` (for example: `SBGL/329/50`)
 5. Select `NEXT WPT` and `TMPY INSERT *`
 6. Click the `CLR` button on the MCDU keyboard, and then click the side button next to all `---F-PLN DISCONTINUITY--` to clear them and join the route.
 
-## 14. MCDU - Radio Navigation (RAD NAV)
+## 16. MCDU - Radio Navigation (RAD NAV)
 
 1. Open the `RAD NAV` page
 2. Set the `ILS/FREQ` with the **ILS frequency** (ex: `110.30`)
 3. Set the `CRS` (below `ILS/FREQ`) with the runway **course** (ex: `149`)
 
-## 15. Review Map
+## 17. Review Map
 
 1. Open the map (_Equipament > Map_)
 2. Review the route and check everything is correct
 
-## 16. Disable Boarding Services
+## 18. Setup Flight Control Unit (FCU)
+
+1. Set cruise altitude on the `ALTITUDE` knob (ex: 30.000 ft)
+2. Push the `ALTITUDE` knob IN (check for a white dot next to the altitude on the FCU)
+3. Push the `SPEED` knob IN (enables managed speed according to MCDU profile)
+4. Push the `HEADING` knob IN (enables managed lateral navigation to follow the flight plan route)
+
+## 19. Disable Boarding Services
 
 1. Disable front and rear stairways (_Aircraft > Ground Services > Stairways_)
 2. Disable baggage ramp (_Aircraft > Ground Services > Baggage_)
 3. Lower and disable front and rear catering trucks (_Aircraft > Ground Services > Catering_)
 4. Disable gear chocks (_Aircraft > Ground Services > Landing Gear_)
 
-## 17. Engines Start Procedure
+## 20. Engines Start Procedure
 
 1. Turn on wing fuel pumps `R TK PUMPS 1` and `R TK PUMPS 2` in `ENG 1` and `ENG 2` (lights OFF)
 2. Turn on central fuel pumps `L XFR` and `R XFR` in `CTR TK` (if center tank has fuel)
@@ -133,33 +151,75 @@
 7. Raise `ENG 1` master switch to `ON` and wait for engine stabilization
 8. Turn `ENG MODE` selector back to `NORM`
 
-## 18. Turn Off Auxiliary Power Unit (APU)
+## 21. Turn Off Auxiliary Power Unit (APU)
 
 1. Turn off `APU BLEED` switch
 2. Turn off `APU MASTER` switch
 
-## 19. Taxi
+## 22. Taxi
 
-1. Turn `NOSE` light switch to `TAXI`
-2. Set flaps to takeoff position (default: `1`)
-3. Arm ground spoilers by pulling the `SPEED BRAKE` lever up (verify it stays in the `RET` position but armed)
-4. Set `AUTO BRK` to `MAX`
-5. Press `TO CONFIG` button to test takeoff configuration
-6. Check `ECAM` center screen and confirm it displays `T.O CONFIG NORMAL` in green
-7. Release `PARK BRK` (turn switch to `OFF`)
-8. Smoothly advance thrust levers to approximately 20%-25% `N1` to begin taxiing
+1. Trigger `Cpt - Welcome` announcement (_Aircraft > Announcements_)
+2. Turn `NOSE` light switch to `TAXI`
+3. Set `FLAPS` to takeoff position (default: `1`)
+4. Adjust `PITCH TRIM` wheel to match MCDU target (default: `UP 0.1`)
+5. Arm ground spoilers by pulling the `SPEED BRAKE` lever up (verify it stays in the `RET` position but armed)
+6. Set `AUTO BRK` to `MAX`
+7. Press `TO CONFIG` button to test takeoff configuration
+8. Check `ECAM` center screen and confirm it displays `T.O CONFIG NORMAL` in green
+9. Release `PARK BRK` (turn switch to `OFF`)
+10. Smoothly advance thrust levers to approximately 20%-25% `N1` to begin taxiing
+11. Taxi the aircraft to the takeoff runway holding point (use `TAB + Hold Left Click` to control the nose wheel steering)
+12. Trigger `Cpt - Doors Check` announcement (_Aircraft > Announcements_)
 
-## X. Before Take Off
+## 23. Before Takeoff
 
-## X. Take Off
+1. Turn `STROBE` light switch to `AUTO`
+2. Turn `RWY TURN OFF` light switches to `ON`
+3. Turn `NOSE` light switch to `T.O` (Takeoff)
+4. Turn on `LAND` (Landing) lights (extend and turn on both wings lights)
+5. Set `TCAS` (Transponder) switch to `TA/RA`
+6. Check `PWS` (Predictive Windshear System) switch is set to `AUTO`
+7. Press `ALL` button on the `CALLS` panel to advise cabin crew
+8. Trigger `Cpt - Prepare for Takeoff` announcement (_Aircraft > Announcements_)
 
-## X. After Take Off
+## 24. Line Up & Takeoff
 
-## X. Cruizer
+1. Align the aircraft perfectly with the runway centerline
+2. Check `ENG MODE` selector is set to `NORM` (re-verify)
+3. Check `FLAPS` and `PITCH TRIM` are set accordingly
+4. Advance `THRUST LEVERS` smoothly to 50% `N1`, wait for engines to stabilize, then push to `TOGA` (shortcut: `F`)
+5. Maintain runway centerline using rudder pedals (`TAB + Hold Left Click`)
+6. At `VR` speed (around 135 knots), gently pull the joystick back to rotate the aircraft nose up to 15 degrees
 
-## X. Before Landing
+## 25. Climb (After Lift-Off)
 
-## X. Approaching
+1. When positive climb is confirmed on the `PFD` screen (altitude raising), set the `LANDING GEARS` lever to `UP`
+2. At acceleration altitude (around 1500 ft above ground), move `THRUST LEVERS` to `CL` (Climb) detent (shortcut: `SHIFT + F`)
+3. Turn on `AP1` (Autopilot 1) to let the FMGC fly the programmed route
+4. Verify `A/THR` is active
+5. At S speed (around 185 knots), move `FLAPS` lever to `0` (Clean configuration)
+6. Disarm ground spoilers (push the `SPEED BRAKE` lever down)
+7. Turn off `AUTO BRK` switch
+8. Turn off `RWY TURN OFF` and `NOSE` lights
+9. Leave `LAND` lights on until passing 10.000 ft)
+
+## 26. Cruise (Level Off)
+
+1. Check `ALT *` changes to `ALT` on the `PFD` screen (confirming the aircraft leveled off at cruise altitude)
+2. Turn off `SEAT BELTS` sign (if the flight is smooth and free of turbulence)
+
+## 27. Descent Preparation (Top of Descent)
+
+1. Identify the destination airport `ATIS` frequency (_AI > CTA Services_)
+2. Click the `COM1` button to tune `VHF1` radio channel into the `ATIS` frequency, and ensure weather broadcast audio reception
+3. Select the `VHF1` channel and turn on `VHF1` audio reception
+4. On the `MCDU`, access the `PERF` page and navigate to `PERF - APPR`
+5. Listen to the `ATIS` broadcast and insert the `QNH`, `TEMP` and `MAG WIND`.
+6. At the `T/D` (Top of Descent) point on the `ND` screen, push the `ALTITUDE` knob IN to initiate Managed Descent (DES)
+
+## 28. Approaching
+
+
 
 ## 15. Landing
 
