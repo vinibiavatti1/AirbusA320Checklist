@@ -234,27 +234,49 @@
 1. As the aircraft approaches the `DECELERATION POINT` (magenta `D` circle on the `ND` screen), verify the autothrust automatically starts reducing speed towards `VAPP`
 2. When speed drops below the green max flaps speed indicator `VFE`, move `FLAPS` lever to `1`
 3. Press the `APPR` (Approach) button on the `FCU` to arm the ILS guidance (verify `LOC` and `G/S` appear armed on the `PFD` screen)
-4. Lower the `LANDING GEARS` lever to `DOWN`
-5. When speed permits, move `FLAPS` lever to `2`
-6. Ensure the glide slope (G/S) get captured by checking that the purple LS diamonds are aligned on `PFD` screen
-7. Arm the ground spoilers by pulling UP the `SPEED BRAKE` lever (verify white band is visible)
-8. Move `FLAPS` lever to `3` and then `FULL` (Full landing configuration)
+4. When speed permits, move `FLAPS` lever to `2`
+5. Lower the `LANDING GEARS` lever to `DOWN`
+7. Ensure the glide slope (G/S) get captured by checking that the purple LS diamonds are aligned on `PFD` screen
+8. Arm the ground spoilers by pulling UP the `SPEED BRAKE` lever (verify white band is visible)
+9. Move `FLAPS` lever to `3` and then `FULL` (Full landing configuration)
 
 ## 30. Landing & Touchdown
 
 1. (Optional) Disengage `AP1` (Autopilot) to fly manually, or leave it `ON` for an automatic landing (Autoland)
-2. Set `THRUST LEVERS` to `IDLE` (shortcut: `E`)
-3. Smoothly pull back on the joystick to raise the nose to perform flare (use `TAB` to control)
-4. Upon touchdown, apply `MAX REVERSE` thrust (shortcut: `DELETE`) and use manual breaking if needed (shortcut: `B`)
-5. At 60 knots, cancel reverse thrust (click `DELETE` again)
-6. Transition smoothly to the exit the runway (use `TAB + Hold Left Click` to control the nose wheel steering)
+2. Smoothly pull back on the joystick to raise the nose to perform flare (use `TAB` to control)
+3. Set `THRUST LEVERS` to `IDLE` (shortcut: `E`)
+5. Upon touchdown, apply `MAX REVERSE` thrust (shortcut: `DELETE`) and use manual breaking if needed (shortcut: `B`)
+6. At 60 knots, cancel reverse thrust (click `DELETE` again)
+7. Transition smoothly to the exit the runway (use `TAB + Hold Left Click` to control the nose wheel steering)
 
-## 16. Taxi After Landing (Vacating Runway)
+## 31. Taxi After Landing (Vacating Runway)
 
 1. Retract `FLAPS` to `0` (Clean configuration)
 2. Push the `SPEED BRAKE` lever down
 3. Turn off `LAND` lights
 4. Turn off `RWY TURN OFF` lights
 5. Set `TCAS` (Transponder) to `STBY`
+6. Drive airplane to the airport gate
 
-## 17. Parking
+## 32. Parking At the Gate
+
+1. Set `PARK BRK` to `ON`
+2. Turn on `APU MASTER` switch
+3. Press `APU START` switch (Blue `ON` light appears) and wait for `AVAIL` green light
+4. Move `ENG 1` and `ENG 2` master switches to `OFF`
+5. Turn off `BEACON` light
+6. Turn off `SEAT BELTS` sign
+
+## 33. Enable Boarding Services
+
+1. Enable front and rear stairways (_Aircraft > Ground Services > Stairways_)
+2. Enable baggage ramp (_Aircraft > Ground Services > Baggage_)
+3. Enable and raise front and rear catering trucks (_Aircraft > Ground Services > Catering_)
+
+## 34. Shut Down & Post-Flight
+
+1. If a turnaround flight is planned, return to Step 1 of this checklist
+2. If this is the final flight of the day, proceed with the aircraft decommissioning below:
+3. Turn off wing fuel pumps `R TK PUMPS 1` and `R TK PUMPS 2` in `ENG 1` and `ENG 2` (lights OFF)
+4. Turn off central fuel pumps `L XFR` and `R XFR` in `CTR TK` (if applicable)
+5. Turn off `APU MASTER SW`
