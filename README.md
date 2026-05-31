@@ -68,7 +68,7 @@
 
 ## 10. MCDU - Approaching Performance (PERF > APPR)
 
-1. Navigate to `PERF - APPR` by clicking on `NEXT PHASE` LSK
+1. Navigate to `APPR` by clicking on `NEXT PHASE` LSK
 2. Set `QNH` (default: `1013`)
 3. Set `TEMP` (default: `20`)
 4. Set `MAG WIND` (default: `000/0` - no wind)
