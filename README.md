@@ -211,9 +211,9 @@
 5. Set the `AUTO BRK` (Autobrake) to `LOW` or `MED` (depending on runway length)
 6. Arm `SPEED BRAKE` (verify white band is visible)
 
-## 27. Alignment (During Waypoint)
+## 27. Alignment (Waypoint)
 
-1. It is recommended that the waypoint is reached at 10.000 ft altitude
+1. Check that the waypoint was reached at **10.000 ft** altitude
 
 ## 28. Approaching (After Waypoint)
 
