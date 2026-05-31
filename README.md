@@ -151,13 +151,9 @@
 5. Raise `ENG 2` master switch to `ON` and wait for engine stabilization (Engine 2 first to provide primary hydraulic pressure)
 6. Raise `ENG 1` master switch to `ON` and wait for engine stabilization
 7. Turn `ENG MODE` selector back to `NORM`
+8. Turn off `APU MASTER` switch
 
-## 21. Turn Off Auxiliary Power Unit (APU)
-
-1. Turn off `APU BLEED` switch
-2. Turn off `APU MASTER` switch
-
-## 22. Taxi
+## 21. Taxi
 
 1. Trigger `Cpt - Welcome` announcement (_Aircraft > Announcements_)
 2. Turn `NOSE` light switch to `TAXI`
@@ -172,7 +168,7 @@
 11. Taxi the aircraft to the takeoff runway holding point (use `TAB + Hold Left Click` to control the nose wheel steering and `B` to break)
 12. Trigger `Cpt - Doors Check` announcement (_Aircraft > Announcements_)
 
-## 23. Before Takeoff
+## 22. Before Takeoff
 
 1. Set `PARK BRK` to `ON` (shortcut: `Shift + B`)
 2. Turn `STROBE` light switch to `AUTO`
@@ -183,7 +179,7 @@
 7. Press `ALL` button on the `CALLS` panel to advise cabin crew
 8. Trigger `Cpt - Prepare for Takeoff` announcement (_Aircraft > Announcements_)
 
-## 24. Line Up & Takeoff
+## 23. Line Up & Takeoff
 
 1. Release `PARK BRK` (turn switch to `OFF`) (shortcut: `Shift + B`)
 2. Align the aircraft perfectly with the runway centerline
@@ -191,7 +187,7 @@
 4. Maintain runway centerline using rudder pedals (`TAB + HOLD LEFT CLICK`)
 5. At `VR` speed (around 135 knots), gently pull the joystick back to rotate the aircraft nose up to 15 degrees
 
-## 25. Climb (After Lift-Off)
+## 24. Climb (After Lift-Off)
 
 1. At acceleration altitude (around 1500 ft above ground), move `THRUST LEVERS` to `CL` (Climb) detent (shortcut: `SHIFT + F`)
 2. Set the `LANDING GEARS` lever to `UP`
@@ -203,11 +199,11 @@
 8. Turn off `RWY TURN OFF`, `LAND` and `NOSE` lights
 9. Press the `BARO` knob on the `FCU`  to set `STD` (Standard)
 
-## 26. Cruise (Level Off)
+## 25. Cruise (Level Off)
 
 1. Turn off `SEAT BELTS` sign (if the flight is smooth and free of turbulence)
 
-## 27. Descent Preparation (Top of Descent)
+## 26. Descent Preparation (Top of Descent)
 
 1. Turn on the `ILS` audio reception on `RMP` to monitor the `ILS` code transmission
 2. Press the `BARO` knob on the FCU to switch from `STD` to the local QNH
@@ -218,7 +214,7 @@
 7. Arm the ground spoilers by pulling UP the `SPEED BRAKE` lever (verify white band is visible)
 8. Start the descend by pulling the `ALTITUDE` on the `FCU` knob (`SHIFT + LEFT CLICK`) until approaching altitude
 
-## 28. Approaching
+## 27. Approaching
 
 1. Trigger `Cpt - Prepare for Landing` announcement (_Aircraft > Announcements_)
 2. Turn on `SEAT BELTS` sign
@@ -228,7 +224,7 @@
 6. Press the `APPR` (Approach) button on the `FCU` to arm the ILS guidance (verify `LOC` and `G/S` appear armed on the `PFD` screen)
 7. Ensure the glide slope (G/S) get captured by checking that the purple LS diamonds are aligned on `PFD` screen
 
-## 29. Landing & Touchdown
+## 28. Landing & Touchdown
 
 1. (Optional) Disengage `AP1` (Autopilot) to fly manually, or leave it `ON` for an automatic landing (Autoland)
 2. Smoothly pull back on the joystick to raise the nose to perform flare (use `TAB` to control)
@@ -239,7 +235,7 @@
 7. Drive airplane to the airport gate
 8. Retract `FLAPS` to `0`
 
-## 30. Parking At the Gate
+## 29. Parking At the Gate
 
 1. Set `PARK BRK` to `ON` (shortcut: `Shift + B`)
 2. Set `THRUST LEVERS` to `IDLE`
@@ -253,14 +249,14 @@
 10. Turn off `BEACON` light
 11. Turn off `SEAT BELTS` sign
 
-## 31. Enable Boarding Services and Gear Chocks
+## 30. Enable Boarding Services and Gear Chocks
 
 1. Enable gear chocks (Aircraft > Ground Services > Landing Gear)
 2. Enable front and rear stairways (_Aircraft > Ground Services > Stairways_)
 3. Enable baggage ramp (_Aircraft > Ground Services > Baggage_)
 4. Enable and raise front and rear catering trucks (_Aircraft > Ground Services > Catering_)
 
-## 32. Shut Down (If Final Flight)
+## 31. Shut Down (If Final Flight)
 
 2. If this is the final flight of the day, proceed with the aircraft decommissioning below:
 3. Turn off wing fuel pumps `R TK PUMPS 1` and `R TK PUMPS 2` in `ENG 1` and `ENG 2` (lights OFF)
