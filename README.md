@@ -212,9 +212,8 @@
 5. Move `FLAPS` lever to `0`
 6. Push the `SPEED BRAKE` lever down
 7. Turn off `AUTO BRK` switch
-8. Turn off `RWY TURN OFF` and `NOSE` lights
+8. Turn off `RWY TURN OFF`, `LAND` and `NOSE` lights
 9. Press the `BARO` knob on the `FCU`  to set `STD` (Standard)
-10. Turn off `LAND` lights
 
 ## 28. Cruise (Level Off)
 
