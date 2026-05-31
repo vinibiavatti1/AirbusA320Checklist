@@ -239,15 +239,14 @@
 1. Set `PARK BRK` to `ON` (shortcut: `Shift + B`)
 2. Set `THRUST LEVERS` to `IDLE`
 3. Push the `SPEED BRAKE` lever down
-4. Turn off `RWY TURN OFF` lights
-5. Turn off `LAND` lights
-6. Turn off `NOSE` light
-7. Set `TCAS` (Transponder) to `STBY`
+4. Turn off `RWY TURN OFF`, `LAND` and `NOSE` lights
+5. Set `TCAS` (Transponder) to `STBY`
 8. Turn on `APU MASTER` switch
 9. Press `APU START` switch (Blue `ON` light appears) and wait for `AVAIL` green light
-10. Move `ENG 1` and `ENG 2` master switches to `OFF`
-11. Turn off `BEACON` light
-12. Turn off `SEAT BELTS` sign
+10. Turn on `APU BLEED` switch (Pneumatic air active)
+11. Move `ENG 1` and `ENG 2` master switches to `OFF`
+12. Turn off `BEACON` light
+13. Turn off `SEAT BELTS` sign
 
 ## 30. Enable Boarding Services and Gear Chocks
 
