@@ -220,9 +220,9 @@
 
 ## 29. Descent Preparation (Top of Descent)
 
-1. Set the approaching `ALTITUDE` on the `FCU` knob
-2. Pull the `ALTITUDE` knob (`SHIFT + LEFT CLICK`) to start the descend
-3. Turn on the `ILS` audio reception on `RMP` to monitor the `ILS` code transmission
+1. Turn on the `ILS` audio reception on `RMP` to monitor the `ILS` code transmission
+2. Set the approaching `ALTITUDE` on the `FCU` knob
+3. Pull the `ALTITUDE` knob (`SHIFT + LEFT CLICK`) to start the descend
 4. Press the `BARO` knob on the FCU to switch from `STD` to the local QNH
 5. Turn on `LAND` lights
 6. Turn on `RWY TURN OFF` light
