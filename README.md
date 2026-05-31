@@ -190,12 +190,13 @@
 
 1. Set the `LANDING GEARS` lever to `UP`
 2. Move `FLAPS` lever to `0`
-3. Move `THRUST LEVERS` to `CL` (shortcut: `SHIFT + F`)
-4. Turn on `AP1` (Autopilot 1) to let the FMGC fly the programmed route
-5. Verify `A/THR` is active
-6. Push the `SPEED BRAKE` lever down
-7. Turn off `RWY TURN OFF`, `LAND` and `NOSE` lights
-8. Press the `BARO` knob on the `FCU`  to set `STD` (Standard)
+3. Wait for climb and stabilize the plane straight ahead
+4. Move `THRUST LEVERS` to `CL` (shortcut: `SHIFT + F`)
+5. Turn on `AP1` (Autopilot 1) to let the FMGC fly the programmed route
+6. Verify `A/THR` is active
+7. Push the `SPEED BRAKE` lever down
+8. Turn off `RWY TURN OFF`, `LAND` and `NOSE` lights
+9. Press the `BARO` knob on the `FCU`  to set `STD` (Standard)
 
 ## 25. Cruise
 
