@@ -204,26 +204,26 @@
 
 ## 26. Descent Preparation (Before Waypoint)
 
-1. Turn on the `ILS` audio reception on `RMP` to monitor the `ILS` code transmission
-2. Press the `BARO` knob on the FCU to switch from `STD` to the local QNH
-3. Turn on `LAND` lights
-4. Turn on `RWY TURN OFF` light
-5. Turn `NOSE` light switch to `TAXI`
-6. Set the `AUTO BRK` (Autobrake) to `LOW` or `MED` (depending on runway length)
-7. Arm `SPEED BRAKE` (verify white band is visible)
-8. Start the descend by pulling the `ALTITUDE` on the `FCU` knob (`SHIFT + LEFT CLICK`) until approaching altitude
+1. Press the `BARO` knob on the FCU to switch from `STD` to the local QNH
+2. Turn on `LAND` and `RWY TURN OFF` lights
+3. Turn `NOSE` light switch to `TAXI`
+4. Set the `AUTO BRK` (Autobrake) to `LOW` or `MED` (depending on runway length)
+5. Arm `SPEED BRAKE` (verify white band is visible)
+6. Start the descend by pulling the `ALTITUDE` on the `FCU` knob (`SHIFT + LEFT CLICK`)
 
 > It is recommended that the waypoint is reached at 10.000 ft altitude
 
 ## 27. Approaching (After Waypoint)
 
-1. Trigger `Cpt - Prepare for Landing` announcement (_Aircraft > Announcements_)
-2. Turn on `SEAT BELTS` sign
-3. Press the `LS` button on the `EFIS` panel to display the ILS localizer and glideslope scales on your `PFD`
-4. Raise `FLAPS` from `1` to `FULL` waiting speed stabilization on each step
-5. Lower the `LANDING GEARS` lever to `DOWN`
-6. Press the `APPR` (Approach) button on the `FCU` to arm the ILS guidance (verify `LOC` and `G/S` appear armed on the `PFD` screen)
-7. Ensure the glide slope (G/S) get captured by checking that the purple LS diamonds are aligned on `PFD` screen
+1. Turn on the `ILS` audio reception on `RMP` to monitor the `ILS` code transmission
+2. Trigger `Cpt - Prepare for Landing` announcement (_Aircraft > Announcements_)
+3. Turn on `SEAT BELTS` sign
+4. Start the descend by pulling the `ALTITUDE` on the `FCU` knob (`SHIFT + LEFT CLICK`) to approaching altitude (ex: 3000 ft)
+5. Press the `LS` button on the `EFIS` panel to display the ILS localizer and glideslope scales on your `PFD`
+6. Raise `FLAPS` from `1` to `FULL` waiting speed stabilization on each step
+7. Lower the `LANDING GEARS` lever to `DOWN`
+8. Press the `APPR` (Approach) button on the `FCU` to arm the ILS guidance (verify `LOC` and `G/S` appear armed on the `PFD` screen)
+9. Ensure the glide slope (G/S) get captured by checking that the purple LS diamonds are aligned on `PFD` screen
 
 ## 28. Landing & Touchdown
 
