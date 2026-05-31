@@ -204,12 +204,12 @@
 
 ## 26. Descent Preparation (Before Waypoint)
 
-1. Press the `BARO` knob on the FCU to switch from `STD` to the local QNH
-2. Turn on `LAND` and `RWY TURN OFF` lights
-3. Turn `NOSE` light switch to `TAXI`
-4. Set the `AUTO BRK` (Autobrake) to `LOW` or `MED` (depending on runway length)
-5. Arm `SPEED BRAKE` (verify white band is visible)
-6. Pull the `ALTITUDE` on the `FCU` knob (`SHIFT + LEFT CLICK`) until alignment altitude (10.000 ft)
+1. Pull the `ALTITUDE` on the `FCU` knob (`SHIFT + LEFT CLICK`) until alignment altitude (10.000 ft)
+2. Press the `BARO` knob on the FCU to switch from `STD` to the local QNH
+3. Turn on `LAND` and `RWY TURN OFF` lights
+4. Turn `NOSE` light switch to `TAXI`
+5. Set the `AUTO BRK` (Autobrake) to `LOW` or `MED` (depending on runway length)
+6. Arm `SPEED BRAKE` (verify white band is visible)
 
 ## 27. Alignment (During Waypoint)
 
@@ -220,7 +220,7 @@
 1. Turn on the `ILS` audio reception on `RMP` to monitor the `ILS` code transmission
 2. Trigger `Cpt - Prepare for Landing` announcement (_Aircraft > Announcements_)
 3. Turn on `SEAT BELTS` sign
-4. Pull the `ALTITUDE` on the `FCU` knob (`SHIFT + LEFT CLICK`) until approaching altitude (ex: 3000 ft)
+4. Pull the `ALTITUDE` on the `FCU` knob (`SHIFT + LEFT CLICK`) until approaching altitude (ex: 5000 ft)
 5. Press the `LS` button on the `EFIS` panel to display the ILS localizer and glideslope scales on your `PFD`
 6. Raise `FLAPS` from `1` to `FULL` waiting speed stabilization on each step
 7. Lower the `LANDING GEARS` lever to `DOWN`
