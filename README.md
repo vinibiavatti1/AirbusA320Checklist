@@ -40,12 +40,11 @@
 7. Press `EXT POWER` switch to turn it OFF (light changes back to `AVAIL` green)
 8. Disable External Power (_Aircraft > Ground Services > External Power Box_)
 
-## 7. Turn Radio and Lights On
+## 7. Turn Lights On
 
-1. Turn on the `RMP` (Radio Management Panel)
-2. Set `NAV & LOGO` light to `2`
-3. Turn on `WING` light
-4. Turn `SEATBELTS` and `NOSMOKING` signs to `ON`
+1. Set `NAV & LOGO` light to `2`
+2. Turn on `WING` light
+3. Turn `SEATBELTS` and `NOSMOKING` signs to `ON`
 
 ## 8. Enable Boarding Services
 
