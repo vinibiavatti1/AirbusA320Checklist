@@ -192,9 +192,8 @@
 4. Turn `NOSE` light switch to `T.O` (Takeoff)
 5. Turn on `LAND` (Landing) lights (extend and turn on both wings lights)
 6. Set `TCAS` (Transponder) switch to `TA/RA`
-7. Check `PWS` (Predictive Windshear System) switch is set to `AUTO`
-8. Press `ALL` button on the `CALLS` panel to advise cabin crew
-9. Trigger `Cpt - Prepare for Takeoff` announcement (_Aircraft > Announcements_)
+7. Press `ALL` button on the `CALLS` panel to advise cabin crew
+8. Trigger `Cpt - Prepare for Takeoff` announcement (_Aircraft > Announcements_)
 
 ## 26. Line Up & Takeoff
 
