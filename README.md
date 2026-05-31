@@ -34,13 +34,12 @@
 1. Turn on `APU MASTER` switch
 2. Press `APU START` switch (Blue `ON` light appears) and wait for `AVAIL` green light
 3. Turn on `APU BLEED` switch (Pneumatic air active)
-4. Check `X-BLEED` is set to `AUTO`
-5. Check `PACK 1` and `PACK 2` are ON (lights OFF)
-6. Check `HOT AIR` switch is ON (lights OFF)
-7. Set `PACK FLOW` to (`NORM`: default, `HI`: climate is too warm, `LO`: climate is too cold)
-8. Adjust `COCKPIT`, `FWD CABIN`, and `AFT CABIN` selectors to your preference (12 o'clock = 24°C)
-9. Press `EXT POWER` switch to turn it OFF (light changes back to `AVAIL` green)
-10. Disable External Power (_Aircraft > Ground Services > External Power Box_)
+4. Check `PACK 1` and `PACK 2` are ON (lights OFF)
+5. Check `HOT AIR` switch is ON (lights OFF)
+6. Set `PACK FLOW` to (`NORM`: default, `HI`: climate is too warm, `LO`: climate is too cold)
+7. Adjust `COCKPIT`, `FWD CABIN`, and `AFT CABIN` selectors to your preference (12 o'clock = 24°C)
+8. Press `EXT POWER` switch to turn it OFF (light changes back to `AVAIL` green)
+9. Disable External Power (_Aircraft > Ground Services > External Power Box_)
 
 ## 7. Turn Radio and Lights On
 
@@ -78,7 +77,6 @@
 1. Access `PERF` page
 2. Set `V1`, `VR` and `V2` speeds based on the airplane weight (default: `130`, `135`, `140`)
 3. Set `FLAPS/THS` with the take off flaps level and trim (default: `1/UP0.1`)
-4. Adjust the `TRANS ALT` accordingly to the region (default: `18000` ft)
 
 ## 12. MCDU - Approaching Performance (PERF > APPR)
 
@@ -140,7 +138,7 @@
 3. Push the `SPEED` knob IN (enables managed speed according to MCDU profile)
 4. Push the `HEADING` knob IN (enables managed lateral navigation to follow the flight plan route)
 
-## 20. Disable Boarding Services
+## 20. Disable Boarding Services And Gera Chocks
 
 1. Disable front and rear stairways (_Aircraft > Ground Services > Stairways_)
 2. Disable baggage ramp (_Aircraft > Ground Services > Baggage_)
@@ -203,80 +201,68 @@
 
 1. Release `PARK BRK` (turn switch to `OFF`) (shortcut: `Shift + B`)
 2. Align the aircraft perfectly with the runway centerline
-3. Check `ENG MODE` selector is set to `NORM` (re-verify)
-4. Check `FLAPS` and `PITCH TRIM` are set accordingly
-5. Advance `THRUST LEVERS` smoothly to 50% `N1`, wait for engines to stabilize, then push to `TOGA` (shortcut: `F`)
-7. Maintain runway centerline using rudder pedals (`TAB + Hold Left Click`)
-8. At `VR` speed (around 135 knots), gently pull the joystick back to rotate the aircraft nose up to 15 degrees
+3. Advance `THRUST LEVERS` smoothly to 50% `N1`, wait for engines to stabilize, then push to `TOGA` (shortcut: `F`)
+4. Maintain runway centerline using rudder pedals (`TAB + HOLD LEFT CLICK`)
+5. At `VR` speed (around 135 knots), gently pull the joystick back to rotate the aircraft nose up to 15 degrees
 
 ## 27. Climb (After Lift-Off)
 
-1. When positive climb is confirmed on the `PFD` screen (altitude raising), set the `LANDING GEARS` lever to `UP`
-2. At acceleration altitude (around 1500 ft above ground), move `THRUST LEVERS` to `CL` (Climb) detent (shortcut: `SHIFT + F`)
+1. At acceleration altitude (around 1500 ft above ground), move `THRUST LEVERS` to `CL` (Climb) detent (shortcut: `SHIFT + F`)
+2. Set the `LANDING GEARS` lever to `UP`
 3. Turn on `AP1` (Autopilot 1) to let the FMGC fly the programmed route
 4. Verify `A/THR` is active
-5. At S speed (around 185 knots), move `FLAPS` lever to `0` (Clean configuration)
-6. Disarm ground spoilers (push the `SPEED BRAKE` lever down)
+5. Move `FLAPS` lever to `0`
+6. Push the `SPEED BRAKE` lever down
 7. Turn off `AUTO BRK` switch
 8. Turn off `RWY TURN OFF` and `NOSE` lights
 9. Press the `BARO` knob on the `FCU`  to set `STD` (Standard)
-10. Leave `LAND` lights on until passing 10.000 ft)
+10. Turn off `LAND` lights
 
 ## 28. Cruise (Level Off)
 
-1. Check `ALT CRZ*` is displayed on the `PFD` screen (confirming the aircraft leveled off at cruise altitude)
-2. Turn off `SEAT BELTS` sign (if the flight is smooth and free of turbulence)
+1. Turn off `SEAT BELTS` sign (if the flight is smooth and free of turbulence)
 
 ## 29. Descent Preparation (Top of Descent)
 
-1. Identify the destination airport `ATIS` frequency (_AI > CTA Services_)
-2. Click the `COM1` button to tune `VHF1` radio channel into the `ATIS` frequency, and ensure weather broadcast audio reception
-3. Select the `VHF1` channel and turn on `VHF1` audio reception in `RMP`
-4. On the `MCDU`, access the `PERF` page and navigate to `PERF - APPR`
-5. Listen to the `ATIS` broadcast and insert the `QNH`, `TEMP` and `MAG WIND`.
-6. Turn off the `VHF1` audio reception
-7. At the `T/D` (Top of Descent) point on the `ND` screen, push the `ALTITUDE` knob IN to initiate Managed Descent (DES)
+1. Set the approaching `ALTITUDE` on the `FCU` knob
+2. Pull the `ALTITUDE` knob (`SHIFT + LEFT CLICK`) to start the descend
+3. Turn on the `ILS` audio reception on `RMP` to monitor the `ILS` code transmission
+4. Press the `BARO` knob on the FCU to switch from `STD` to the local QNH
+5. Turn on `LAND` lights
+6. Turn on `RWY TURN OFF` light
+7. Turn `NOSE` light switch to `TAXI`
+8. Set the `AUTO BRK` (Autobrake) to `LOW` or `MED` (depending on runway length)
+9. Arm the ground spoilers by pulling UP the `SPEED BRAKE` lever (verify white band is visible)  
 
 ## 30. Approaching
 
-1. Turn on the `ILS` audio reception on `RMP`
-1. Press the `BARO` knob on the FCU to switch from `STD` to the local QNH captured from the `ATIS`
-2. When passing 10.000 feet, turn on `LAND` (Landing), `RWY TURN OFF`, and `NOSE` (set to `TAXI`) lights
-3. Turn on `SEAT BELTS` sign
-4. Set the `AUTO BRK` (Autobrake) to `LOW` or `MED` (depending on runway length)
-5. Trigger `Cpt - Prepare for Landing` announcement (_Aircraft > Announcements_)
-6. Press the `LS` button on the `EFIS` panel to display the ILS localizer and glideslope scales on your `PFD`
-
-## 31. Final Approach & Configuration
-
-1. As the aircraft approaches the `DECELERATION POINT` (magenta `D` circle on the `ND` screen), verify the autothrust automatically starts reducing speed towards `VAPP`
-2. When speed drops below the green max flaps speed indicator `VFE`, move `FLAPS` lever to `1`
-3. Press the `APPR` (Approach) button on the `FCU` to arm the ILS guidance (verify `LOC` and `G/S` appear armed on the `PFD` screen)
-4. When speed permits, move `FLAPS` lever to `2`
+1. Trigger `Cpt - Prepare for Landing` announcement (_Aircraft > Announcements_)
+2. Turn on `SEAT BELTS` sign
+3. Press the `LS` button on the `EFIS` panel to display the ILS localizer and glideslope scales on your `PFD`
+4. Raise `FLAPS` from `1` to `FULL` waiting speed stabilization on each step
 5. Lower the `LANDING GEARS` lever to `DOWN`
+6. Press the `APPR` (Approach) button on the `FCU` to arm the ILS guidance (verify `LOC` and `G/S` appear armed on the `PFD` screen)
 7. Ensure the glide slope (G/S) get captured by checking that the purple LS diamonds are aligned on `PFD` screen
-8. Arm the ground spoilers by pulling UP the `SPEED BRAKE` lever (verify white band is visible)
-9. Move `FLAPS` lever to `3` and then `FULL` (Full landing configuration)
 
-## 32. Landing & Touchdown
+## 31. Landing & Touchdown
 
 1. (Optional) Disengage `AP1` (Autopilot) to fly manually, or leave it `ON` for an automatic landing (Autoland)
 2. Smoothly pull back on the joystick to raise the nose to perform flare (use `TAB` to control)
 3. Set `THRUST LEVERS` to `IDLE` (shortcut: `E`)
 5. Upon touchdown, apply `MAX REVERSE` thrust (shortcut: `DELETE`) and use manual breaking if needed (shortcut: `B`)
-6. At 60 knots, cancel reverse thrust (click `DELETE` again)
-7. Transition smoothly to the exit the runway (use `TAB + Hold Left Click` to control the nose wheel steering and `B` for breaks)
+6. When landing done, cancel reverse thrust (click `DELETE` again)
+7. Transition smoothly to the exit of the runway (use `TAB + HOLD LEFT CLICK` to control the nose wheel steering, and `B` for breaks)
 
-## 33. Taxi After Landing (Vacating Runway)
+## 32. Taxi After Landing (Vacating Runway)
 
-1. Retract `FLAPS` to `0` (Clean configuration)
+1. Retract `FLAPS` to `0`
 2. Push the `SPEED BRAKE` lever down
 3. Turn off `LAND` lights
 4. Turn off `RWY TURN OFF` lights
 5. Set `TCAS` (Transponder) to `STBY`
 6. Drive airplane to the airport gate
 
-## 34. Parking At the Gate
+## 33. Parking At the Gate
 
 1. Set `PARK BRK` to `ON` (shortcut: `Shift + B`)
 2. Turn on `APU MASTER` switch
@@ -285,13 +271,13 @@
 5. Turn off `BEACON` light
 6. Turn off `SEAT BELTS` sign
 
-## 35. Enable Boarding Services
+## 34. Enable Boarding Services
 
 1. Enable front and rear stairways (_Aircraft > Ground Services > Stairways_)
 2. Enable baggage ramp (_Aircraft > Ground Services > Baggage_)
 3. Enable and raise front and rear catering trucks (_Aircraft > Ground Services > Catering_)
 
-## 36. Shut Down & Post-Flight
+## 35. Shut Down & Post-Flight
 
 1. If a turnaround flight is planned, return to Step 1 of this checklist
 2. If this is the final flight of the day, proceed with the aircraft decommissioning below:
