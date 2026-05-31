@@ -173,8 +173,8 @@
 
 1. Set `PARK BRK` to `ON` (shortcut: `Shift + B`)
 2. Turn `RWY TURN OFF` light switches to `ON`
-3. Turn `NOSE` light switch to `T.O` (Takeoff)
-4. Turn on `LAND` (Landing) lights (extend and turn on both wings lights)
+3. Turn `NOSE` light switch to `T.O`
+4. Turn on `LAND` lights
 5. Set `TCAS` (Transponder) switch to `TA/RA`
 6. Press `ALL` button on the `CALLS` panel to advise cabin crew
 7. Trigger `Cpt - Prepare for Takeoff` announcement (_Aircraft > Announcements_)
