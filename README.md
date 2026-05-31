@@ -7,7 +7,7 @@
 3. Press `EXT PWR` switch (Light changes to `ON` Blue)
 4. Turn on `BAT 1` and `BAT 2` switches (lights OFF)
 
-## 2. Turn On Cockpit Lights
+## 2. Turn Cockpit Lights On
 
 1. Set `DOME` switch to `OFF`, `DIM` or `BRT` as preference
 2. Adjust `OVHD INTEG LT` as preference
@@ -30,11 +30,12 @@
 7. Press `EXT POWER` switch to turn it OFF (light changes back to `AVAIL` green)
 8. Disable External Power (_Aircraft > Ground Services > External Power Box_)
 
-## 5. Turn Lights On
+## 5. Setup Airplane Lights
 
-1. Set `NAV & LOGO` light to `2`
+1. Turn `STROBE` light switch to `AUTO`
 2. Turn on `WING` light
-3. Turn `SEATBELTS` and `NOSMOKING` signs to `ON`
+3. Set `NAV & LOGO` light to `2`
+4. Turn `SEATBELTS` and `NOSMOKING` signs to `ON`
 
 ## 6. Enable Boarding Services
 
@@ -171,7 +172,7 @@
 ## 22. Before Takeoff
 
 1. Set `PARK BRK` to `ON` (shortcut: `Shift + B`)
-2. Turn `STROBE` light switch to `AUTO`
+
 3. Turn `RWY TURN OFF` light switches to `ON`
 4. Turn `NOSE` light switch to `T.O` (Takeoff)
 5. Turn on `LAND` (Landing) lights (extend and turn on both wings lights)
