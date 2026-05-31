@@ -145,13 +145,12 @@
 ## 20. Engines Start Procedure
 
 1. Turn on wing fuel pumps `R TK PUMPS 1` and `R TK PUMPS 2` in `ENG 1` and `ENG 2` (lights OFF)
-2. Turn on central fuel pumps `L XFR` and `R XFR` in `CTR TK` (if center tank has fuel)
-3. Check `MODE SEL` is set to `AUTO` (lights OFF)
-4. Turn on `BEACON` to signalize that the engines are starting
-5. Turn `ENG MODE` selector to `IGN/START`
-6. Raise `ENG 2` master switch to `ON` and wait for engine stabilization (Engine 2 first to provide primary hydraulic pressure)
-7. Raise `ENG 1` master switch to `ON` and wait for engine stabilization
-8. Turn `ENG MODE` selector back to `NORM`
+2. Turn on central fuel pumps `L XFR` and `R XFR` in `CTR TK`
+3. Turn on `BEACON` to signalize that the engines are starting
+4. Turn `ENG MODE` selector to `IGN/START`
+5. Raise `ENG 2` master switch to `ON` and wait for engine stabilization (Engine 2 first to provide primary hydraulic pressure)
+6. Raise `ENG 1` master switch to `ON` and wait for engine stabilization
+7. Turn `ENG MODE` selector back to `NORM`
 
 ## 21. Turn Off Auxiliary Power Unit (APU)
 
