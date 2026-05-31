@@ -35,11 +35,10 @@
 2. Press `APU START` switch (Blue `ON` light appears) and wait for `AVAIL` green light
 3. Turn on `APU BLEED` switch (Pneumatic air active)
 4. Check `PACK 1` and `PACK 2` are ON (lights OFF)
-5. Check `HOT AIR` switch is ON (lights OFF)
-6. Set `PACK FLOW` to (`NORM`: default, `HI`: climate is too warm, `LO`: climate is too cold)
-7. Adjust `COCKPIT`, `FWD CABIN`, and `AFT CABIN` selectors to your preference (12 o'clock = 24°C)
-8. Press `EXT POWER` switch to turn it OFF (light changes back to `AVAIL` green)
-9. Disable External Power (_Aircraft > Ground Services > External Power Box_)
+5. Set `PACK FLOW` to (`NORM`: default, `HI`: climate is too warm, `LO`: climate is too cold)
+6. Adjust `COCKPIT`, `FWD CABIN`, and `AFT CABIN` selectors to your preference (12 o'clock = 24°C)
+7. Press `EXT POWER` switch to turn it OFF (light changes back to `AVAIL` green)
+8. Disable External Power (_Aircraft > Ground Services > External Power Box_)
 
 ## 7. Turn Radio and Lights On
 
