@@ -104,7 +104,7 @@
 2. Select the departure airport left LSK
 3. Type into the scratchpad the following format: `{ICAO}/{INV}/{DIST}` (ex: `SBGL/329/50`) (check annotations)
 4. Select `NEXT WPT` and `TMPY INSERT *`
-5. Click the `CLR` button on the MCDU keyboard, and then click the side button next to all `---F-PLN DISCONTINUITY--` to clear them and join the route.
+5. Remove all `F-PLN DISCONTINUITY` from the plan using the `CLR` command
 
 ## 15. MCDU - Radio Navigation (RAD NAV)
 
