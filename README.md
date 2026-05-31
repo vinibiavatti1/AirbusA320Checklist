@@ -77,16 +77,17 @@
 ## 11. Runway & ILS Research
 
 1. Open map map (_Equipament > Map_)
-2. Navigate to the departure airport and decide a runway for take off. Annotate the code (ex: `SBGR 27L`)
-3. Navigate to the destination airport and decide an ILS runway for landing
-4. Annotate the **landing runway code**, **ILS course** and **ILS frequency** (example: `SBGL 15 149 - 110.30MHz`)
+2. Navigate to the departure airport and annotate the departure `RUNWAY CODE`
+3. Navigate to the destination airport and annotate the arrival `RUNWAY CODE`, `ILS COURSE` and `ILS FREQUENCY`
+4. Calculate the `INVERSE COURSE` and annotate it (formula: if course < 180, do `{COURSE} + 180`. If course > 180, do `{COURSE} - 180`)
+5. Check if everything was annotated (ex: `DEP: 27L ARR: 15 CRS: 149 FRQ: 110.30 INV: 329`)
 
 ## 12. MCDU - Flight Plan Departure (F-PLN)
 
 1. Access `F-PLN` page
 2. Select departure airport left LSK (ex: `SBGR`)
 3. Select `DEPARTURE`
-4. Select the ILS runway for departure (ex: `27L`)
+4. Select the `RUNWAY CODE` for departure (ex: `27L`) (check annotations)
 5. Select `TMPY F-PLN` and `TMPY INSERT *`
 
 ## 13. MCDU - Flight Plan Arrival (F-PLN)
@@ -94,23 +95,22 @@
 1. Access `F-PLN` page
 2. Select destination airport left LSK (ex: `SBGL`)
 3. Select `ARRIVAL`
-4. Select the ILS runway for landing (ex: `15`)
+4. Select the `RUNWAY CODE` for landing (ex: `15`) (check annotations)
 5. Select `TMPY F-PLN` and `TMPY INSERT *`
 
 ## 14. MCDU - Flight Plan Approaching Waypoint (F-PLN)
 
 1. Access `F-PLN` page
-2. Select `---F-PLN DISCONTINUITY--` left LSK
-3. Calculate the reverse of the ILS course: If the course is less than 180, do `{COURSE} + 180`. If it is greater, do `{COURSE} - 180`. (Ex: `149 + 180 = 329`)
-4. Type into the scratchpad the following format: `{ICAO}/{INVERSE_COURSE}/{DIST}` (for example: `SBGL/329/50`)
-5. Select `NEXT WPT` and `TMPY INSERT *`
-6. Click the `CLR` button on the MCDU keyboard, and then click the side button next to all `---F-PLN DISCONTINUITY--` to clear them and join the route.
+2. Select the departure airport left LSK
+3. Type into the scratchpad the following format: `{ICAO}/{INV}/{DIST}` (ex: `SBGL/329/50`) (check annotations)
+4. Select `NEXT WPT` and `TMPY INSERT *`
+5. Click the `CLR` button on the MCDU keyboard, and then click the side button next to all `---F-PLN DISCONTINUITY--` to clear them and join the route.
 
 ## 15. MCDU - Radio Navigation (RAD NAV)
 
 1. Open the `RAD NAV` page
-2. Set the `ILS/FREQ` with the **ILS frequency** (ex: `110.30`)
-3. Set the `CRS` (below `ILS/FREQ`) with the runway **course** (ex: `149`)
+2. Set the `ILS/FREQ` with the `ILS FREQUENCY` (ex: `110.30`) (check annotations)
+3. Set the `CRS` (below `ILS/FREQ`) with the `ILS COURSE` (ex: `149`) (check annotations)
 
 ## 16. Review Map
 
