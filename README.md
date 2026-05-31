@@ -229,12 +229,12 @@
 
 ## 29. Landing & Touchdown
 
-2. (Optional) Smoothly pull back the joystick to disable `AP1` and raise the nose for flare (use `TAB` to control)
-3. Upon touchdown, apply `MAX REVERSE` thrust (press `DELETE` twice for `IDLE > REVERSE`) and use manual breaking if needed (shortcut: `B`)
-4. When landing done, cancel reverse thrust (click `DELETE` again)
-5. Transition smoothly to the exit of the runway (use `TAB + HOLD LEFT CLICK` to control the nose wheel steering, and `B` for breaks)
-6. Drive airplane to the airport gate
-7. Retract `FLAPS` to `0`
+1. (Optional) Smoothly pull back the joystick to disable `AP1` and raise the nose for flare (use `TAB` to control)
+2. Upon touchdown, apply `MAX REVERSE` thrust (press `DELETE` twice for `IDLE > REVERSE`) and use manual breaking if needed (shortcut: `B`)
+3. When landing done, cancel reverse thrust (click `DELETE` again)
+4. Transition smoothly to the exit of the runway (use `TAB + HOLD LEFT CLICK` to control the nose wheel steering, and `B` for breaks)
+5. Drive airplane to the airport gate
+6. Retract `FLAPS` to `0`
 
 ## 30. Parking At the Gate
 
