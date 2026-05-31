@@ -224,8 +224,8 @@
 5. Press the `LS` button on the `EFIS` panel to display the ILS localizer and glideslope scales on your `PFD`
 6. Raise `FLAPS` from `1` to `FULL` waiting speed stabilization on each step
 7. Lower the `LANDING GEARS` lever to `DOWN`
-8. Press the `APPR` (Approach) button on the `FCU` to arm the ILS guidance (verify `LOC` and `G/S` appear armed on the `PFD` screen)
-9. Ensure the glide slope (G/S) get captured by checking that the purple LS diamonds are aligned on `PFD` screen
+8. Press the `APPR` (Approach) button on the `FCU` when horizontal and vertical purple `LS` diamonds are displayed on `PFD`
+9. Ensure the glide slope `G/S` turns green in `PFD`
 
 ## 29. Landing & Touchdown
 
