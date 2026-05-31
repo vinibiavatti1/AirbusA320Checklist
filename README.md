@@ -82,6 +82,8 @@
 4. Calculate the `INVERSE COURSE` and annotate it (formula: if course < 180, do `{COURSE} + 180`. If course > 180, do `{COURSE} - 180`)
 5. Check if everything was annotated (ex: `DEP: 27L ARR: 15 CRS: 149 FRQ: 110.30 INV: 329`)
 
+> Template: `DEP: ??? ARR: ??? CRS: ??? FRQ: ??? INV: ???`
+
 ## 12. MCDU - Flight Plan Departure (F-PLN)
 
 1. Access `F-PLN` page
