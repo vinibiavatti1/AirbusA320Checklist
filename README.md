@@ -198,7 +198,7 @@
 7. Turn off `RWY TURN OFF`, `LAND` and `NOSE` lights
 8. Press the `BARO` knob on the `FCU`  to set `STD` (Standard)
 
-## 25. Cruise (Level Off)
+## 25. Cruise
 
 1. Turn off `SEAT BELTS` sign (if the flight is smooth and free of turbulence)
 
