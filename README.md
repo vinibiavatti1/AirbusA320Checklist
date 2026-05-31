@@ -221,14 +221,13 @@
 ## 29. Descent Preparation (Top of Descent)
 
 1. Turn on the `ILS` audio reception on `RMP` to monitor the `ILS` code transmission
-2. Set the approaching `ALTITUDE` on the `FCU` knob
-3. Pull the `ALTITUDE` knob (`SHIFT + LEFT CLICK`) to start the descend
-4. Press the `BARO` knob on the FCU to switch from `STD` to the local QNH
-5. Turn on `LAND` lights
-6. Turn on `RWY TURN OFF` light
-7. Turn `NOSE` light switch to `TAXI`
-8. Set the `AUTO BRK` (Autobrake) to `LOW` or `MED` (depending on runway length)
-9. Arm the ground spoilers by pulling UP the `SPEED BRAKE` lever (verify white band is visible)  
+2. Press the `BARO` knob on the FCU to switch from `STD` to the local QNH
+3. Turn on `LAND` lights
+4. Turn on `RWY TURN OFF` light
+5. Turn `NOSE` light switch to `TAXI`
+6. Set the `AUTO BRK` (Autobrake) to `LOW` or `MED` (depending on runway length)
+7. Arm the ground spoilers by pulling UP the `SPEED BRAKE` lever (verify white band is visible)
+8. Start the descend by pulling the `ALTITUDE` on the `FCU` knob (`SHIFT + LEFT CLICK`) until approaching altitude
 
 ## 30. Approaching
 
