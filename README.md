@@ -1,35 +1,25 @@
 # Flight Gear - Airbus A320-family - Checklist
 
-## 1. Gear Chocks
-
-1. Enable gear chocks (_Aircraft > Ground Services > Landing Gear_)
-
-## 2. Fueling (If Needed)
-
-1. Enable fuel truck (_Aircraft > Ground Services > Fuel_)
-2. Add fuel (Avg: 13.000 Lbs)
-3. Disable fuel truck (_Aircraft > Ground Services > Fuel_)
-
-## 3. External Power
+## 1. External Power
 
 1. Enable external power (_Aircraft > Ground Services > Enable External Power Box_)
 2. Check `EXT PWR` light is `AVAIL` (Green)
 3. Press `EXT PWR` switch (Light changes to `ON` Blue)
 4. Turn on `BAT 1` and `BAT 2` switches (lights OFF)
 
-## 4. Turn On Cockpit Lights
+## 2. Turn On Cockpit Lights
 
 1. Set `DOME` switch to `OFF`, `DIM` or `BRT` as preference
 2. Adjust `OVHD INTEG LT` as preference
 3. Adjust `FCU` light (knob under `FCU` panel) as preference
 4. Adjust `FLOOD LT` (Pilot and Co-Pilot) and `INTEG LT` as preference
 
-## 5. Air Data Inertial Reference System (ADIRS)
+## 3. Air Data Inertial Reference System (ADIRS)
 
 1. Turn `IR1`, `IR2` and `IR3` selectors to `NAV`
 2. Check `ON BAT` light illuminates briefly and then turns OFF
 
-## 6. Auxiliary Power Unit (APU) & Cabin Comfort
+## 4. Auxiliary Power Unit (APU) & Cabin Comfort
 
 1. Turn on `APU MASTER` switch
 2. Press `APU START` switch (Blue `ON` light appears) and wait for `AVAIL` green light
@@ -40,19 +30,19 @@
 7. Press `EXT POWER` switch to turn it OFF (light changes back to `AVAIL` green)
 8. Disable External Power (_Aircraft > Ground Services > External Power Box_)
 
-## 7. Turn Lights On
+## 5. Turn Lights On
 
 1. Set `NAV & LOGO` light to `2`
 2. Turn on `WING` light
 3. Turn `SEATBELTS` and `NOSMOKING` signs to `ON`
 
-## 8. Enable Boarding Services
+## 6. Enable Boarding Services
 
 1. Enable front and rear stairways (_Aircraft > Ground Services > Stairways_)
 2. Enable baggage ramp (_Aircraft > Ground Services > Baggage_)
 3. Enable and raise front and rear catering trucks (_Aircraft > Ground Services > Catering_)
 
-## 9. MCDU - Initialization (INIT)
+## 7. MCDU - Initialization (INIT)
 
 1. Access the `MCDU MENU`
 2. Select `FMGC` system and wait for system response
@@ -63,20 +53,20 @@
 7. Set `COST INDEX` to `50`
 8. Set `CRZ FL` to the cruizer altitude (ex: type `300` for 30.000 ft)
 
-## 10. MCDU - Fuel Prediction (INIT > FUEL PREDICTION)
+## 8. MCDU - Fuel Prediction (INIT > FUEL PREDICTION)
 
 1. Access the `INIT 2` page
 2. Click `ZFW/ZFWCG` LSK to calculate the zero fuel weight automatically
 3. Press `FUEL PLANNING` LSK and wait for prediction
 4. Press `BLOCK CONFIRM` LSK to confirm
 
-## 11. MCDU - Take Off Performance (PERF > TAKE OFF)
+## 9. MCDU - Take Off Performance (PERF > TAKE OFF)
 
 1. Access `PERF` page
 2. Set `V1`, `VR` and `V2` speeds based on the airplane weight (default: `130`, `135`, `140`)
 3. Set `FLAPS/THS` with the take off flaps level and trim (default: `1/UP0.1`)
 
-## 12. MCDU - Approaching Performance (PERF > APPR)
+## 10. MCDU - Approaching Performance (PERF > APPR)
 
 1. Access `PERF` page and navigate to `PERF - APPR`
 2. Set `QNH` (default: `1013`)
@@ -84,14 +74,14 @@
 4. Set `MAG WIND` (default: `000/0` - no wind)
 5. Set `BARO` (default `200`)
 
-## 13. Runway & ILS Research
+## 11. Runway & ILS Research
 
 1. Open map map (_Equipament > Map_)
 2. Navigate to the departure airport and decide a runway for take off. Annotate the code (ex: `SBGR 27L`)
 3. Navigate to the destination airport and decide an ILS runway for landing
 4. Annotate the **landing runway code**, **ILS course** and **ILS frequency** (example: `SBGL 15 149 - 110.30MHz`)
 
-## 14. MCDU - Flight Plan Departure (F-PLN)
+## 12. MCDU - Flight Plan Departure (F-PLN)
 
 1. Access `F-PLN` page
 2. Select departure airport left LSK (ex: `SBGR`)
@@ -100,7 +90,7 @@
 5. Select `NO SID`
 6. Select `TMPY F-PLN` and `TMPY INSERT *`
 
-## 15. MCDU - Flight Plan Arrival (F-PLN)
+## 13. MCDU - Flight Plan Arrival (F-PLN)
 
 1. Access `F-PLN` page
 2. Select destination airport left LSK (ex: `SBGL`)
@@ -109,7 +99,7 @@
 5. Select `NO STAR`
 6. Select `TMPY F-PLN` and `TMPY INSERT *`
 
-## 16. MCDU - Flight Plan Approaching Waypoint (F-PLN)
+## 14. MCDU - Flight Plan Approaching Waypoint (F-PLN)
 
 1. Access `F-PLN` page
 2. Select `---F-PLN DISCONTINUITY--` left LSK
@@ -118,32 +108,32 @@
 5. Select `NEXT WPT` and `TMPY INSERT *`
 6. Click the `CLR` button on the MCDU keyboard, and then click the side button next to all `---F-PLN DISCONTINUITY--` to clear them and join the route.
 
-## 17. MCDU - Radio Navigation (RAD NAV)
+## 15. MCDU - Radio Navigation (RAD NAV)
 
 1. Open the `RAD NAV` page
 2. Set the `ILS/FREQ` with the **ILS frequency** (ex: `110.30`)
 3. Set the `CRS` (below `ILS/FREQ`) with the runway **course** (ex: `149`)
 
-## 18. Review Map
+## 16. Review Map
 
 1. Open the map (_Equipament > Map_)
 2. Review the route and check everything is correct
 
-## 19. Setup Flight Control Unit (FCU)
+## 17. Setup Flight Control Unit (FCU)
 
 1. Set cruise altitude on the `ALTITUDE` knob (ex: 30.000 ft)
 2. Push the `ALTITUDE` knob IN (check for a white dot next to the altitude on the FCU)
 3. Push the `SPEED` knob IN (enables managed speed according to MCDU profile)
 4. Push the `HEADING` knob IN (enables managed lateral navigation to follow the flight plan route)
 
-## 20. Disable Boarding Services And Gera Chocks
+## 18. Disable Boarding Services And Gera Chocks
 
 1. Disable front and rear stairways (_Aircraft > Ground Services > Stairways_)
 2. Disable baggage ramp (_Aircraft > Ground Services > Baggage_)
 3. Lower and disable front and rear catering trucks (_Aircraft > Ground Services > Catering_)
 4. Disable gear chocks (_Aircraft > Ground Services > Landing Gear_)
 
-## 21. Request Pushback
+## 19. Request Pushback
 
 1. Setup pushback route (_Aircraft > Pushback > Route > Enter_)
 2. Mark `CONNECT` to connect the pushback truck
@@ -152,7 +142,7 @@
 5. Unmark `CONNECT` to disconnect the pushback truck
 6. Set `PARK BRK` to `ON` (shortcut: `Shift + B`)
 
-## 22. Engines Start Procedure
+## 20. Engines Start Procedure
 
 1. Turn on wing fuel pumps `R TK PUMPS 1` and `R TK PUMPS 2` in `ENG 1` and `ENG 2` (lights OFF)
 2. Turn on central fuel pumps `L XFR` and `R XFR` in `CTR TK` (if center tank has fuel)
@@ -163,12 +153,12 @@
 7. Raise `ENG 1` master switch to `ON` and wait for engine stabilization
 8. Turn `ENG MODE` selector back to `NORM`
 
-## 23. Turn Off Auxiliary Power Unit (APU)
+## 21. Turn Off Auxiliary Power Unit (APU)
 
 1. Turn off `APU BLEED` switch
 2. Turn off `APU MASTER` switch
 
-## 24. Taxi
+## 22. Taxi
 
 1. Trigger `Cpt - Welcome` announcement (_Aircraft > Announcements_)
 2. Turn `NOSE` light switch to `TAXI`
@@ -183,7 +173,7 @@
 11. Taxi the aircraft to the takeoff runway holding point (use `TAB + Hold Left Click` to control the nose wheel steering and `B` to break)
 12. Trigger `Cpt - Doors Check` announcement (_Aircraft > Announcements_)
 
-## 25. Before Takeoff
+## 23. Before Takeoff
 
 1. Set `PARK BRK` to `ON` (shortcut: `Shift + B`)
 2. Turn `STROBE` light switch to `AUTO`
@@ -194,7 +184,7 @@
 7. Press `ALL` button on the `CALLS` panel to advise cabin crew
 8. Trigger `Cpt - Prepare for Takeoff` announcement (_Aircraft > Announcements_)
 
-## 26. Line Up & Takeoff
+## 24. Line Up & Takeoff
 
 1. Release `PARK BRK` (turn switch to `OFF`) (shortcut: `Shift + B`)
 2. Align the aircraft perfectly with the runway centerline
@@ -202,7 +192,7 @@
 4. Maintain runway centerline using rudder pedals (`TAB + HOLD LEFT CLICK`)
 5. At `VR` speed (around 135 knots), gently pull the joystick back to rotate the aircraft nose up to 15 degrees
 
-## 27. Climb (After Lift-Off)
+## 25. Climb (After Lift-Off)
 
 1. At acceleration altitude (around 1500 ft above ground), move `THRUST LEVERS` to `CL` (Climb) detent (shortcut: `SHIFT + F`)
 2. Set the `LANDING GEARS` lever to `UP`
@@ -214,11 +204,11 @@
 8. Turn off `RWY TURN OFF`, `LAND` and `NOSE` lights
 9. Press the `BARO` knob on the `FCU`  to set `STD` (Standard)
 
-## 28. Cruise (Level Off)
+## 26. Cruise (Level Off)
 
 1. Turn off `SEAT BELTS` sign (if the flight is smooth and free of turbulence)
 
-## 29. Descent Preparation (Top of Descent)
+## 27. Descent Preparation (Top of Descent)
 
 1. Turn on the `ILS` audio reception on `RMP` to monitor the `ILS` code transmission
 2. Press the `BARO` knob on the FCU to switch from `STD` to the local QNH
@@ -229,7 +219,7 @@
 7. Arm the ground spoilers by pulling UP the `SPEED BRAKE` lever (verify white band is visible)
 8. Start the descend by pulling the `ALTITUDE` on the `FCU` knob (`SHIFT + LEFT CLICK`) until approaching altitude
 
-## 30. Approaching
+## 28. Approaching
 
 1. Trigger `Cpt - Prepare for Landing` announcement (_Aircraft > Announcements_)
 2. Turn on `SEAT BELTS` sign
@@ -239,7 +229,7 @@
 6. Press the `APPR` (Approach) button on the `FCU` to arm the ILS guidance (verify `LOC` and `G/S` appear armed on the `PFD` screen)
 7. Ensure the glide slope (G/S) get captured by checking that the purple LS diamonds are aligned on `PFD` screen
 
-## 31. Landing & Touchdown
+## 29. Landing & Touchdown
 
 1. (Optional) Disengage `AP1` (Autopilot) to fly manually, or leave it `ON` for an automatic landing (Autoland)
 2. Smoothly pull back on the joystick to raise the nose to perform flare (use `TAB` to control)
@@ -250,7 +240,7 @@
 7. Drive airplane to the airport gate
 8. Retract `FLAPS` to `0`
 
-## 32. Parking At the Gate
+## 30. Parking At the Gate
 
 1. Set `PARK BRK` to `ON` (shortcut: `Shift + B`)
 2. Set `THRUST LEVERS` to `IDLE`
@@ -264,16 +254,25 @@
 10. Turn off `BEACON` light
 11. Turn off `SEAT BELTS` sign
 
-## 34. Enable Boarding Services
+## 31. Enable Boarding Services and Gear Chocks
 
-1. Enable front and rear stairways (_Aircraft > Ground Services > Stairways_)
-2. Enable baggage ramp (_Aircraft > Ground Services > Baggage_)
-3. Enable and raise front and rear catering trucks (_Aircraft > Ground Services > Catering_)
+1. Enable gear chocks (Aircraft > Ground Services > Landing Gear)
+2. Enable front and rear stairways (_Aircraft > Ground Services > Stairways_)
+3. Enable baggage ramp (_Aircraft > Ground Services > Baggage_)
+4. Enable and raise front and rear catering trucks (_Aircraft > Ground Services > Catering_)
 
-## 35. Shut Down & Post-Flight
+## 32. Shut Down (If Final Flight)
 
-1. If a turnaround flight is planned, return to Step 1 of this checklist
 2. If this is the final flight of the day, proceed with the aircraft decommissioning below:
 3. Turn off wing fuel pumps `R TK PUMPS 1` and `R TK PUMPS 2` in `ENG 1` and `ENG 2` (lights OFF)
 4. Turn off central fuel pumps `L XFR` and `R XFR` in `CTR TK` (if applicable)
 5. Turn off `APU MASTER SW`
+6. Done
+
+## 33. Next Steps (If Post Flight)
+
+1. If a turnaround flight is planned, follow the steps below
+2. Enable fuel truck (_Aircraft > Ground Services > Fuel_)
+3. Add fuel (Avg: 13.000 Lbs)
+4. Disable fuel truck (_Aircraft > Ground Services > Fuel_)
+5. Start the checklist again
