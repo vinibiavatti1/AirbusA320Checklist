@@ -95,8 +95,7 @@
 2. Select destination airport left LSK (ex: `SBGL`)
 3. Select `ARRIVAL`
 4. Select the ILS runway for landing (ex: `15`)
-5. Select `NO STAR`
-6. Select `TMPY F-PLN` and `TMPY INSERT *`
+5. Select `TMPY F-PLN` and `TMPY INSERT *`
 
 ## 14. MCDU - Flight Plan Approaching Waypoint (F-PLN)
 
