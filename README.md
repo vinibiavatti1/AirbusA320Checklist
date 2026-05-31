@@ -127,7 +127,7 @@
 3. Push the `SPEED` knob IN (enables managed speed according to MCDU profile)
 4. Push the `HEADING` knob IN (enables managed lateral navigation to follow the flight plan route)
 
-## 18. Disable Boarding Services And Gera Chocks
+## 18. Disable Boarding Services And Gear Chocks
 
 1. Disable front and rear stairways (_Aircraft > Ground Services > Stairways_)
 2. Disable baggage ramp (_Aircraft > Ground Services > Baggage_)
