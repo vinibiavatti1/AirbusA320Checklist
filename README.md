@@ -209,23 +209,25 @@
 3. Turn `NOSE` light switch to `TAXI`
 4. Set the `AUTO BRK` (Autobrake) to `LOW` or `MED` (depending on runway length)
 5. Arm `SPEED BRAKE` (verify white band is visible)
-6. Start the descend by pulling the `ALTITUDE` on the `FCU` knob (`SHIFT + LEFT CLICK`)
+6. Pull the `ALTITUDE` on the `FCU` knob (`SHIFT + LEFT CLICK`) until alignment altitude (10.000 ft)
 
-> It is recommended that the waypoint is reached at 10.000 ft altitude
+## 27. Alignment (During Waypoint)
 
-## 27. Approaching (After Waypoint)
+1. It is recommended that the waypoint is reached at 10.000 ft altitude
+
+## 28. Approaching (After Waypoint)
 
 1. Turn on the `ILS` audio reception on `RMP` to monitor the `ILS` code transmission
 2. Trigger `Cpt - Prepare for Landing` announcement (_Aircraft > Announcements_)
 3. Turn on `SEAT BELTS` sign
-4. Start the descend by pulling the `ALTITUDE` on the `FCU` knob (`SHIFT + LEFT CLICK`) to approaching altitude (ex: 3000 ft)
+4. Pull the `ALTITUDE` on the `FCU` knob (`SHIFT + LEFT CLICK`) until approaching altitude (ex: 3000 ft)
 5. Press the `LS` button on the `EFIS` panel to display the ILS localizer and glideslope scales on your `PFD`
 6. Raise `FLAPS` from `1` to `FULL` waiting speed stabilization on each step
 7. Lower the `LANDING GEARS` lever to `DOWN`
 8. Press the `APPR` (Approach) button on the `FCU` to arm the ILS guidance (verify `LOC` and `G/S` appear armed on the `PFD` screen)
 9. Ensure the glide slope (G/S) get captured by checking that the purple LS diamonds are aligned on `PFD` screen
 
-## 28. Landing & Touchdown
+## 29. Landing & Touchdown
 
 1. (Optional) Disengage `AP1` (Autopilot) to fly manually, or leave it `ON` for an automatic landing (Autoland)
 2. Smoothly pull back on the joystick to raise the nose to perform flare (use `TAB` to control)
@@ -236,7 +238,7 @@
 7. Drive airplane to the airport gate
 8. Retract `FLAPS` to `0`
 
-## 29. Parking At the Gate
+## 30. Parking At the Gate
 
 1. Set `PARK BRK` to `ON` (shortcut: `Shift + B`)
 2. Set `THRUST LEVERS` to `IDLE`
@@ -250,14 +252,14 @@
 12. Turn off `BEACON` light
 13. Turn off `SEAT BELTS` sign
 
-## 30. Enable Boarding Services and Gear Chocks
+## 31. Enable Boarding Services and Gear Chocks
 
 1. Enable gear chocks (Aircraft > Ground Services > Landing Gear)
 2. Enable front and rear stairways (_Aircraft > Ground Services > Stairways_)
 3. Enable baggage ramp (_Aircraft > Ground Services > Baggage_)
 4. Enable and raise front and rear catering trucks (_Aircraft > Ground Services > Catering_)
 
-## 31. Shut Down (If Final Flight)
+## 32. Shut Down (If Final Flight)
 
 2. If this is the final flight of the day, proceed with the aircraft decommissioning below:
 3. Turn off wing fuel pumps `R TK PUMPS 1` and `R TK PUMPS 2` in `ENG 1` and `ENG 2` (lights OFF)
