@@ -160,8 +160,8 @@
 2. Turn `NOSE` light switch to `TAXI`
 3. Set `FLAPS` to takeoff position (default: `1`)
 4. Adjust `PITCH TRIM` wheel to match MCDU target (default: `UP 0.1`)
-5. Arm the ground spoilers by pulling UP the `SPEED BRAKE` lever (verify white band is visible)
-6. Set `AUTO BRK` to `MAX`
+5. Set `AUTO BRK` to `MAX`
+6. Arm `SPEED BRAKE` (verify white band is visible)
 7. Press `TO CONFIG` button to test takeoff configuration
 8. Check `ECAM` center screen and confirm it displays `T.O CONFIG NORMAL` in green
 9. Release `PARK BRK` (turn switch to `OFF`)
@@ -210,7 +210,7 @@
 4. Turn on `RWY TURN OFF` light
 5. Turn `NOSE` light switch to `TAXI`
 6. Set the `AUTO BRK` (Autobrake) to `LOW` or `MED` (depending on runway length)
-7. Arm the ground spoilers by pulling UP the `SPEED BRAKE` lever (verify white band is visible)
+7. Arm `SPEED BRAKE` (verify white band is visible)
 8. Start the descend by pulling the `ALTITUDE` on the `FCU` knob (`SHIFT + LEFT CLICK`) until approaching altitude
 
 ## 27. Approaching
