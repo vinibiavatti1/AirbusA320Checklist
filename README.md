@@ -244,27 +244,25 @@
 1. (Optional) Disengage `AP1` (Autopilot) to fly manually, or leave it `ON` for an automatic landing (Autoland)
 2. Smoothly pull back on the joystick to raise the nose to perform flare (use `TAB` to control)
 3. Set `THRUST LEVERS` to `IDLE` (shortcut: `E`)
-5. Upon touchdown, apply `MAX REVERSE` thrust (shortcut: `DELETE`) and use manual breaking if needed (shortcut: `B`)
-6. When landing done, cancel reverse thrust (click `DELETE` again)
-7. Transition smoothly to the exit of the runway (use `TAB + HOLD LEFT CLICK` to control the nose wheel steering, and `B` for breaks)
+4. Upon touchdown, apply `MAX REVERSE` thrust (shortcut: `DELETE`) and use manual breaking if needed (shortcut: `B`)
+5. When landing done, cancel reverse thrust (click `DELETE` again)
+6. Transition smoothly to the exit of the runway (use `TAB + HOLD LEFT CLICK` to control the nose wheel steering, and `B` for breaks)
+7. Drive airplane to the airport gate
+8. Retract `FLAPS` to `0`
 
-## 32. Taxi After Landing (Vacating Runway)
-
-1. Retract `FLAPS` to `0`
-2. Push the `SPEED BRAKE` lever down
-3. Turn off `LAND` lights
-4. Turn off `RWY TURN OFF` lights
-5. Set `TCAS` (Transponder) to `STBY`
-6. Drive airplane to the airport gate
-
-## 33. Parking At the Gate
+## 32. Parking At the Gate
 
 1. Set `PARK BRK` to `ON` (shortcut: `Shift + B`)
-2. Turn on `APU MASTER` switch
-3. Press `APU START` switch (Blue `ON` light appears) and wait for `AVAIL` green light
-4. Move `ENG 1` and `ENG 2` master switches to `OFF`
-5. Turn off `BEACON` light
-6. Turn off `SEAT BELTS` sign
+2. Set `THRUST LEVERS` to `IDLE`
+3. Push the `SPEED BRAKE` lever down
+4. Turn off `LAND` lights
+5. Turn off `RWY TURN OFF` lights
+6. Set `TCAS` (Transponder) to `STBY`
+7. Turn on `APU MASTER` switch
+8. Press `APU START` switch (Blue `ON` light appears) and wait for `AVAIL` green light
+9. Move `ENG 1` and `ENG 2` master switches to `OFF`
+10. Turn off `BEACON` light
+11. Turn off `SEAT BELTS` sign
 
 ## 34. Enable Boarding Services
 
