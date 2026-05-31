@@ -51,7 +51,7 @@
 5. Press `IRS INIT` > `ALIGN ON REF` > `CONFIRM ALIGN` LSKs
 6. Set `FLT NBR` (ex: `AB1234`)
 7. Set `COST INDEX` to `50`
-8. Set `CRZ FL` to the cruizer altitude (ex: type `300` for 30.000 ft)
+8. Set `CRZ FL` to the cruizer altitude (ex: type `100` for 10.000 ft)
 
 ## 8. MCDU - Fuel Prediction (INIT > FUEL PREDICTION)
 
