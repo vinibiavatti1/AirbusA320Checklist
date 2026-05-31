@@ -231,12 +231,11 @@
 
 1. (Optional) Disengage `AP1` (Autopilot) to fly manually, or leave it `ON` for an automatic landing (Autoland)
 2. Smoothly pull back on the joystick to raise the nose to perform flare (use `TAB` to control)
-3. Set `THRUST LEVERS` to `IDLE` (shortcut: `E`)
-4. Upon touchdown, apply `MAX REVERSE` thrust (shortcut: `DELETE`) and use manual breaking if needed (shortcut: `B`)
-5. When landing done, cancel reverse thrust (click `DELETE` again)
-6. Transition smoothly to the exit of the runway (use `TAB + HOLD LEFT CLICK` to control the nose wheel steering, and `B` for breaks)
-7. Drive airplane to the airport gate
-8. Retract `FLAPS` to `0`
+3. Upon touchdown, apply `MAX REVERSE` thrust (press `DELETE` twice for `IDLE > REVERSE`) and use manual breaking if needed (shortcut: `B`)
+4. When landing done, cancel reverse thrust (click `DELETE` again)
+5. Transition smoothly to the exit of the runway (use `TAB + HOLD LEFT CLICK` to control the nose wheel steering, and `B` for breaks)
+6. Drive airplane to the airport gate
+7. Retract `FLAPS` to `0`
 
 ## 30. Parking At the Gate
 
