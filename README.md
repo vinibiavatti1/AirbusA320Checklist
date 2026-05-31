@@ -172,13 +172,12 @@
 ## 22. Before Takeoff
 
 1. Set `PARK BRK` to `ON` (shortcut: `Shift + B`)
-
-3. Turn `RWY TURN OFF` light switches to `ON`
-4. Turn `NOSE` light switch to `T.O` (Takeoff)
-5. Turn on `LAND` (Landing) lights (extend and turn on both wings lights)
-6. Set `TCAS` (Transponder) switch to `TA/RA`
-7. Press `ALL` button on the `CALLS` panel to advise cabin crew
-8. Trigger `Cpt - Prepare for Takeoff` announcement (_Aircraft > Announcements_)
+2. Turn `RWY TURN OFF` light switches to `ON`
+3. Turn `NOSE` light switch to `T.O` (Takeoff)
+4. Turn on `LAND` (Landing) lights (extend and turn on both wings lights)
+5. Set `TCAS` (Transponder) switch to `TA/RA`
+6. Press `ALL` button on the `CALLS` panel to advise cabin crew
+7. Trigger `Cpt - Prepare for Takeoff` announcement (_Aircraft > Announcements_)
 
 ## 23. Line Up & Takeoff
 
@@ -188,13 +187,13 @@
 4. Maintain runway centerline using rudder pedals (`TAB + HOLD LEFT CLICK`)
 5. At `VR` speed (around 135 knots), gently pull the joystick back to rotate the aircraft nose up to 15 degrees
 
-## 24. Climb (After Lift-Off)
+## 24. Climb (After Takeoff-Off)
 
-1. At acceleration altitude (around 1500 ft above ground), move `THRUST LEVERS` to `CL` (Climb) detent (shortcut: `SHIFT + F`)
-2. Set the `LANDING GEARS` lever to `UP`
-3. Turn on `AP1` (Autopilot 1) to let the FMGC fly the programmed route
-4. Verify `A/THR` is active
-5. Move `FLAPS` lever to `0`
+1. Set the `LANDING GEARS` lever to `UP`
+2. Move `FLAPS` lever to `0`
+3. Move `THRUST LEVERS` to `CL` (shortcut: `SHIFT + F`)
+4. Turn on `AP1` (Autopilot 1) to let the FMGC fly the programmed route
+5. Verify `A/THR` is active
 6. Push the `SPEED BRAKE` lever down
 7. Turn off `AUTO BRK` switch
 8. Turn off `RWY TURN OFF`, `LAND` and `NOSE` lights
