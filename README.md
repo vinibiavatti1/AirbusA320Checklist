@@ -145,14 +145,13 @@
 
 ## 20. Engines Start Procedure
 
-1. Turn on wing fuel pumps `R TK PUMPS 1` and `R TK PUMPS 2` in `ENG 1` and `ENG 2` (lights OFF)
-2. Turn on central fuel pumps `L XFR` and `R XFR` in `CTR TK`
-3. Turn on `BEACON` to signalize that the engines are starting
-4. Turn `ENG MODE` selector to `IGN/START`
-5. Raise `ENG 2` master switch to `ON` and wait for engine stabilization (Engine 2 first to provide primary hydraulic pressure)
-6. Raise `ENG 1` master switch to `ON` and wait for engine stabilization
-7. Turn `ENG MODE` selector back to `NORM`
-8. Turn off `APU MASTER` switch
+1. Turn on fuel pumps `R TK PUMPS` and `CTR TK` (lights OFF)
+2. Turn on `BEACON` to signalize that the engines are starting
+3. Turn `ENG MODE` selector to `IGN/START`
+4. Raise `ENG 2` master switch to `ON` and wait for engine stabilization (Engine 2 first to provide primary hydraulic pressure)
+5. Raise `ENG 1` master switch to `ON` and wait for engine stabilization
+6. Turn `ENG MODE` selector back to `NORM`
+7. Turn off `APU MASTER` switch
 
 ## 21. Taxi
 
