@@ -195,9 +195,8 @@
 4. Turn on `AP1` (Autopilot 1) to let the FMGC fly the programmed route
 5. Verify `A/THR` is active
 6. Push the `SPEED BRAKE` lever down
-7. Turn off `AUTO BRK` switch
-8. Turn off `RWY TURN OFF`, `LAND` and `NOSE` lights
-9. Press the `BARO` knob on the `FCU`  to set `STD` (Standard)
+7. Turn off `RWY TURN OFF`, `LAND` and `NOSE` lights
+8. Press the `BARO` knob on the `FCU`  to set `STD` (Standard)
 
 ## 25. Cruise (Level Off)
 
