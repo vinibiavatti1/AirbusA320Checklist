@@ -52,7 +52,7 @@
 5. Press `IRS INIT` > `ALIGN ON REF` > `CONFIRM ALIGN` LSKs
 6. Set `FLT NBR` (ex: `AB1234`)
 7. Set `COST INDEX` to `50`
-8. Set `CRZ FL` to the cruizer altitude (ex: type `100` for 10.000 ft)
+8. Set `CRZ FL` to the cruizer altitude (ex: type `200` for 20.000 ft)
 
 ## 8. MCDU - Fuel Prediction (INIT > FUEL PREDICTION)
 
@@ -101,7 +101,7 @@
 4. Select the `RUNWAY CODE` for landing (ex: `15`) (check annotations)
 5. Select `TMPY F-PLN` and `TMPY INSERT *`
 
-## 14. MCDU - Flight Plan Approaching Waypoint (F-PLN)
+## 14. MCDU - Flight Plan Approaching Waypoint (F-PLN) (10.000 ft)
 
 1. Access `F-PLN` page
 2. Select the departure airport left LSK
@@ -202,7 +202,7 @@
 
 1. Turn off `SEAT BELTS` sign (if the flight is smooth and free of turbulence)
 
-## 26. Descent Preparation (Top of Descent)
+## 26. Descent Preparation (Before Waypoint)
 
 1. Turn on the `ILS` audio reception on `RMP` to monitor the `ILS` code transmission
 2. Press the `BARO` knob on the FCU to switch from `STD` to the local QNH
@@ -213,7 +213,9 @@
 7. Arm `SPEED BRAKE` (verify white band is visible)
 8. Start the descend by pulling the `ALTITUDE` on the `FCU` knob (`SHIFT + LEFT CLICK`) until approaching altitude
 
-## 27. Approaching
+> It is recommended that the waypoint is reached at 10.000 ft altitude
+
+## 27. Approaching (After Waypoint)
 
 1. Trigger `Cpt - Prepare for Landing` announcement (_Aircraft > Announcements_)
 2. Turn on `SEAT BELTS` sign
