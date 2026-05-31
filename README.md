@@ -87,8 +87,7 @@
 2. Select departure airport left LSK (ex: `SBGR`)
 3. Select `DEPARTURE`
 4. Select the ILS runway for departure (ex: `27L`)
-5. Select `NO SID`
-6. Select `TMPY F-PLN` and `TMPY INSERT *`
+5. Select `TMPY F-PLN` and `TMPY INSERT *`
 
 ## 13. MCDU - Flight Plan Arrival (F-PLN)
 
