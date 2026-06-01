@@ -202,7 +202,7 @@
 
 1. When `ALT CRZ` is displayed on the `PFD` turn off `SEAT BELTS` sign (if the flight is smooth and free of turbulence)
 
-## 26. Descent Preparation (Before Waypoint)
+## 26. Descent Preparation (40NM Before Waypoint)
 
 1. Pull the `ALTITUDE` on the `FCU` knob (`SHIFT + LEFT CLICK`) until alignment altitude (10.000 ft)
 2. Press the `BARO` knob on the FCU to switch from `STD` to the local QNH
@@ -211,11 +211,11 @@
 5. Set the `AUTO BRK` (Autobrake) to `LOW` or `MED` (depending on runway length)
 6. Arm `SPEED BRAKE` (verify white band is visible)
 
-## 27. Alignment (Waypoint)
+## 27. Alignment (In Waypoint)
 
 1. Check that the waypoint was reached at **10.000 ft** altitude
 
-## 28. Approaching (After Waypoint)
+## 28. Approaching (40NM Before Destination)
 
 1. Turn on the `ILS` audio reception on `RMP` to monitor the `ILS` code transmission
 2. Trigger `Cpt - Prepare for Landing` announcement (_Aircraft > Announcements_)
