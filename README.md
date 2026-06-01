@@ -217,9 +217,9 @@
 
 ## 28. Approaching (40NM Before Destination)
 
-1. Turn on the `ILS` audio reception on `RMP` to monitor the `ILS` code transmission
+1. Turn on `SEAT BELTS` sign
 2. Trigger `Cpt - Prepare for Landing` announcement (_Aircraft > Announcements_)
-3. Turn on `SEAT BELTS` sign
+3. Turn on the `ILS` audio reception on `RMP` to monitor the `ILS` code transmission
 4. Pull the `ALTITUDE` on the `FCU` knob (`SHIFT + LEFT CLICK`) until approaching altitude (ex: 3000 ft)
 5. Press the `LS` button on the `EFIS` panel to display the ILS localizer and glideslope scales on your `PFD`
 6. Raise `FLAPS` from `1` to `FULL` waiting speed stabilization on each step
