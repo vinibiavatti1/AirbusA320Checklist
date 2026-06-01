@@ -52,7 +52,7 @@
 5. Select `IRS INIT` > `ALIGN ON REF` > `CONFIRM ALIGN` LSKs
 6. Set `FLT NBR` (ex: `AB1234`)
 7. Set `COST INDEX` to `50`
-8. Set `CRZ FL` to the cruizer altitude (`200` (20.000 ft) for national trips; `300` (30.000 ft) for international trips)
+8. Set `CRZ FL` to the cruizer altitude (`200` (20.000 ft) for small trips; `300` (30.000 ft) for medium trips; `400` for long trips)
 
 ## 8. MCDU - Fuel Prediction (INIT > FUEL PREDICTION)
 
