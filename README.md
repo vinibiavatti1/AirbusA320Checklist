@@ -265,4 +265,4 @@
 2. Enable fuel truck (_Aircraft > Ground Services > Fuel_)
 3. Add fuel (Avg: 13.000 Lbs)
 4. Disable fuel truck (_Aircraft > Ground Services > Fuel_)
-5. Jump to **7. MCDU - Initialization (INIT)** section.
+5. Jump to: **7. MCDU - Initialization (INIT)** section.
