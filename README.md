@@ -190,8 +190,8 @@
 
 1. Set the `LANDING GEARS` lever to `UP`
 2. Move `FLAPS` lever to `0`
-3. Wait for climb and stabilize the plane straight ahead
-4. Move `THRUST LEVERS` to `CL` (shortcut: `SHIFT + F`)
+3. Climb manually and stabilize the airplane
+4. When `LVR CLB` is displyed on `PFD`, move `THRUST LEVERS` to `CL` (shortcut: `SHIFT + F`)
 5. Turn on `AP1` (Autopilot 1) to let the FMGC fly the programmed route
 6. Verify `A/THR` is active
 7. Push the `SPEED BRAKE` lever down
@@ -200,7 +200,7 @@
 
 ## 25. Cruise
 
-1. Turn off `SEAT BELTS` sign (if the flight is smooth and free of turbulence)
+1. When `ALT CRZ` is displayed on the `PFD` turn off `SEAT BELTS` sign (if the flight is smooth and free of turbulence)
 
 ## 26. Descent Preparation (Before Waypoint)
 
