@@ -102,16 +102,16 @@ This section contains a streamlined checklist designed to guide you through a co
 4. Select `RUNWAY CODE` for departure (check annotations).
 5. Save by pressing `TMPY F-PLN` > `TMPY INSERT *`.
 
-### 12. MCDU Flight Plan Arrival
+### 12. MCDU - Flight Plan Arrival
 
 1. Select destination airport (ex: `SBGL`).
 2. Press `ARRIVAL`.
 3. Select `RUNWAY CODE` for landing (check annotations).
 4. Save by pressing `TMPY F-PLN` > `TMPY INSERT *`
 
-### 13. MCDU Flight Plan Alignment Waypoint
+### 13. MCDU - Flight Plan Alignment Waypoint
 
-1. Select departure airport (ex: `SBGR`).
+1. Select the `F-PLN DISCONTINUITY` left button.
 2. Type into the scratchpad the following format: `{ICAO}/{INV}/40` (check annotations) (ex: `SBGL/329/40`).
 3. Press `NEXT WPT`.
 4. Save by pressing `TMPY INSERT *`.
