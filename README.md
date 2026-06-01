@@ -229,7 +229,7 @@
 
 ## 29. Landing & Touchdown
 
-1. Disable `AP1` (shortcut: `BACKSPACE` twice)
+1. Disable `AP1` (shortcut: `SHIFT - D`)
 2. Smoothly pull back the joystick to execute the flare (use `TAB` to control)
 3. Upon touchdown, apply `MAX REVERSE` thrust (press `DELETE` twice) and use manual breaking if needed (shortcut: `B`)
 4. When landing done, cancel reverse thrust (click `DELETE` again)
