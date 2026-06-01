@@ -15,140 +15,148 @@ Before diving into the cockpit procedures, ensure you have the following compone
 
 This section contains a streamlined checklist designed to guide you through a complete flight, from cold and dark to shutdown. It is meant to be used as a practical, step-by-step reference that you can easily follow along with during a single flight or across multiple flight sessions.
 
-### 1. Enable External Power
+### 1. External Power
 
-1. Enable external power (_Aircraft > Ground Services > Enable External Power Box_)
-2. Check `EXT PWR` light is `AVAIL` (Green)
-3. Press `EXT PWR` switch (Light changes to `ON` Blue)
-4. Turn on `BAT 1` and `BAT 2` switches (lights OFF)
+1. Access the menu `Aircraft > Ground Services` and select `Enable External Power Box`.
+2. View the **Overhead**.
+3. Verify that the `EXT PWR` button displays the `AVAIL` light in green.
+4. Press the `EXT PWR` switch.
+5. Press the `BAT 1` and `BAT 2` switches.
 
-### 2. Turn Cockpit Lights On
+### 2. Cockpit Lights
 
-1. Set `DOME` switch to `OFF`, `DIM` or `BRT` as preference
-2. Adjust `OVHD INTEG LT` as preference
-3. Adjust `FCU` light (knob under `FCU` panel) as preference
-4. Adjust `FLOOD LT` (Pilot and Co-Pilot) and `INTEG LT` as preference
+1. Adjust the **Overhead** `INTEG LT` and `DOME` swithes as your preference.
+2. Adjust the **FCU** `INTEG LT` as your preference (knob located under the FCU panel).
+3. Adjust the **Main Panel** `INTEG LT` as your preference.
+4. Adjust the **Main Panel** `FLOOD LT` lights (pilot and co-pilot knobs) as your preference.
 
-### 3. Setup ADIRS
+### 3. ADIRS
 
-1. Turn `IR1`, `IR2` and `IR3` selectors to `NAV`
-2. Check `ON BAT` light illuminates briefly and then turns OFF
+1. Turn the `IR1`, `IR2` and `IR3` selectors to `NAV`.
 
-### 4. Setup APU
+### 4. APU
 
-1. Turn on `APU MASTER` switch
-2. Press `APU START` switch (Blue `ON` light appears) and wait for `AVAIL` green light
-3. Turn on `APU BLEED` switch (Pneumatic air active)
-4. Check `PACK 1` and `PACK 2` are ON (lights OFF)
-5. Set `PACK FLOW` to (`NORM`: default, `HI`: climate is too warm, `LO`: climate is too cold)
-6. Adjust `COCKPIT`, `FWD CABIN`, and `AFT CABIN` selectors to your preference (12 o'clock = 24°C)
-7. Press `EXT PWR` switch to turn it OFF (light changes back to `AVAIL` green)
-8. Disable External Power (_Aircraft > Ground Services > External Power Box_)
+1. Turn on `APU MASTER` switch.
+2. Turn on `APU START` switch and wait for `AVAIL` green light.
+3. Turn on `APU BLEED` switch.
+4. Turn on `PACK 1` and `PACK 2` (lights off).
+5. Set `PACK FLOW` to your preference.
+6. Adjust `COCKPIT`, `FWD CABIN`, and `AFT CABIN` selectors to your preference (12 o'clock = 24°C).
+7. Turn off `EXT PWR` switch (light changes back to `AVAIL` green).
+8. Access the menu `Aircraft > Ground Services` and deselect `Enable External Power Box`.
 
-### 5. Setup External Lights
+### 5. Lights and Signs
 
-1. Turn `STROBE` light switch to `AUTO`
-2. Turn on `WING` light
-3. Set `NAV & LOGO` light to `2`
+1. Turn `STROBE` light switch to `AUTO`.
+2. Turn on `WING` light switch.
+3. Set `NAV & LOGO` light switch to `2`.
+4. Turn `SEATBELTS` and `NOSMOKING` switches to `ON`.
 
-### 6. Enable Boarding Services
+### 6. Boarding Services
 
-1. Turn `SEATBELTS` and `NOSMOKING` signs to `ON`
-2. Enable front and rear stairways (_Aircraft > Ground Services > Stairways_)
-3. Enable baggage ramp (_Aircraft > Ground Services > Baggage_)
-4. Enable front and rear catering trucks (_Aircraft > Ground Services > Catering_)
-5. Toggle catering trucks to raise them (_Aircraft > Ground Services > Catering > Toggle_)
+1. Access the menu `Aircraft > Ground Services`.
+2. Select `Front Left` and `Rear Left` stairways.
+3. Select `Enable Baggage Ramp`.
+4. Select `Enable Catering Truck` and `Enable Rear Catering Truck`.
+5. Click on `Toggle Catering` to raise the catering trucks.
 
-### 7. MCDU - Initialization
+### 7. MCDU Initialization
 
-1. On `MCDU`, access the `MCDU MENU` page
-2. Select `FMGC` system and wait for response
-3. Access the `INIT` page
-4. Set the departure/arrival airports using the format `{ICAO}/{ICAO}` (ex: `SBGR/SBGL`)
-5. Select `IRS INIT` > `ALIGN ON REF` > `CONFIRM ALIGN` LSKs
-6. Set `FLT NBR` (ex: `AB1234`)
-7. Set `COST INDEX` to `50`
-8. Set `CRZ FL` to the cruizer altitude (`200` (20.000 ft) for small trips; `300` (30.000 ft) for medium trips; `400` (40.000 ft) for long trips)
+1. View the **MCDU**.
+2. Press the `MCDU MENU` button.
+3. Select `FMGC` system and wait for response.
+3. Press the `INIT` button.
+4. Enter the departure/arrival airports using the format `{ICAO}/{ICAO}` in scratchpad (ex: `SBGR/SBGL`).
+5. Press the `FROM/TO` button.
+6. Press `IRS INIT` > `ALIGN ON REF` > `CONFIRM ALIGN` buttons.
+7. Set `FLT NBR` with your choice (ex: `AB1234`).
+8. Set `COST INDEX` to `50` (balanced).
+9. Set `CRZ FL` to: `200` (20.000 ft) for small trips; `300` (30.000 ft) for medium trips; `400` (40.000 ft) for long trips.
 
 ### 8. MCDU - Fuel Prediction
 
-1. Access the `INIT 2` page
-2. Click `ZFW/ZFWCG` LSK to calculate the zero fuel weight automatically
-3. Press `FUEL PLANNING` LSK and wait for prediction
-4. Press `BLOCK CONFIRM` LSK to confirm
+1. From the `INIT` page, navigate to the `INIT 2` page by pressing the `->` button.
+2. Press `ZFW/ZFWCG` to calculate the zero fuel weight automatically.
+3. Press `FUEL PLANNING` and wait for prediction.
+4. Press `BLOCK CONFIRM` to confirm.
 
-### 9. MCDU - Take Off Performance (PERF > TAKE OFF)
+### 9. MCDU - Take Off Performance
 
-1. Access `PERF` page
-2. Set `V1`, `VR` and `V2` speeds based on the airplane weight (default: `130`, `135`, `140`)
-3. Set `FLAPS/THS` with the take off flaps level and trim (default: `1/UP0.1`)
+1. Press the `PERF` button.
+2. Set `V1`, `VR` and `V2` speeds based on the airplane weight (default: `130`, `135`, `140`).
+3. Set `FLAPS/THS` with the take off flaps level and trim (default: `1/UP0.1`).
 
 ### 10. Runway & ILS Research
 
-1. Open map map (_Equipament > Map_)
-2. Navigate to the departure airport and annotate the departure `RUNWAY CODE`
-3. Navigate to the destination airport and annotate the arrival `RUNWAY CODE`, `ILS COURSE` and `ILS FREQUENCY`
-4. Calculate the `INVERSE COURSE` and annotate it (formula: if course < 180, do `{COURSE} + 180`. If course > 180, do `{COURSE} - 180`)
-5. Check if everything was annotated (ex: `DEP: 27L ARR: 15 CRS: 149 FRQ: 110.30 INV: 329`)
+1. Open the simulator map at `_Equipament > Map_`.
+2. Use the template `DEP: ___ ARR: ___ CRS: ___ FRQ: ___.__ INV: ___` to annotate the information from the next steps.
+3. Navigate to the departure airport and annotate the departure `RUNWAY CODE`.
+4. Navigate to the destination airport and annotate the arrival `RUNWAY CODE`, `ILS COURSE` and `ILS FREQUENCY`.
+5. Calculate the `INVERSE COURSE` and annotate it with the following formula: if course <= 180, do `{COURSE} + 180`. If course > 180, do `{COURSE} - 180`.
+6. Check if everything was annotated (ex: `DEP: 27L ARR: 15 CRS: 149 FRQ: 110.30 INV: 329`).
 
-> Template: `DEP: ___ ARR: ___ CRS: ___ FRQ: ___.__ INV: ___`
+### 11. MCDU - Flight Plan Departure
 
-### 11. MCDU - Flight Plan Departure (F-PLN)
+1. Press the `F-PLN` button.
+2. Select the departure airport (ex: `SBGR`).
+3. Press `DEPARTURE`.
+4. Select the `RUNWAY CODE` for departure (check annotations).
+5. Save by pressing `TMPY F-PLN` > `TMPY INSERT *`.
 
-1. Access `F-PLN` page
-2. Select departure airport left LSK (ex: `SBGR`)
-3. Select `DEPARTURE`
-4. Select the `RUNWAY CODE` for departure (ex: `27L`) (check annotations)
-5. Select `TMPY F-PLN` and `TMPY INSERT *`
+### 12. MCDU Flight Plan Arrival
 
-### 12. MCDU - Flight Plan Arrival (F-PLN)
+1. Select the destination airport (ex: `SBGL`)
+2. Press `ARRIVAL`
+3. Select the `RUNWAY CODE` for landing (check annotations).
+4. Save by pressing `TMPY F-PLN` > `TMPY INSERT *`
 
-1. Access `F-PLN` page
-2. Select destination airport left LSK (ex: `SBGL`)
-3. Select `ARRIVAL`
-4. Select the `RUNWAY CODE` for landing (ex: `15`) (check annotations)
-5. Select `TMPY F-PLN` and `TMPY INSERT *`
+### 13. MCDU Flight Plan Alignment Waypoint
 
-### 13. MCDU - Flight Plan Approaching Waypoint (F-PLN) (10.000 ft)
+1. Select the departure airport (ex: `SBGR`).
+2. Type into the scratchpad the following format: `{ICAO}/{INV}/40` (check annotations) (ex: `SBGL/329/40`).
+3. Press `NEXT WPT`.
+4. Save by pressing `TMPY INSERT *`.
 
-1. Access `F-PLN` page
-2. Select the departure airport left LSK
-3. Type into the scratchpad the following format: `{ICAO}/{INV}/{DIST}` (ex: `SBGL/329/40`) (check annotations)
-4. Select `NEXT WPT` and `TMPY INSERT *`
-5. Remove all `F-PLN DISCONTINUITY` from the plan using the `CLR` command
+### 14. MCDU - Flight Plan Clearing
 
-### 14. MCDU - Radio Navigation (RAD NAV)
+1. Press the `CLR` button (make sure the `CLR` text was inserted into the scratchpad).
+2. Select the `F-PLN DISCONTINUITY` left button to remove the discontinuity point.
+3. Repeat the steps above until all `F-PLN DISCONTINUITY` messages are cleared.
 
-1. Open the `RAD NAV` page
-2. Set the `ILS/FREQ` with the `ILS FREQUENCY` (ex: `110.30`) (check annotations)
-3. Set the `CRS` (below `ILS/FREQ`) with the `ILS COURSE` (ex: `149`) (check annotations)
+### 15. MCDU - Radio Navigation 
 
-### 15. Review Map
+1. Press the `RAD NAV` button.
+2. Set the `ILS/FREQ` with the `ILS FREQUENCY` information (check annotations).
+3. Set the `CRS` (below `ILS/FREQ`) with the `ILS COURSE` information (check annotations).
 
-1. Open the map (_Equipament > Map_)
-2. Review the route and check everything is correct
+### 16. Route Review
 
-### 16. Setup Flight Control Unit (FCU)
+1. Open the simulator map at `_Equipament > Map_`.
+2. Review your flight plan route to ensure everything is correct and there are no anomalies.
 
-1. Set the `ALTITUDE` knob with the `MCDU` cruise altitude set and push it (check for a white dot next to the altitude on the `FCU`)
-2. Push the `SPEED` knob IN (enables managed speed according to MCDU profile)
-3. Push the `HEADING` knob IN (enables managed lateral navigation to follow the flight plan route)
+### 17. FCU
 
-### 17. Disable Boarding Services And Gear Chocks
+1. Set the `ALT` knob with the **MCDU** cruise altitude and PUSH it (verify that the white dot appears next to the altitude display).
+2. PUSH the `SPD` knob to engage Managed Speed mode.
+3. PUSH the `HDG` knob to engage Managed Lateral Navigation.
 
-1. Disable front and rear stairways (_Aircraft > Ground Services > Stairways_)
-2. Disable baggage ramp (_Aircraft > Ground Services > Baggage_)
-3. Lower and disable front and rear catering trucks (_Aircraft > Ground Services > Catering_)
-4. Disable gear chocks (_Aircraft > Ground Services > Landing Gear_)
+### 18. Disable Boarding Services And Gear Chocks
 
-### 18. Request Pushback
+1. Access the menu `Aircraft > Ground Services`.
+2. Deselect `Front Left` and `Rear Left` stairways.
+3. Deselect `Enable Baggage Ramp`.
+4. Deselect `Enable Catering Truck` and `Enable Rear Catering Truck`.
+5. Deselect `Enable Gear Chocks`.
 
-1. Setup pushback route (_Aircraft > Pushback > Route > Enter_)
-2. Mark `CONNECT` to connect the pushback truck
-3. Release `PARK BRK` (turn switch to `OFF`) (shortcut: `Shift + B`)
-4. Start auto-push (_Aircraft > Pushback > Autopush > Start_) and wait
-5. Unmark `CONNECT` to disconnect the pushback truck
-6. Set `PARK BRK` to `ON` (shortcut: `Shift + B`)
+### 19. Request Pushback
+
+1. Access the menu `Aircraft > Pushback`.
+2. Select `Connect`.
+3. Click the `Enter` button and setup a puckback route.
+4. In Main Panel, release the `PARK BRK` (shortcut: `Shift + B`).
+5. Click the `Start` button to start the pushback and wait the maneuver is completed.
+6. Deselect `Connect`.
+7. In Main Panel, turn on `PARK BRK` (shortcut: `Shift + B`).
 
 ### 19. Engines Start Procedure
 
@@ -290,6 +298,7 @@ This section contains a streamlined checklist designed to guide you through a co
 - `A/THR`: Automatic Throttle
 - `ADIRS`: Air Data Inertial Reference System
 - `AFT`: Rear
+- `ALT`: Altitude
 - `ALT CRZ`: Cruise Altitude
 - `AP1/AP2`: Autopilot 1 / Autopilot 2
 - `APU`: Auxiliary Power Unit
@@ -314,6 +323,7 @@ This section contains a streamlined checklist designed to guide you through a co
 - `FLT NBR`: Flight Number
 - `FMGC`: Flight Management and Guidance Computer
 - `FWD`: Front
+- `HDG`: Heading
 - `ICAO`: International Civil Aviation Organization
 - `IGN`: Ignition
 - `ILS`: Instrument Landing System
@@ -334,6 +344,7 @@ This section contains a streamlined checklist designed to guide you through a co
 - `RAD NAV`: Radio Navigation
 - `RWY TURN OFF`: Runway Turnoff Lights
 - `SPEED BRAKE`: Wing Spoilers
+- `SPD`: Speed
 - `STD`: Standard
 - `STROBE`: Strobe Wing Lights
 - `T.O`: Takeoff
