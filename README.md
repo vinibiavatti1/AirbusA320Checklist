@@ -52,7 +52,7 @@
 5. Select `IRS INIT` > `ALIGN ON REF` > `CONFIRM ALIGN` LSKs
 6. Set `FLT NBR` (ex: `AB1234`)
 7. Set `COST INDEX` to `50`
-8. Set `CRZ FL` to the cruizer altitude (ex: type `200` for 20.000 ft)
+8. Set `CRZ FL` to the cruizer altitude (`200` (20.000 ft) for national trips; `300` (30.000 ft) for international trips)
 
 ## 8. MCDU - Fuel Prediction (INIT > FUEL PREDICTION)
 
@@ -114,7 +114,7 @@
 
 ## 16. Setup Flight Control Unit (FCU)
 
-1. Set cruise altitude on the `ALTITUDE` knob (ex: 30.000 ft)
+1. Set the MCDU cruise altitude on the `ALTITUDE` knob
 2. Push the `ALTITUDE` knob IN (check for a white dot next to the altitude on the FCU)
 3. Push the `SPEED` knob IN (enables managed speed according to MCDU profile)
 4. Push the `HEADING` knob IN (enables managed lateral navigation to follow the flight plan route)
