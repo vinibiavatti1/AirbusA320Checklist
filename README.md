@@ -17,29 +17,28 @@ This section contains a streamlined checklist designed to guide you through a co
 
 ### 1. External Power
 
-1. Access the menu `Aircraft > Ground Services` and select `Enable External Power Box`.
-2. View the **Overhead**.
-3. Verify that the `EXT PWR` button displays the `AVAIL` light in green.
-4. Press the `EXT PWR` switch.
-5. Press the `BAT 1` and `BAT 2` switches.
+1. Access `Aircraft > Ground Services` menu and select `Enable External Power Box`.
+2. Verify that `EXT PWR` button displays the `AVAIL` light in green.
+3. Press `EXT PWR` switch.
+4. Press `BAT 1` and `BAT 2` switches.
 
 ### 2. Cockpit Lights
 
-1. Adjust the **Overhead** `INTEG LT` and `DOME` swithes as your preference.
-2. Adjust the **FCU** `INTEG LT` as your preference (knob located under the FCU panel).
-3. Adjust the **Main Panel** `INTEG LT` as your preference.
-4. Adjust the **Main Panel** `FLOOD LT` lights (pilot and co-pilot knobs) as your preference.
+1. Adjust **Overhead** `INTEG LT` and `DOME` swithes as your preference.
+2. Adjust **FCU** `INTEG LT` as your preference (knob located under the FCU panel).
+3. Adjust **Main Panel** `INTEG LT` as your preference.
+4. Adjust **Main Panel** `FLOOD LT` lights (pilot and co-pilot knobs) as your preference.
 
 ### 3. ADIRS
 
-1. Turn the `IR1`, `IR2` and `IR3` selectors to `NAV`.
+1. Turn `IR1`, `IR2` and `IR3` selectors to `NAV`.
 
 ### 4. APU
 
 1. Turn on `APU MASTER` switch.
 2. Turn on `APU START` switch and wait for `AVAIL` green light.
 3. Turn on `APU BLEED` switch.
-4. Turn on `PACK 1` and `PACK 2` (lights off).
+4. Turn on `PACK 1` and `PACK 2` switches (lights off).
 5. Set `PACK FLOW` to your preference.
 6. Adjust `COCKPIT`, `FWD CABIN`, and `AFT CABIN` selectors to your preference (12 o'clock = 24°C).
 7. Turn off `EXT PWR` switch (light changes back to `AVAIL` green).
@@ -62,7 +61,7 @@ This section contains a streamlined checklist designed to guide you through a co
 
 ### 7. MCDU Initialization
 
-1. View the **MCDU**.
+1. Access the **MCDU**.
 2. Press the `MCDU MENU` button.
 3. Select `FMGC` system and wait for response.
 3. Press the `INIT` button.
@@ -136,9 +135,9 @@ This section contains a streamlined checklist designed to guide you through a co
 
 ### 17. FCU
 
-1. Set the `ALT` knob with the **MCDU** cruise altitude and PUSH it (verify that the white dot appears next to the altitude display).
-2. PUSH the `SPD` knob to engage Managed Speed mode.
-3. PUSH the `HDG` knob to engage Managed Lateral Navigation.
+1. Set the `ALT` knob with the **MCDU** cruise altitude and **PUSH** it (verify that the white dot appears next to the altitude display).
+2. **PUSH** the `SPD` knob to engage Managed Speed mode.
+3. **PUSH** the `HDG` knob to engage Managed Lateral Navigation.
 
 ### 18. Disable Boarding Services And Gear Chocks
 
@@ -153,122 +152,122 @@ This section contains a streamlined checklist designed to guide you through a co
 1. Access the menu `Aircraft > Pushback`.
 2. Select `Connect`.
 3. Click the `Enter` button and setup a puckback route.
-4. In Main Panel, release the `PARK BRK` (shortcut: `Shift + B`).
+4. Release the `PARK BRK` (shortcut: `SHIFT + B`).
 5. Click the `Start` button to start the pushback and wait the maneuver is completed.
 6. Deselect `Connect`.
-7. In Main Panel, turn on `PARK BRK` (shortcut: `Shift + B`).
+7. Turn on `PARK BRK` (shortcut: `SHIFT + B`).
 
-### 19. Engines Start Procedure
+### 20. Engines Startup
 
-1. Turn on fuel pumps `R TK PUMPS` and `CTR TK` (lights OFF)
-2. Turn on `BEACON` to signalize that the engines are starting
-3. Turn `ENG MODE` selector to `IGN/START`
-4. Raise `ENG 2` master switch to `ON` and wait for engine stabilization (Engine 2 first to provide primary hydraulic pressure)
-5. Raise `ENG 1` master switch to `ON` and wait for engine stabilization
-6. Turn `ENG MODE` selector back to `NORM`
-7. Turn off `APU MASTER` switch
+1. Turn on fuel pumps `R TK PUMPS` and `CTR TK` (lights off).
+2. Turn on the `BEACON` light switch to signalize that the engines are starting.
+3. Set the `ENG MODE` selector to `IGN/START`.
+4. Turn on `ENG 2` master switch and wait for engine stabilization (engine 2 first to provide primary hydraulic pressure).
+5. Turn on `ENG 1` master switch and wait for engine stabilization.
+6. Set the `ENG MODE` selector back to `NORM` when both engines are stable.
+7. Turn off `APU MASTER` switch.
 
-### 20. Taxi
+### 21. Taxi
 
-1. Trigger `Cpt - Welcome` announcement (_Aircraft > Announcements_)
-2. Turn `NOSE` light switch to `TAXI`
-3. Set `AUTO BRK` to `MAX`
-4. Adjust `PITCH TRIM` wheel to match MCDU target (default: `UP 0.1`)
-5. Set `FLAPS` to takeoff position (default: `1`)
-6. Arm `SPEED BRAKE` (verify white band is visible)
-7. Press `TO CONFIG` button to test takeoff configuration
-8. Check `ECAM` center screen and confirm it displays `T.O CONFIG NORMAL` in green
-9. Release `PARK BRK` (turn switch to `OFF`)
-10. Smoothly advance thrust levers to approximately 20%-25% `N1` to begin taxiing
-11. Taxi the aircraft to the takeoff runway holding point (use `TAB + Hold Left Click` to control the nose wheel steering and `B` to break)
-12. Trigger `Cpt - Doors Check` announcement (_Aircraft > Announcements_)
+1. Access the menu `Aircraft > Announcements` and trigger `Cpt - Welcome`.
+2. Turn the `NOSE` light switch to `TAXI`.
+3. Set the `AUTO BRK` to `MAX`.
+4. Adjust the `PITCH TRIM` wheel to match MCDU target (default: `UP0.1`).
+5. Set the `FLAPS` to takeoff position (default: `1`).
+6. Arm the `SPEED BRAKE` (verify white band is visible).
+7. Press the `T.O CONFIG` button to test takeoff configuration.
+8. Check the `ECAM` and confirm it displays `T.O CONFIG NORMAL` in green.
+9. Release `PARK BRK` (shortcut: `SHIFT + B`).
+10. Smoothly advance thrust levers to taxi speed.
+11. Taxi the aircraft to the takeoff runway (use `TAB + HOLD LEFT MOUSE BUTTON` to control, and `B` to break).
+11. Access the menu `Aircraft > Announcements` and trigger `Cpt - Doors Check`.
 
-### 21. Before Takeoff
+### 22. Before Takeoff
 
-1. Set `PARK BRK` to `ON` (shortcut: `Shift + B`)
-2. Turn `RWY TURN OFF` light switches to `ON`
-3. Turn `NOSE` light switch to `T.O`
-4. Turn on `LAND` lights
-5. Set `TCAS` switch to `TA/RA`
-6. Press `ALL` button on the `CALLS` panel to advise cabin crew
-7. Trigger `Cpt - Prepare for Takeoff` announcement (_Aircraft > Announcements_)
+1. At the runway holding point, turn on `PARK BRK` (shortcut: `SHIFT + B`)
+2. Turn on the `RWY TURN OFF` light switch.
+3. Set the `NOSE` light switch to `T.O`.
+4. Turn on the `LAND` lights switches.
+5. Set the `TCAS` switch to `TA/RA`.
+6. Press the `ALL` button on the `CALLS` panel to advise cabin crew.
+7. Access the menu `Aircraft > Announcements` and trigger `Cpt - Prepare for Takeoff`.
 
-### 22. Line Up & Takeoff
+### 23. Takeoff
 
-1. Release `PARK BRK` (turn switch to `OFF`) (shortcut: `Shift + B`)
-2. Align the aircraft perfectly with the runway centerline
-3. Advance `THRUST LEVERS` smoothly to 50% `N1`, wait for engines to stabilize, then push to `TOGA` (shortcut: `F`)
-4. Maintain runway centerline using rudder pedals (`TAB + HOLD LEFT CLICK`)
-5. At `VR` speed (around 135 knots), gently pull the joystick back to rotate the aircraft nose up to 15 degrees
+1. Release the `PARK BRK` (shortcut: `Shift + B`).
+2. Align the aircraft perfectly with the runway centerline.
+3. Advance `THRUST LEVERS` smoothly to **50%**, wait for engines to stabilize, then push to `TOGA` (shortcut: `F`).
+4. Maintain runway centerline using rudder pedals (`TAB + HOLD LEFT MOUSE BUTTON`)
+5. At `VR` speed (around **135 knots**), gently pull the joystick back to rotate the aircraft.
 
-### 23. Climb (After Takeoff-Off)
+### 24. Climb
 
-1. Set the `LANDING GEARS` lever to `UP`
-2. Move `FLAPS` lever to `0`
-3. Climb manually and stabilize the airplane
-4. When `LVR CLB` is displyed on `PFD`, move `THRUST LEVERS` to `CL` (shortcut: `SHIFT + F`)
-5. Turn on `AP1` to let the FMGC fly the programmed route
-6. Verify `A/THR` is active
-7. Push the `SPEED BRAKE` lever down
-8. Turn off `RWY TURN OFF`, `LAND` and `NOSE` lights
-9. Press the `BARO` knob on the `FCU` to set `STD`
+1. Set the `LANDING GEARS` lever to `UP`.
+2. Set the `FLAPS` to `0`.
+3. Climb the airplane manually until `LVR CLB` is displayed on `PFD`.
+4. Stabilize the airplane, then move `THRUST LEVERS` to `CL` (shortcut: `SHIFT + F`).
+5. Turn on `AP1` to let the **FMGC** fly the programmed route automatically.
+6. Verify `A/THR` is active.
+7. Desarm the `SPEED BRAKE`.
+8. Turn off the `RWY TURN OFF`, `LAND` and `NOSE` light switches.
+9. Press the `BARO` knob on the `FCU` to set `STD`.
 
-### 24. Cruise
+### 25. Cruise
 
-1. When `ALT CRZ` is displayed on the `PFD` turn off `SEAT BELTS` sign (if the flight is smooth and free of turbulence)
-
-### 25. Descent Preparation (**40NM** Before Alignment Waypoint)
-
-1. Pull the `ALTITUDE` on the `FCU` knob (`SHIFT + LEFT CLICK`) until alignment altitude (**10.000 ft**)
-2. Press the `BARO` knob on the FCU to switch from `STD` to the local QNH
-3. Turn on `LAND` and `RWY TURN OFF` lights
-4. Turn `NOSE` light switch to `TAXI`
-5. Set the `AUTO BRK` (Autobrake) to `LOW` or `MED` (depending on runway length)
-6. Arm `SPEED BRAKE` (verify white band is visible)
+1. When `ALT CRZ` is displayed on the `PFD`, turn off the `SEAT BELTS` sign (if the flight is smooth and free of turbulence).
+2. Enjoy your flight!
+3. At **40 NM** before the **Alignment Waypoint**, set the `ALT` knob on the  **FCU** to **10.000 ft**, and **PULL** it (`SHIFT + LEFT CLICK`).
 
 ### 26. Alignment Waypoint
 
-1. Check that the waypoint was reached at **10.000 ft** altitude
+1. Ensure that the **Alignment Waypoint** was reached at **10.000 ft** altitude.
+3. Press the `BARO` knob on the **EFIS** to switch from `STD` to the local QNH.
+4. Turn on the `LAND` and `RWY TURN OFF` light switches.
+5. Set the `NOSE` light switch to `TAXI`.
+6. Set the `AUTO BRK` to `LOW` or `MED` (depending on runway length).
+7. Arm the `SPEED BRAKE` (verify white band is visible).
 
-### 27. Approaching (**40NM** Before Landing Runway)
+### 27. Approaching
 
-1. Turn on `SEAT BELTS` sign
-2. Trigger `Cpt - Prepare for Landing` announcement (_Aircraft > Announcements_)
-3. Turn on the `ILS` audio reception on `RMP` to monitor the `ILS` code transmission
-4. Press the `LS` button on the `EFIS` panel to display the ILS localizer and glideslope scales on your `PFD`
-5. Pull the `ALTITUDE` on the `FCU` knob (`SHIFT + LEFT CLICK`) until approaching altitude (around **3000 ft** relative to the destination airpoirt)
-6. Raise `FLAPS` from `1` to `FULL` waiting speed stabilization on each step
-7. Lower the `LANDING GEARS` lever to `DOWN`
-8. When **horizontal and vertical** purple `LS` diamonds are displayed on `PFD`, press the `APPR` (Approach) button on the `FCU`
-9. Wait when the glide slope `G/S` turns green in `PFD`
+1. Turn on the `SEAT BELTS` sign.
+2. Access the menu `Aircraft > Announcements` and trigger `Cpt - Prepare for Landing`.
+3. Turn on the `ILS` audio reception on the **RMP** to monitor the `ILS` code transmission (morse code).
+4. Activate the `LS` button in the **EFIS** panel to display the `ILS` localizer and glideslope scales in `PFD`.
+5. Set the approaching altitude (around **3000 ft** relative to the destination airpoirt) in `ALT` knob and **PULL** it.
+6. While descending, set `FLAPS` from `1` to `FULL` waiting speed stabilization on each step.
+7. Lower the `LANDING GEARS` lever to `DOWN`.
+8. When both (horizontal and vertical) purple `LS` diamonds are displayed on the `PFD`, press the `APPR` button on the `FCU`.
+9. Wait and ensure  the glide slope `G/S` gets captured (turns green in `PFD`).
 
-### 28. Landing & Touchdown
+### 28. Landing
 
-1. When **100 ft**, set `THRUST LEVERS` to `IDLE`
-2. Disable `AP1` (shortcut: `SHIFT + D`) and start controlling the airplane manually (shortcut: `TAB`)
-3. Smoothly pull back the joystick to execute the flare
-4. Upon touchdown, apply `MAX REVERSE` thrust (press `DELETE`) and use manual breaking if needed (shortcut: `B`)
-5. When landing done, cancel reverse thrust (click `DELETE` again)
-6. Transition smoothly to the exit of the runway (use `TAB + HOLD LEFT CLICK` to control the nose wheel steering, and `B` for breaks)
-7. Drive airplane to the airport gate
+1. When altitude reaches **100 ft**, set the `THRUST LEVERS` to `IDLE` (shortcut: `E`).
+2. Disable the `AP1` (press `SHIFT + D`) and start controlling the airplane manually (shortcut: `TAB`).
+3. Smoothly pull back the joystick to execute the flare.
+4. Upon touchdown, apply `MAX REVERSE` thrust (press `DELETE`) and use `B` for manual breaking if needed.
+5. When landing done, cancel reverse thrust (press `DELETE` again).
+6. Transition smoothly to the exit of the runway (use `TAB + HOLD LEFT MOUSE BUTTON` to control, and `B` to break).
+7. Drive the airplane to the airport gate.
 
 ### 29. Taxi To Gate
 
-1. During taxi, Retract `FLAPS` to `0`
-2. Push the `SPEED BRAKE` lever down
-3. Turn on `APU MASTER` switch
-4. Press `APU START` switch (Blue `ON` light appears) and wait for `AVAIL` green light
+1. During the taxi, set the `FLAPS` to `0`.
+2. Desarm the `SPEED BRAKE`.
+3. Turn on `APU MASTER` switch.
+4. Turn on `APU START` switch and wait for `AVAIL` green light.
 
 ### 29. Parking At the Gate
 
-1. When stopping at the gate, set `PARK BRK` to `ON` (shortcut: `Shift + B`)
-2. Set `THRUST LEVERS` to `IDLE`
-3. Turn off `RWY TURN OFF`, `LAND` and `NOSE` lights
-4. Set `TCAS` (Transponder) to `STBY`
-5. Turn on `APU BLEED` switch when the `AVAIL` green light is displayed on `APU START` switch
-6. Move `ENG 1` and `ENG 2` master switches to `OFF`
-7. Turn off `BEACON` light
-8. Turn off `SEATBELTS` sign
+1. When reached the gate, set `PARK BRK` to `ON` (shortcut: `Shift + B`).
+2. Set `THRUST LEVERS` to `IDLE` (shortcut: `E`).
+3. Turn off `RWY TURN OFF`, `LAND` and `NOSE` light switches.
+4. Set `TCAS` to `STBY`.
+5. Check `APU START` switch displays `AVAIL` green light, then turn on `APU BLEED` switch.
+6. Move `ENG 1` and `ENG 2` master switches to `OFF`.
+7. Turn off `BEACON` light swtich.
+8. Turn off `SEATBELTS` sign swtich.
+
+--------------------------------------------------
 
 ### 30. Enable Boarding Services and Gear Chocks
 
@@ -314,6 +313,7 @@ This section contains a streamlined checklist designed to guide you through a co
 - `CTR TK`: Center Tank Pumps
 - `DIST`: Distance
 - `ECAM`: Electronic Centralized Aircraft Monitor
+- `EFIS`: Electronic Flight Instrument System
 - `ENG`: Engine
 - `EXT PWR`: External Power
 - `F-PLN`: Flight Plan
@@ -334,6 +334,7 @@ This section contains a streamlined checklist designed to guide you through a co
 - `MCDU`: Multifunction Control and Display Unit
 - `N1`: Rotational Speed (Low-Pressure turbine)
 - `NAV`: Navigation
+- `NM`: Nautical Miles
 - `NORM`: Normal
 - `OVHD`: Overhead
 - `PACK`: Pressurization Air Conditioning Kit
@@ -342,6 +343,7 @@ This section contains a streamlined checklist designed to guide you through a co
 - `PFD`: Primary Flight Display
 - `R TK PUMPS`: Right Tank Pumps
 - `RAD NAV`: Radio Navigation
+- `RMP`: Radio Management Panel
 - `RWY TURN OFF`: Runway Turnoff Lights
 - `SPEED BRAKE`: Wing Spoilers
 - `SPD`: Speed
