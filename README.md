@@ -1,77 +1,21 @@
 # Flight Gear - Airbus A320-family - Simple Guide
 
-This is a simple guide for...
-Note: **Do not** use it for real aviation!
+This is a simple guide designed to help you set up and get started with the Airbus A320-family in FlightGear. Whether you want to understand cockpit layouts, practice standard procedures, or just enjoy the mechanics of flying this advanced airliner, this reference will walk you through the essential steps.
 
-## Glossary
+> ⚠️ **Note:** **Do not** use this guide, its contents, or the simulator for real-world aviation, flight training, or real aircraft operations! This is strictly for entertainment and desktop flight simulation purposes.
 
-- `A/THR`: Automatic Throttle
-- `ADIRS`: Air Data Inertial Reference System
-- `AFT`: Rear
-- `ALT CRZ`: Cruise Altitude
-- `AP1/AP2`: Autopilot 1 / Autopilot 2
-- `APU`: Auxiliary Power Unit
-- `APU BLEED`: Pneumatic Air
-- `AUTO BRK`: Automated Hydraulic Braking System
-- `AVAIL`: Available
-- `BARO`: Barometric Altitude
-- `BAT`: Battery
-- `BEACON`: Red Beacon Lights (Anti-Collision and Engines Running Indicator)
-- `CL`: Climb
-- `CRS`: Course
-- `CRZ FL`: Cruise Flight Level
-- `CTR TK`: Center Tank Pumps
-- `DIST`: Distance
-- `ECAM`: Electronic Centralized Aircraft Monitor
-- `ENG`: Engine
-- `EXT PWR`: External Power
-- `F-PLN`: Flight Plan
-- `FCU`: Flight Control Unit
-- `FLAPS`: Wing Trailing Edge Panels (Used for lift at low speeds)
-- `FLOOD LT`: Flood Lights
-- `FLT NBR`: Flight Number
-- `FMGC`: Flight Management and Guidance Computer
-- `FWD`: Front
-- `ICAO`: International Civil Aviation Organization
-- `IGN`: Ignition
-- `ILS`: Instrument Landing System
-- `INTEG LT`: Integral Lights
-- `IR`: Inertial Reference
-- `LVR CLB`: Lever Climb
-- `MCDU`: Multifunction Control and Display Unit
-- `N1`: Rotational Speed (Low-Pressure turbine)
-- `NAV`: Navigation
-- `NORM`: Normal
-- `OVHD`: Overhead
-- `PACK`: Pressurization Air Conditioning Kit
-- `PARK BRK`: Park Brake
-- `PERF`: Performance
-- `PFD`: Primary Flight Display
-- `R TK PUMPS`: Right Tank Pumps
-- `RAD NAV`: Radio Navigation
-- `RWY TURN OFF`: Runway Turnoff Lights
-- `SPEED BRAKE`: Wing Spoilers
-- `STD`: Standard
-- `STROBE`: Strobe Wing Lights
-- `T.O`: Takeoff
-- `TA/RA`: Traffic Advisory / Resolution Advisory
-- `TCAS`: Traffic Alert and Collision Avoidance System (Transponder)
-- `THS`: Trimmable Horizontal Stabilizer
-- `TMPY`: Temporary
-- `TOGA`: Takeoff/Go-Around
-- `V1/VR/V2`: Decision Speed / Rotation Speed / Takeoff Safety Speed
-- `WING`: Wing Lights (Illuminate the wing leading edge for ice inspection)
-- `ZFW/ZFWCG`: Zero Fuel Weight / Zero Fuel Weight Center of Gravity
+## Pre-Requisites
 
-## Setup
+Before diving into the cockpit procedures, ensure you have the following components installed and ready:
 
-1. A
-2. B
-3. C
+1. **FlightGear Flight Simulator:** Download and install the simulator from the official website: [FlightGear Official Website](https://www.flightgear.org).
+2. **Airbus A320-family Aircraft Pack:** Install the A320-family aircraft from the game catalog. 
 
 ## Simple Guide (Checklist)
 
-### 1. External Power
+This section contains a streamlined checklist designed to guide you through a complete flight, from cold and dark to shutdown. It is meant to be used as a practical, step-by-step reference that you can easily follow along with during a single flight or across multiple flight sessions.
+
+### 1. Enable External Power
 
 1. Enable external power (_Aircraft > Ground Services > Enable External Power Box_)
 2. Check `EXT PWR` light is `AVAIL` (Green)
@@ -101,22 +45,23 @@ Note: **Do not** use it for real aviation!
 7. Press `EXT PWR` switch to turn it OFF (light changes back to `AVAIL` green)
 8. Disable External Power (_Aircraft > Ground Services > External Power Box_)
 
-### 5. Setup Airplane Lights
+### 5. Setup External Lights
 
 1. Turn `STROBE` light switch to `AUTO`
 2. Turn on `WING` light
 3. Set `NAV & LOGO` light to `2`
-4. Turn `SEATBELTS` and `NOSMOKING` signs to `ON`
 
 ### 6. Enable Boarding Services
 
-1. Enable front and rear stairways (_Aircraft > Ground Services > Stairways_)
-2. Enable baggage ramp (_Aircraft > Ground Services > Baggage_)
-3. Enable and raise front and rear catering trucks (_Aircraft > Ground Services > Catering_)
+1. Turn `SEATBELTS` and `NOSMOKING` signs to `ON`
+2. Enable front and rear stairways (_Aircraft > Ground Services > Stairways_)
+3. Enable baggage ramp (_Aircraft > Ground Services > Baggage_)
+4. Enable front and rear catering trucks (_Aircraft > Ground Services > Catering_)
+5. Toggle catering trucks to raise them (_Aircraft > Ground Services > Catering > Toggle_)
 
-### 7. MCDU - Initialization (INIT)
+### 7. MCDU - Initialization
 
-1. Access the `MCDU MENU`
+1. On `MCDU`, access the `MCDU MENU` page
 2. Select `FMGC` system and wait for response
 3. Access the `INIT` page
 4. Set the departure/arrival airports using the format `{ICAO}/{ICAO}` (ex: `SBGR/SBGL`)
@@ -125,7 +70,7 @@ Note: **Do not** use it for real aviation!
 7. Set `COST INDEX` to `50`
 8. Set `CRZ FL` to the cruizer altitude (`200` (20.000 ft) for small trips; `300` (30.000 ft) for medium trips; `400` (40.000 ft) for long trips)
 
-### 8. MCDU - Fuel Prediction (INIT > FUEL PREDICTION)
+### 8. MCDU - Fuel Prediction
 
 1. Access the `INIT 2` page
 2. Click `ZFW/ZFWCG` LSK to calculate the zero fuel weight automatically
@@ -339,3 +284,64 @@ Note: **Do not** use it for real aviation!
 3. Add fuel (Avg: 13.000 Lbs)
 4. Disable fuel truck (_Aircraft > Ground Services > Fuel_)
 5. Jump to: **7. MCDU - Initialization (INIT)** section.
+
+## Glossary
+
+- `A/THR`: Automatic Throttle
+- `ADIRS`: Air Data Inertial Reference System
+- `AFT`: Rear
+- `ALT CRZ`: Cruise Altitude
+- `AP1/AP2`: Autopilot 1 / Autopilot 2
+- `APU`: Auxiliary Power Unit
+- `APU BLEED`: Pneumatic Air
+- `AUTO BRK`: Automated Hydraulic Braking System
+- `AVAIL`: Available
+- `BARO`: Barometric Altitude
+- `BAT`: Battery
+- `BEACON`: Red Beacon Lights (Anti-Collision and Engines Running Indicator)
+- `CL`: Climb
+- `CRS`: Course
+- `CRZ FL`: Cruise Flight Level
+- `CTR TK`: Center Tank Pumps
+- `DIST`: Distance
+- `ECAM`: Electronic Centralized Aircraft Monitor
+- `ENG`: Engine
+- `EXT PWR`: External Power
+- `F-PLN`: Flight Plan
+- `FCU`: Flight Control Unit
+- `FLAPS`: Wing Trailing Edge Panels (Used for lift at low speeds)
+- `FLOOD LT`: Flood Lights
+- `FLT NBR`: Flight Number
+- `FMGC`: Flight Management and Guidance Computer
+- `FWD`: Front
+- `ICAO`: International Civil Aviation Organization
+- `IGN`: Ignition
+- `ILS`: Instrument Landing System
+- `INTEG LT`: Integral Lights
+- `IR`: Inertial Reference
+- `LSK`: Line Select Key
+- `LVR CLB`: Lever Climb
+- `MCDU`: Multifunction Control and Display Unit
+- `N1`: Rotational Speed (Low-Pressure turbine)
+- `NAV`: Navigation
+- `NORM`: Normal
+- `OVHD`: Overhead
+- `PACK`: Pressurization Air Conditioning Kit
+- `PARK BRK`: Park Brake
+- `PERF`: Performance
+- `PFD`: Primary Flight Display
+- `R TK PUMPS`: Right Tank Pumps
+- `RAD NAV`: Radio Navigation
+- `RWY TURN OFF`: Runway Turnoff Lights
+- `SPEED BRAKE`: Wing Spoilers
+- `STD`: Standard
+- `STROBE`: Strobe Wing Lights
+- `T.O`: Takeoff
+- `TA/RA`: Traffic Advisory / Resolution Advisory
+- `TCAS`: Traffic Alert and Collision Avoidance System (Transponder)
+- `THS`: Trimmable Horizontal Stabilizer
+- `TMPY`: Temporary
+- `TOGA`: Takeoff/Go-Around
+- `V1/VR/V2`: Decision Speed / Rotation Speed / Takeoff Safety Speed
+- `WING`: Wing Lights (Illuminate the wing leading edge for ice inspection)
+- `ZFW/ZFWCG`: Zero Fuel Weight / Zero Fuel Weight Center of Gravity
