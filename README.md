@@ -235,7 +235,7 @@ This section contains a streamlined checklist designed to guide you through a co
 
 ### 27. Approaching
 
-1. Access **MCDU** and press `PERF` button, then press `ACTIVATE APPR PHASE`.
+1. Access **MCDU** and press `PERF` button, then press `ACTIVATE APPR PHASE` and **confirm**.
 2. Turn on `ILS` audio reception on the **RMP** to monitor the `ILS` code transmission (morse code).
 3. Activate `LS` button in the **EFIS** panel to display the `ILS` localizer and glideslope scales in **PFD**.
 4. Set the approaching altitude (around **3000 ft** relative to the destination airpoirt) in **FCU** `ALT` knob and **PULL** it.
