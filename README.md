@@ -88,11 +88,15 @@ This section contains a streamlined checklist designed to guide you through a co
 ### 10. Runway & ILS Research
 
 1. Access _Equipament > Map_.
-2. Use the template: `DEP: ___ ARR: ___ CRS: ___ FRQ: ___.__ INV: ___` to annotate the information from the next steps.
-3. Navigate to departure airport and annotate the departure `RUNWAY CODE`.
-4. Navigate to destination airport and annotate the arrival `RUNWAY CODE`, `ILS COURSE` and `ILS FREQUENCY`.
-5. Calculate `INVERSE COURSE` and annotate it with the following formula: if course <= 180, do `{COURSE} + 180`. If course > 180, do `{COURSE} - 180`.
-6. Check if everything was annotated (ex: `DEP: 27L ARR: 15 CRS: 149 FRQ: 110.30 INV: 329`).
+2. Make sure the `Data` checkbox is enabled in `Display:` menu.
+3. Use the template: `DEP: ___ ARR: ___ INV: ___ CRS: ___ FRQ: ___.__` to annotate the information from the next steps.
+4. Navigate to departure airport and annotate the departure `RUNWAY CODE`. 
+5. Navigate to destination airport and annotate the arrival `RUNWAY CODE`, `INVERSE COURSE`, `ILS COURSE` and `ILS FREQUENCY` (check notes below).
+6. Ensure everything was annotated (ex: `DEP: 015 ARR: 27R INV: 096 CRS: 149 FRQ: 110.30`).
+
+> The `RUNWAY CODE` and `INVERSE COURSE` information can be retrieved from the airport runway information box. For example, for `SBGR`, the information is displayed as: `09L/27R | 096/276`. The `RUNWAY CODE` is located on the first line (ex: `09L`). The `INVERSE COURSE` is located on the second line (the opposite number of the selected runway) (ex: `276`).
+
+> The `ILS COURSE` and `ILS FREQUENCY` can be retrieved in the information box located at the edge of the selected runway. For example, for `SBGR 27R`, the information is displayed as: `IGS | SBGR 27R ILS-cat | 276 - 111.90MHz`. The `276` represents the `ILS COURSE`, and the `111.90` represents the  `ILS FREQUENCY`.
 
 ### 11. MCDU - Flight Plan Departure
 
