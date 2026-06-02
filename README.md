@@ -234,15 +234,16 @@ This section contains a streamlined checklist designed to guide you through a co
 
 ### 27. Approaching
 
-1. Turn on `SEATBELTS` sign.
-2. Access _Aircraft > Announcements_ and trigger `Cpt - Prepare for Landing`.
-3. Turn on `ILS` audio reception on the **RMP** to monitor the `ILS` code transmission (morse code).
-4. Activate `LS` button in the **EFIS** panel to display the `ILS` localizer and glideslope scales in **PFD**.
-5. Set the approaching altitude (around **3000 ft** relative to the destination airpoirt) in **FCU** `ALT` knob and **PULL** it.
-6. While descending, set `FLAPS` from `1` to `FULL` waiting speed stabilization on each step.
-7. Lower the `LANDING GEARS` lever to `DOWN`.
-8. When both (horizontal and vertical) purple diamonds are displayed on the **PFD**, press the `APPR` button on **FCU**.
-9. Wait and ensure that the glide slope `G/S` gets captured (turns green in **PFD**).
+1. Access **MCDU** and press `PERF` button, then press `ACTIVATE APPR PHASE`.
+2. Turn on `ILS` audio reception on the **RMP** to monitor the `ILS` code transmission (morse code).
+3. Activate `LS` button in the **EFIS** panel to display the `ILS` localizer and glideslope scales in **PFD**.
+4. Set the approaching altitude (around **3000 ft** relative to the destination airpoirt) in **FCU** `ALT` knob and **PULL** it.
+5. Turn on `SEATBELTS` sign.
+6. Access _Aircraft > Announcements_ and trigger `Cpt - Prepare for Landing`.
+7. While descending, set `FLAPS` from `1` to `FULL` waiting speed stabilization on each step.
+8. Lower the `LANDING GEARS` lever to `DOWN`.
+9. When both (horizontal and vertical) purple diamonds are displayed on the **PFD**, press the `APPR` button on **FCU**.
+10. Wait and ensure that the glide slope `G/S` gets captured (turns green in **PFD**).
 
 ### 28. Landing
 
