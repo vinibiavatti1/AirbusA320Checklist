@@ -231,6 +231,7 @@ This section contains a streamlined checklist designed to guide you through a co
 4. Set `NOSE` light switch to `TAXI`.
 5. Set `AUTO BRK` to `LOW` or `MED` (depending on runway length).
 6. Arm `SPEED BRAKE` (verify white band is visible).
+7. Start the **Approaching** section.
 
 ### 27. Approaching
 
