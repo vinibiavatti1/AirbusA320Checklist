@@ -139,7 +139,7 @@ This section contains a streamlined checklist designed to guide you through a co
 
 ### 17. FCU
 
-1. Set `ALT` knob with the **MCDU** cruise altitude and **PUSH** it (verify that the white dot appears next to the altitude display).
+1. Set `ALT` knob with the **MCDU** cruise altitude and **PUSH** it.
 2. **PUSH** the `SPD` knob to engage Managed Speed mode.
 3. **PUSH** the `HDG` knob to engage Managed Lateral Navigation.
 
