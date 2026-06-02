@@ -237,7 +237,7 @@ This section contains a streamlined checklist designed to guide you through a co
 
 1. Access **MCDU** and press `PERF` button, then press `ACTIVATE APPR PHASE` and **confirm**.
 2. Turn on `ILS` audio reception on the **RMP** to monitor the `ILS` code transmission (morse code).
-3. Activate `LS` button in the **EFIS** panel to display the `ILS` localizer and glideslope scales in **PFD**.
+3. Turn on `LS` switch in the **EFIS** panel to display the `ILS` localizer and glideslope scales in **PFD**.
 4. Set the approaching altitude (around **3000 ft** relative to the destination airpoirt) in **FCU** `ALT` knob and **PULL** it.
 5. Turn on `SEATBELTS` sign.
 6. Access _Aircraft > Announcements_ and trigger `Cpt - Prepare for Landing`.
@@ -258,10 +258,12 @@ This section contains a streamlined checklist designed to guide you through a co
 
 ### 29. Taxi To Gate
 
-1. During the taxi, set `FLAPS` to `0`.
-2. Desarm `SPEED BRAKE`.
-3. Turn on `APU MASTER` switch.
-4. Turn on `APU START` switch.
+1. Turn on `APU MASTER` switch.
+2. Turn on `APU START` switch.
+3. Turn off `LS` switch in the **EFIS**.
+4. During the taxi, set `FLAPS` to `0`.
+5. Desarm `SPEED BRAKE`.
+6. Turn off `ILS` audio reception on the **RMP**.
 
 ### 30. Parking
 
