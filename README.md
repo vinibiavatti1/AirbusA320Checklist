@@ -221,7 +221,7 @@ This section contains a streamlined checklist designed to guide you through a co
 
 1. When `ALT CRZ` is displayed on the **PFD**, turn off the `SEATBELTS` sign (if the flight is smooth and free of turbulence).
 2. Enjoy your flight!
-3. At **40 NM** before the **Alignment Waypoint**, set the `ALT` knob on the **FCU** to **10.000 ft**, and **PULL** it (`SHIFT + LEFT CLICK`).
+3. At **50 NM** before the **Alignment Waypoint**, set the `ALT` knob on the **FCU** to **10.000 ft**, and **PULL** it (`SHIFT + LEFT CLICK`).
 
 ### 26. Alignment Waypoint
 
