@@ -41,8 +41,9 @@ This section contains a streamlined checklist designed to guide you through a co
 4. Turn on `PACK 1` and `PACK 2` switches (lights off).
 5. Set `PACK FLOW` selector to your preference.
 6. Adjust `COCKPIT`, `FWD CABIN`, and `AFT CABIN` selectors to your preference (**12 o'clock = 24°C**).
-7. Turn off `EXT PWR` switch (light changes back to `AVAIL` green).
-8. Access _Aircraft > Ground Services_ and deselect `Enable External Power Box`.
+7. Turn on `CREW SUPPLY` switch (light off).
+8. Turn off `EXT PWR` switch (light changes back to `AVAIL` green).
+9. Access _Aircraft > Ground Services_ and deselect `Enable External Power Box`.
 
 ### 5. Lights and Signs
 
