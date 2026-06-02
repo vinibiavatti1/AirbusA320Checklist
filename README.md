@@ -1,6 +1,6 @@
 # Flight Gear - Airbus A320-family - Simple Guide
 
-This is a simple guide designed to help you set up and get started with the Airbus A320-family in FlightGear. Whether you want to understand cockpit layouts, practice standard procedures, or just enjoy the mechanics of flying this advanced airliner, this reference will walk you through the essential steps.
+This is a simple guide designed to help you set up and get started with the Airbus A320-family in FlightGear. Whether you want to understand cockpit layouts, practice standard procedures, or just enjoy the mechanics of flying this advanced airliner, this reference will walk you through the essential steps. The guide focuses entirely on IFR (Instrument Flight Rules) operations, specifically walking you through automated navigation management and precision ILS landings, ensuring you learn how to fully utilize the aircraft's advanced instrumental resources from takeoff to touchdown.
 
 > ⚠️ **Note:** **Do not** use this guide for real-world aviation, flight training, or real aircraft operations! This is strictly for entertainment and desktop flight simulation purposes.
 
