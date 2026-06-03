@@ -173,7 +173,7 @@ ILS Frequency....: ___.__
 
 ### 19. Engines Startup
 
-1. Turn on fuel pumps `R TK PUMPS` and `CTR TK` (lights off).
+1. In **Overhead**, turn on fuel pumps `R TK PUMPS` and `CTR TK` (lights off).
 2. Turn on `BEACON` light switch to signalize that the engines are starting.
 3. Set `ENG MODE` selector to `IGN/START`.
 4. Turn on `ENG MASTER 2` switch and wait for engine stabilization (**engine 2 first** to provide primary hydraulic pressure).
