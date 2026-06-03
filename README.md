@@ -27,9 +27,9 @@ ILS Frequency....: ___.__
 2. Annotate the `From` and `To` airport **ICAOs** (International Civil Aviation Organization) codes (ex: `SBGR/SBGL`).
 3. Access _Equipament > Map_.
 4. In the `Display:` menu, make sure the `Data` checkbox is enabled.
-5. Navigate to **departure airport** and annotate the departure `Departure Runway`. 
-6. Navigate to **destination airport** and annotate the arrival `Arrival Runway Code` and `Inverse Code`.
-7. Navigate to the beggining of the arrival runway **ILS Feather** and annotate the `ILS Course` and `ILS Frequency`.
+5. Navigate to **departure airport** and annotate the departure `Departure Runway` (check notes below). 
+6. Navigate to **destination airport** and annotate the arrival `Arrival Runway Code` and `Inverse Course` (check notes below).
+7. Navigate to the beggining of the arrival runway **ILS Feather** and annotate the `ILS Course` and `ILS Frequency` (check notes below).
 8. Ensure the template was full filled and proceed to the **Flight Guide**.
 
 > The `Departure Runway` and `Arrival Runway` are displayed in a information box over the airport runway (ex: `09L/27R`). Select the left or the right runway as your preference (ex: `09L`).
