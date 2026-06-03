@@ -1,6 +1,6 @@
 # Flight Gear - Airbus A320-family - Simple Guide
 
-This is a simple guide designed to help you set up and get started with the Airbus A320-family in FlightGear. Whether you want to understand cockpit layouts, practice standard procedures, or just enjoy the mechanics of flying this advanced airliner, this reference will walk you through the essential steps. The guide focuses entirely on **IFR (Instrument Flight Rules)** operations, specifically walking you through automated navigation management and precision **ILS (Instrument Landing System)** landings, ensuring you learn how to fully utilize the aircraft's advanced instrumental resources from takeoff to touchdown.
+This is a simple guide designed to help you set up and get started with the Airbus A320-family in FlightGear. Whether you want to understand cockpit layouts, practice standard procedures, or just enjoy the mechanics of flying this advanced airliner, this reference will walk you through the essential steps. The guide is highly versatile, catering to both **IFR (Instrument Flight Rules)** and **VFR (Visual Flight Rules)** operations. It walks you through automated navigation management, precision **ILS (Instrument Landing System)** landings, and manual, **FCU-controlled** visual approaches without **ILS** guidance, ensuring you learn how to fully utilize the aircraft's advanced systems from takeoff to touchdown.
 
 > ⚠️ **Note:** **Do not** use this guide for real-world aviation, flight training, or real aircraft operations! This is strictly for entertainment and desktop flight simulation purposes.
 
@@ -29,14 +29,14 @@ ILS Frequency....: ___.__
 4. In the `Display:` menu, make sure the `Data` checkbox is enabled.
 5. Navigate to **departure airport** and annotate the departure `Departure Runway` (check notes below). 
 6. Navigate to **destination airport** and annotate the arrival `Arrival Runway Code` and `Inverse Course` (check notes below).
-7. Navigate to the beggining of the arrival runway **ILS Feather** and annotate the `ILS Course` and `ILS Frequency` (check notes below).
+7. **[ILS ONLY]** Navigate to the beggining of the arrival runway **ILS Feather** and annotate the `ILS Course` and `ILS Frequency` (check notes below).
 8. Ensure the template was full filled and proceed to the **Flight Guide**.
 
 > The `Departure Runway` and `Arrival Runway` are displayed in a information box over the airport runway (ex: `09L/27R`). Select the left or the right runway as your preference (ex: `09L`).
 
 > The `Inverse Course` is displayed in a information box over the airport runway, under the runway information (ex: `096/276`). Get the opposite number of the selected runway (ex: `276`).
 
-> The `ILS Course` and `ILS Frequency` are displayed at the beggining of the "ILS feather", in a information box (ex: `276 - 111.90MHz`). For this example, the course is `276` and the frequency is `111.90` .
+> The `ILS Course` and `ILS Frequency` are displayed at the beggining of the "ILS feather", in a information box (ex: `276 - 111.90MHz`). For this example, the course is `276` and the frequency is `111.90`. These information wont be available in case the landing runway has no **ILS** support.
 
 ## Flight Guide
 
@@ -134,11 +134,12 @@ ILS Frequency....: ___.__
 2. Select `F-PLN DISCONTINUITY` left button to remove the discontinuity point.
 3. Repeat the steps above until all `F-PLN DISCONTINUITY` messages are cleared.
 
-### 14. MCDU - Radio Navigation 
+### 14. **[ILS ONLY]** MCDU - Radio Navigation 
 
-1. Press `RAD NAV` button.
-2. Set `ILS/FREQ` with the `ILS Frequency` information (check annotations).
-3. Set `CRS` (below `ILS/FREQ`) with the `ILS Course` information (check annotations).
+1. If the landing runway has **ILS**, follow the instructions below:
+2. Press `RAD NAV` button.
+3. Set `ILS/FREQ` with the `ILS Frequency` information (check annotations).
+4. Set `CRS` (below `ILS/FREQ`) with the `ILS Course` information (check annotations).
 
 ### 15. MCDU - Take Off Performance
 
@@ -254,15 +255,17 @@ ILS Frequency....: ___.__
 ### 27. Approaching
 
 1. Access **MCDU** and press `PERF` button, then press `ACTIVATE APPR PHASE` and **confirm**.
-2. Turn on `ILS` audio reception on the **RMP** to monitor the `ILS` code transmission (morse code).
-3. Turn on `LS` switch in the **EFIS** panel to display the `ILS` localizer and glideslope scales in **PFD**.
+2. **[ILS ONLY]** Turn on `ILS` audio reception on the **RMP** to monitor the **ILS** code transmission (morse code).
+3. **[ILS ONLY]** Turn on `LS` switch in the **EFIS** panel to display the `ILS` localizer and glideslope scales in **PFD**.
 4. Set the approaching altitude (around **3000 ft** relative to the destination airpoirt) in **FCU** `ALT` knob and **PULL** it.
 5. Turn on `SEATBELTS` sign.
 6. Access _Aircraft > Announcements_ and trigger `Cpt - Prepare for Landing`.
 7. While descending, set `FLAPS` from `1` to `FULL` respecting the **Approaching** speed reduction.
 8. Lower the `LANDING GEARS` lever to `DOWN`.
-9. When both (horizontal and vertical) purple diamonds are displayed on the **PFD**, press the `APPR` button on **FCU**.
-10. Wait and ensure that the glide slope `G/S` gets captured (turns green in **PFD**).
+9. **[ILS ONLY]** When both (horizontal and vertical) purple diamonds are displayed on the **PFD**, press the `APPR` button on **FCU**.
+10. **[ILS ONLY]** Wait and ensure that the glide slope `G/S` gets captured (turns green in **PFD**).
+11. If the landing runway is not equipped with an **ILS**, initiate the descent manually by setting lower altitude targets and **PULLing** the `ALT` knob on the **FCU** (`SHIFT + LEFT CLICK`).
+
 
 ### 28. Landing
 
@@ -278,10 +281,10 @@ ILS Frequency....: ___.__
 
 1. Turn on `APU MASTER` switch.
 2. Turn on `APU START` switch.
-3. Turn off `LS` switch in the **EFIS**.
+3. **[ILS ONLY]** Turn off `LS` switch in the **EFIS**.
 4. During the taxi, set `FLAPS` to `0`.
 5. Desarm `SPEED BRAKE`.
-6. Turn off `ILS` audio reception on the **RMP**.
+6. **[ILS ONLY]** Turn off `ILS` audio reception on the **RMP**.
 
 ### 30. Parking
 
