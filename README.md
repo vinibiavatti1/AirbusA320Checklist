@@ -9,11 +9,36 @@ This is a simple guide designed to help you set up and get started with the Airb
 Before diving into the cockpit procedures, ensure you have the following components installed and ready:
 
 1. **FlightGear Flight Simulator:** Download and install the simulator from the official website: [FlightGear Official Website](https://www.flightgear.org).
-2. **Airbus A320-family Aircraft Pack:** Install the A320-family aircraft from the game catalog. 
+2. **Airbus A320-family Aircraft Pack:** Install the A320-family aircraft from the game catalog.
 
-## Simple Guide (Checklist)
+## Preparation
 
-This section contains a streamlined checklist designed to guide you through a complete flight, from cold and dark to shutdown. It is meant to be used as a practical, step-by-step reference that you can easily follow along with during a single flight or across multiple flight sessions.
+1. Copy the form template below to use as a guide for your annotations.
+
+```
+From/To..........: ____/____
+Departure Runway.: ___
+Arrival Runway...: ___
+Inverse Course...: ___
+ILS Course.......: ___
+ILS Frequency....: ___.__
+```
+
+2. Annotate the `From` and `To` airport **ICAOs** (International Civil Aviation Organization) codes (ex: `SBGR/SBGL`).
+3. Access _Equipament > Map_.
+4. In the `Display:` menu, make sure the `Data` checkbox is enabled.
+5. Navigate to **departure airport** and annotate the departure `Departure Runway`. 
+6. Navigate to **destination airport** and annotate the arrival `Arrival Runway Code` and `Inverse Code`.
+7. Navigate to the beggining of the arrival runway **ILS Feather** and annotate the `ILS Course` and `ILS Frequency`.
+8. Ensure the template was full filled and proceed to the **Flight Guide**.
+
+> The `Departure Runway` and `Arrival Runway` are displayed in a information box over the airport runway (ex: `09L/27R`). Select the left or the right runway as your preference (ex: `09L`).
+
+> The `Inverse Course` is displayed in a information box over the airport runway, under the runway information (ex: `096/276`). Get the opposite number of the selected runway (ex: `276`).
+
+> The `ILS Course` and `ILS Frequency` are displayed at the beggining of the "ILS feather", in a information box (ex: `276 - 111.90MHz`). For this example, the course is `276` and the frequency is `111.90` .
+
+## Flight Guide
 
 ### 1. External Power
 
@@ -66,12 +91,10 @@ This section contains a streamlined checklist designed to guide you through a co
 2. Press `MCDU MENU` button.
 3. Select `FMGC` system and wait for response.
 4. Press `INIT` button.
-5. Enter departure/arrival airports using the format `{ICAO}/{ICAO}` in scratchpad (ex: `SBGR/SBGL`).
-6. Press `FROM/TO` button.
-7. Press `IRS INIT` > `ALIGN ON REF` > `CONFIRM ALIGN` buttons.
-8. Set `FLT NBR` with your choice (ex: `AB1234`).
-9. Set `COST INDEX` to `50` (balanced).
-10. Set `CRZ FL` to: `200` (20.000 ft) for small trips; `300` (30.000 ft) for medium trips; `400` (40.000 ft) for long trips.
+5. Type `From/To` airports from your annotations and press `FROM/TO` button.
+6. Press `IRS INIT` > `ALIGN ON REF` > `CONFIRM ALIGN` buttons.
+7. Set `COST INDEX` to `50` (balanced).
+8. Set `CRZ FL` to: `200` (20000 ft) for small trips; `300` (30000 ft) for medium trips; `400` (40000 ft) for long trips.
 
 ### 8. MCDU - Fuel Prediction
 
@@ -80,26 +103,7 @@ This section contains a streamlined checklist designed to guide you through a co
 3. Press `FUEL PLANNING` and wait for prediction.
 4. Press `BLOCK CONFIRM` to confirm.
 
-### 9. MCDU - Take Off Performance
-
-1. Press `PERF` button.
-2. Set `V1`, `VR` and `V2` speeds based on the airplane weight (default: `130`, `135`, `140`).
-3. Set `FLAPS/THS` with the take off flaps level and trim (default: `1/UP0.1`).
-
-### 10. Runway & ILS Research
-
-1. Access _Equipament > Map_.
-2. Make sure the `Data` checkbox is enabled in `Display:` menu.
-3. Use the template: `DEP: ___ ARR: ___ INV: ___ CRS: ___ FRQ: ___.__` to annotate the information from the next steps.
-4. Navigate to departure airport and annotate the departure `RUNWAY CODE`. 
-5. Navigate to destination airport and annotate the arrival `RUNWAY CODE`, `INVERSE COURSE`, `ILS COURSE` and `ILS FREQUENCY` (check notes below).
-6. Ensure everything was annotated (ex: `DEP: 015 ARR: 27R INV: 096 CRS: 149 FRQ: 110.30`).
-
-> The `RUNWAY CODE` and `INVERSE COURSE` information can be retrieved from the airport runway information box. For example, for `SBGR`, the information is displayed as: `09L/27R | 096/276`. The `RUNWAY CODE` is located on the first line (ex: `09L`). The `INVERSE COURSE` is located on the second line (the opposite number of the selected runway) (ex: `276`).
-
-> The `ILS COURSE` and `ILS FREQUENCY` can be retrieved in the information box located at the edge of the selected runway. For example, for `SBGR 27R`, the information is displayed as: `IGS | SBGR 27R ILS-cat | 276 - 111.90MHz`. The `276` represents the `ILS COURSE`, and the `111.90` represents the  `ILS FREQUENCY`.
-
-### 11. MCDU - Flight Plan Departure
+### 9. MCDU - Flight Plan Departure
 
 1. Press `F-PLN` button.
 2. Select departure airport (ex: `SBGR`).
@@ -107,52 +111,59 @@ This section contains a streamlined checklist designed to guide you through a co
 4. Select `RUNWAY CODE` for departure (check annotations).
 5. Save by pressing `TMPY F-PLN` > `TMPY INSERT *`.
 
-### 12. MCDU - Flight Plan Arrival
+### 10. MCDU - Flight Plan Arrival
 
 1. Select destination airport (ex: `SBGL`).
 2. Press `ARRIVAL`.
 3. Select `RUNWAY CODE` for landing (check annotations).
 4. Save by pressing `TMPY F-PLN` > `TMPY INSERT *`
 
-### 13. MCDU - Flight Plan Alignment Waypoint
+### 11. MCDU - Flight Plan Alignment Waypoint
 
 1. Select the `F-PLN DISCONTINUITY` left button.
-2. Type into the scratchpad the following format: `{ICAO}/{INV}/40` (check annotations) (ex: `SBGL/329/40`).
+2. Type into the scratchpad the following format: `{To}/{Inverse Course}/40` (check annotations) (ex: `SBGL/329/40`).
 3. Press `NEXT WPT`.
 4. Save by pressing `TMPY INSERT *`.
 
-### 14. MCDU - Flight Plan Clearing
+### 12. Route Review
+
+1. Access _Equipament > Map_.
+2. Review your flight plan route to ensure everything is correct and there are no anomalies.
+
+### 13. MCDU - Flight Plan Clearing
 
 1. Press `CLR` button (make sure the `CLR` text was inserted into the scratchpad).
 2. Select `F-PLN DISCONTINUITY` left button to remove the discontinuity point.
 3. Repeat the steps above until all `F-PLN DISCONTINUITY` messages are cleared.
 
-### 15. MCDU - Radio Navigation 
+### 14. MCDU - Radio Navigation 
 
 1. Press `RAD NAV` button.
 2. Set `ILS/FREQ` with the `ILS FREQUENCY` information (check annotations).
 3. Set `CRS` (below `ILS/FREQ`) with the `ILS COURSE` information (check annotations).
 
-### 16. Route Review
+### 15. MCDU - Take Off Performance
 
-1. Access _Equipament > Map_.
-2. Review your flight plan route to ensure everything is correct and there are no anomalies.
+1. Press `PERF` button.
+2. Set `V1`, `VR` and `V2` speeds based on the airplane weight (default: `130`, `135`, `140`).
+3. Set `FLAPS/THS` with the take off flaps level and trim (default: `1/UP0.1`).
 
-### 17. FCU
+### 16. FCU
 
-1. Set `ALT` knob with the **MCDU** cruise altitude and **PUSH** it.
-2. **PUSH** the `SPD` knob to engage Managed Speed mode.
-3. **PUSH** the `HDG` knob to engage Managed Lateral Navigation.
+1. View the **FCU**.
+2. Set `ALT` knob with the **MCDU** cruise altitude and **PUSH** it.
+3. **PUSH** the `SPD` knob to engage **Managed Speed Mode** (display shows: `---`).
+4. **PUSH** the `HDG` knob to engage **Managed Lateral Navigation** (display shows: `---`).
 
-### 18. Disable Boarding Services
+### 17. Disable Boarding Services
 
 1. Access _Aircraft > Ground Services_.
-2. Deselect `Front Left` and `Rear Left` stairways.
-3. Deselect `Enable Baggage Ramp`.
-4. Deselect `Enable Catering Truck` and `Enable Rear Catering Truck`.
-5. Deselect `Enable Gear Chocks`.
+2. Deselect `Enable Gear Chocks`.
+3. Deselect `Front Left` and `Rear Left` stairways.
+4. Deselect `Enable Baggage Ramp`.
+5. Deselect `Enable Catering Truck` and `Enable Rear Catering Truck`.
 
-### 19. Request Pushback
+### 18. Request Pushback
 
 1. Access _Aircraft > Pushback_.
 2. Select `Connect`.
@@ -162,17 +173,17 @@ This section contains a streamlined checklist designed to guide you through a co
 6. Deselect `Connect`.
 7. Turn on `PARK BRK` (shortcut: `SHIFT + B`).
 
-### 20. Engines Startup
+### 19. Engines Startup
 
 1. Turn on fuel pumps `R TK PUMPS` and `CTR TK` (lights off).
 2. Turn on `BEACON` light switch to signalize that the engines are starting.
 3. Set `ENG MODE` selector to `IGN/START`.
-4. Turn on `ENG 2` master switch and wait for engine stabilization (engine 2 first to provide primary hydraulic pressure).
-5. Turn on `ENG 1` master switch and wait for engine stabilization.
+4. Turn on `ENG MASTER 2` switch and wait for engine stabilization (**engine 2 first** to provide primary hydraulic pressure).
+5. Turn on `ENG MASTER 1` switch and wait for engine stabilization.
 6. Set `ENG MODE` selector back to `NORM` when both engines are stable.
 7. Turn off `APU MASTER` switch.
 
-### 21. Taxi
+### 20. Taxi
 
 1. Access _Aircraft > Announcements_ and trigger `Cpt - Welcome`.
 2. Turn `NOSE` light switch to `TAXI`.
@@ -183,11 +194,11 @@ This section contains a streamlined checklist designed to guide you through a co
 7. Press `T.O CONFIG` button to test takeoff configuration.
 8. Check **ECAM** and confirm it displays `T.O CONFIG NORMAL` in green.
 9. Release `PARK BRK` (shortcut: `SHIFT + B`).
-10. Smoothly advance thrust levers to taxi speed.
+10. Smoothly advance thrust levers to taxi speed (shortcut: `PG UP`).
 11. Taxi the aircraft to the takeoff runway (use `TAB + HOLD LEFT MOUSE BUTTON` to control, and `B` to break).
-12. Access _Aircraft > Announcements_ and trigger `Cpt - Doors Check`.
+12. During taxi, access _Aircraft > Announcements_ and trigger `Cpt - Doors Check`.
 
-### 22. Before Takeoff
+### 21. Before Takeoff
 
 1. At the runway holding point, turn on `PARK BRK` (shortcut: `SHIFT + B`)
 2. Turn on `RWY TURN OFF` light switch.
@@ -197,15 +208,16 @@ This section contains a streamlined checklist designed to guide you through a co
 6. Press `ALL` button on the `CALLS` panel to advise cabin crew.
 7. Access _Aircraft > Announcements_ and trigger `Cpt - Prepare for Takeoff`.
 
-### 23. Takeoff
+### 22. Takeoff
 
 1. Release `PARK BRK` (shortcut: `Shift + B`).
 2. Align the aircraft perfectly with the runway centerline.
-3. Advance `THRUST LEVERS` smoothly to **50%**, wait for engines to stabilize, then push to `TOGA` (shortcut: `F`).
-4. Maintain runway centerline using rudder pedals (`TAB + HOLD LEFT MOUSE BUTTON`).
-5. At `VR` speed (around **135 knots**), gently pull the joystick back to rotate the aircraft.
+3. Advance `THRUST LEVERS` smoothly to **50%** (shortcut: `PG UP`)
+4. Push the `THRUST LEVERS` to `TOGA` (shortcut: `F`).
+5. Maintain runway centerline using rudder pedals (shortcut: `TAB + HOLD LEFT MOUSE BUTTON`).
+6. At `VR` speed (around **135 knots**), gently pull the joystick back to rotate the aircraft (shortcut: `TAB`).
 
-### 24. Climb
+### 23. Climb
 
 1. Set `LANDING GEARS` lever to `UP`.
 2. Set `FLAPS` to `0`.
@@ -217,21 +229,29 @@ This section contains a streamlined checklist designed to guide you through a co
 8. Turn off `RWY TURN OFF`, `LAND` and `NOSE` light switches.
 9. Press `BARO` knob on the **EFIS** to switch from local QNH to `STD`.
 
-### 25. Cruise
+### 24. Cruise
 
 1. When `ALT CRZ` is displayed on the **PFD**, turn off the `SEATBELTS` sign (if the flight is smooth and free of turbulence).
-2. Enjoy your flight!
-3. At **50 NM** before the **Alignment Waypoint**, set the `ALT` knob on the **FCU** to **10.000 ft**, and **PULL** it (`SHIFT + LEFT CLICK`).
+2. Follow the distance for the **Alignment Waypoint** from the **ND** (Navigation Display).
+3. Enjoy your flight!
+
+### 25. Top Of Descent
+
+1. Depending on your cruise altitude below, initiate the descent at the specified distance before the **Alignment Waypoint**:
+   - **50 NM** for **20000 ft**
+   - **100 NM** for **30000 ft**
+   - **150 NM** for **40000 ft**.
+3. Set the `ALT` knob on the **FCU** to **10000 ft**, and **PULL** it (`SHIFT + LEFT CLICK`).
+4. Ensure that the aircraft will hit the **Alignment Waypoint** at **10000 ft** altitude.
 
 ### 26. Alignment Waypoint
 
-1. Ensure that the **Alignment Waypoint** was reached at **10.000 ft** altitude.
-2. Press `BARO` knob on the **EFIS** to switch from `STD` to local QNH.
-3. Turn on `LAND` and `RWY TURN OFF` light switches.
-4. Set `NOSE` light switch to `TAXI`.
-5. Set `AUTO BRK` to `LOW` or `MED` (depending on runway length).
-6. Arm `SPEED BRAKE` (verify white band is visible).
-7. Start the **Approaching** section.
+1. Press `BARO` knob on the **EFIS** to switch from `STD` to local QNH.
+2. Turn on `LAND` and `RWY TURN OFF` light switches.
+3. Set `NOSE` light switch to `TAXI`.
+4. Set `AUTO BRK` to `LOW` or `MED` (depending on runway length).
+5. Arm `SPEED BRAKE` (verify white band is visible).
+6. Start the **Approaching** section.
 
 ### 27. Approaching
 
@@ -253,8 +273,8 @@ This section contains a streamlined checklist designed to guide you through a co
 3. Smoothly pull back the joystick to execute the flare.
 4. Upon touchdown, apply `MAX REVERSE` thrust (press `DELETE`) and use `B` for manual breaking if needed.
 5. When landing done, cancel reverse thrust (press `DELETE` again).
-6. Transition smoothly to the exit of the runway (use `TAB + HOLD LEFT MOUSE BUTTON` to control, and `B` to break).
-7. Drive the airplane to the airport gate.
+6. Smoothly advance thrust levers to taxi speed (shortcut: `PG UP`).
+7. Transition to the gate (use `TAB + HOLD LEFT MOUSE BUTTON` to control, and `B` to break).
 
 ### 29. Taxi To Gate
 
@@ -343,6 +363,7 @@ This section contains a streamlined checklist designed to guide you through a co
 - `MCDU`: Multifunction Control and Display Unit
 - `N1`: Rotational Speed (Low-Pressure turbine)
 - `NAV`: Navigation
+- `ND`: Navigation Display
 - `NM`: Nautical Miles
 - `NORM`: Normal
 - `OVHD`: Overhead
