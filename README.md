@@ -225,7 +225,7 @@ ILS Frequency....: ___.__
 6. Verify `A/THR` is active.
 7. Desarm the `SPEED BRAKE`.
 8. Turn off `RWY TURN OFF`, `LAND` and `NOSE` light switches.
-9. Press `BARO` knob on the **EFIS** to switch from local QNH to `STD`.
+9. Press `PULL STD` barometer knob on the **EFIS** to switch from local QNH to `STD`.
 
 ### 24. Cruise
 
@@ -244,7 +244,7 @@ ILS Frequency....: ___.__
 
 ### 26. Alignment Waypoint
 
-1. Press `BARO` knob on the **EFIS** to switch from `STD` to local QNH.
+1. Press `PULL STD` barometer knob on the **EFIS** to switch from `STD` to local QNH.
 2. Turn on `RWY TURN OFF` and `LAND` light switches.
 3. Set `NOSE` light switch to `TAXI`.
 4. Set `AUTO BRK` to `LOW` or `MED` (depending on runway length).
@@ -333,7 +333,7 @@ ILS Frequency....: ___.__
 - `APU BLEED`: Pneumatic Air
 - `AUTO BRK`: Automated Hydraulic Braking System
 - `AVAIL`: Available
-- `BARO`: Barometric Altitude
+- `BARO`: Barometric Altitude / Barometer
 - `BAT`: Battery
 - `BEACON`: Red Beacon Lights (Anti-Collision and Engines Running Indicator)
 - `CL`: Climb
