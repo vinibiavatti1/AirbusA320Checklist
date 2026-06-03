@@ -280,10 +280,10 @@ ILS Frequency....: ___.__
 
 1. Turn on `APU MASTER` switch.
 2. Turn on `APU START` switch.
-3. **[ILS ONLY]** Turn off `LS` switch in the **EFIS**.
 4. During the taxi, set `FLAPS` to `0`.
 5. Desarm `SPEED BRAKE`.
-6. **[ILS ONLY]** Turn off `ILS` audio reception on the **RMP**.
+6. **[ILS ONLY]** Turn off `LS` switch in the **EFIS**.
+7. **[ILS ONLY]** Turn off `ILS` audio reception on the **RMP**.
 
 ### 30. Parking
 
