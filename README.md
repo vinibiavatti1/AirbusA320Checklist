@@ -55,6 +55,7 @@ ILS Frequency....: ___.__
 
 ### 3. ADIRS
 
+1. Access _Aircraft > Configuration Center_ and select `ADIRS Aligns Instantly`.
 1. In **Overhead**, turn `IR1`, `IR2` and `IR3` selectors to `NAV`.
 
 ### 4. APU
