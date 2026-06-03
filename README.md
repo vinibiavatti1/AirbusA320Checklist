@@ -259,7 +259,7 @@ ILS Frequency....: ___.__
 4. Set the approaching altitude (around **3000 ft** relative to the destination airpoirt) in **FCU** `ALT` knob and **PULL** it.
 5. Turn on `SEATBELTS` sign.
 6. Access _Aircraft > Announcements_ and trigger `Cpt - Prepare for Landing`.
-7. While descending, set `FLAPS` from `1` to `FULL` waiting speed stabilization on each step.
+7. While descending, set `FLAPS` from `1` to `FULL` respecting the **Approaching** speed reduction.
 8. Lower the `LANDING GEARS` lever to `DOWN`.
 9. When both (horizontal and vertical) purple diamonds are displayed on the **PFD**, press the `APPR` button on **FCU**.
 10. Wait and ensure that the glide slope `G/S` gets captured (turns green in **PFD**).
