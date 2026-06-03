@@ -363,6 +363,7 @@ ILS Frequency....: ___.__
 - `LSK`: Line Select Key
 - `LVR CLB`: Lever Climb
 - `MCDU`: Multifunction Control and Display Unit
+- `MP`: Main Panel
 - `N1`: Rotational Speed (Low-Pressure turbine)
 - `NAV`: Navigation
 - `ND`: Navigation Display
