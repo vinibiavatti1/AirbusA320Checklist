@@ -236,9 +236,9 @@ ILS Frequency....: ___.__
 ### 25. Top Of Descent
 
 1. Depending on your cruise altitude below, initiate the descent at the specified distance before the **Alignment Waypoint**:
-   - **50 NM** for **20000 ft**
-   - **100 NM** for **30000 ft**
    - **150 NM** for **40000 ft**.
+   - **100 NM** for **30000 ft**.
+   - **50 NM** for **20000 ft**.
 3. Set the `ALT` knob on the **FCU** to **10000 ft**, and **PULL** it (`SHIFT + LEFT CLICK`).
 4. Ensure that the aircraft will hit the **Alignment Waypoint** at **10000 ft** altitude.
 
