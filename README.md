@@ -202,9 +202,9 @@ ILS Frequency....: ___.__
 2. Turn on `RWY TURN OFF` light switch.
 3. Turn on `LAND` lights switches.
 4. Set `NOSE` light switch to `T.O`.
+5. Press `ALL` button on the `CALLS` panel to advise cabin crew.
 6. Set `TCAS` switch to `TA/RA`.
-7. Press `ALL` button on the `CALLS` panel to advise cabin crew.
-8. Access _Aircraft > Announcements_ and trigger `Cpt - Prepare for Takeoff`.
+7. Access _Aircraft > Announcements_ and trigger `Cpt - Prepare for Takeoff`.
 
 ### 22. Takeoff
 
