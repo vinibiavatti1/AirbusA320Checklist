@@ -87,13 +87,12 @@ ILS Frequency....: ___.__
 ### 7. MCDU Initialization
 
 1. Access **MCDU**.
-2. Press `MCDU MENU` button.
-3. Select `FMGC` system and wait for response.
-4. Press `INIT` button.
-5. Type `From/To` airports from your annotations and press `FROM/TO` button.
-6. Press `IRS INIT` > `ALIGN ON REF` > `CONFIRM ALIGN` buttons.
-7. Set `COST INDEX` to `50` (balanced).
-8. Set `CRZ FL` to: `200` (20000 ft) for small trips; `300` (30000 ft) for medium trips; `400` (40000 ft) for long trips.
+2. Select `FMGC` system and wait for response.
+3. Press `INIT` button.
+4. Type `From/To` airports from your annotations and press `FROM/TO` button.
+5. Press `IRS INIT` > `ALIGN ON REF` > `CONFIRM ALIGN` buttons.
+6. Set `COST INDEX` to `50` (balanced).
+7. Set `CRZ FL` to: `200` (20000 ft) for small trips; `300` (30000 ft) for medium trips; `400` (40000 ft) for long trips.
 
 ### 8. MCDU - Fuel Prediction
 
