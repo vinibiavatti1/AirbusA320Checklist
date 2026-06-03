@@ -121,7 +121,7 @@ ILS Frequency....: ___.__
 ### 11. MCDU - Flight Plan Alignment Waypoint
 
 1. Select the `F-PLN DISCONTINUITY` left button.
-2. Type into the scratchpad the following format: `{To}/{Inverse Course}/40` (check annotations) (ex: `SBGL/329/40`).
+2. Type into the scratchpad the following format: `{To}/{Inverse Course}/50` (check annotations) (ex: `SBGL/329/50`).
 3. Press `NEXT WPT`.
 4. Save by pressing `TMPY INSERT *`.
 
