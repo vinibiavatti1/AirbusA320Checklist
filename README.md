@@ -256,7 +256,7 @@ ILS Frequency....: ___.__
 
 1. Access **MCDU** and press `PERF` button, then press `ACTIVATE APPR PHASE` and **confirm**.
 2. **[ILS ONLY]** Turn on `ILS` audio reception on the **RMP** to monitor the **ILS** code transmission (morse code).
-3. **[ILS ONLY]** Turn on `LS` switch in the **EFIS** panel to display the `ILS` localizer and glideslope scales in **PFD**.
+3. **[ILS ONLY]** Turn on `LS` switch in the **EFIS** panel to display the **ILS** localizer and **Glideslope** scales in **PFD**.
 4. Set the approaching altitude (around **3000 ft** relative to the destination airpoirt) in **FCU** `ALT` knob and **PULL** it.
 5. Turn on `SEATBELTS` sign.
 6. Access _Aircraft > Announcements_ and trigger `Cpt - Prepare for Landing`.
@@ -265,7 +265,6 @@ ILS Frequency....: ___.__
 9. **[ILS ONLY]** When both (horizontal and vertical) purple diamonds are displayed on the **PFD**, press the `APPR` button on **FCU**.
 10. **[ILS ONLY]** Wait and ensure that the glide slope `G/S` gets captured (turns green in **PFD**).
 11. If the landing runway is not equipped with an **ILS**, initiate the descent manually by setting lower altitude targets and **PULLing** the `ALT` knob on the **FCU** (`SHIFT + LEFT CLICK`).
-
 
 ### 28. Landing
 
