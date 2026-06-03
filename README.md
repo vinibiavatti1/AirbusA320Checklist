@@ -200,11 +200,11 @@ ILS Frequency....: ___.__
 
 1. At the runway holding point, turn on `PARK BRK` (shortcut: `SHIFT + B`)
 2. Turn on `RWY TURN OFF` light switch.
-3. Set `NOSE` light switch to `T.O`.
-4. Turn on `LAND` lights switches.
-5. Set `TCAS` switch to `TA/RA`.
-6. Press `ALL` button on the `CALLS` panel to advise cabin crew.
-7. Access _Aircraft > Announcements_ and trigger `Cpt - Prepare for Takeoff`.
+3. Turn on `LAND` lights switches.
+4. Set `NOSE` light switch to `T.O`.
+6. Set `TCAS` switch to `TA/RA`.
+7. Press `ALL` button on the `CALLS` panel to advise cabin crew.
+8. Access _Aircraft > Announcements_ and trigger `Cpt - Prepare for Takeoff`.
 
 ### 22. Takeoff
 
