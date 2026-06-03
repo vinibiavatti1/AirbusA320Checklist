@@ -45,7 +45,7 @@ ILS Frequency....: ___.__
 1. Access _Aircraft > Ground Services_ and select `Enable External Power Box`.
 2. Verify `EXT PWR` switch displays `AVAIL` in green.
 3. Press `EXT PWR` switch.
-4. Press `BAT 1` and `BAT 2` switches.
+4. Turn on `BAT 1` and `BAT 2` switches (lights off).
 
 ### 2. Cockpit Lights
 
