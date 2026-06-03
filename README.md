@@ -51,7 +51,7 @@ ILS Frequency....: ___.__
 
 1. Adjust **Overhead** `OVHD INTEG LT` and `DOME` light switches as your preference.
 2. Adjust **FCU** `INTEG LT` light switch as your preference (knob located under the FCU panel).
-3. Adjust **Main Panel** `INTEG LT` and `FLOOD LT` (pilot and copilot) light switches as your preference.
+3. Adjust **Main Panel** `INTEG LT` and `FLOOD LT` (pilot and copilot sides) light switches as your preference.
 
 ### 3. ADIRS
 
