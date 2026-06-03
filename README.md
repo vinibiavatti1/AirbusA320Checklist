@@ -166,10 +166,9 @@ ILS Frequency....: ___.__
 1. Access _Aircraft > Pushback_.
 2. Select `Connect`.
 3. Click `Enter` button and setup the puckback route.
-4. Release `PARK BRK` (shortcut: `SHIFT + B`).
-5. Click `Start` button to start the pushback and wait the maneuver is completed.
-6. Deselect `Connect`.
-7. Turn on `PARK BRK` (shortcut: `SHIFT + B`).
+4. Click `Start` button to start the pushback and wait the maneuver is completed.
+5. Deselect `Connect`.
+6. Turn on `PARK BRK` (shortcut: `SHIFT + B`).
 
 ### 19. Engines Startup
 
