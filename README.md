@@ -296,10 +296,12 @@ ILS Frequency....: ___.__
 
 ### 31. Arrival Boarding Services
 
-1. Enable gear chocks (Aircraft > Ground Services > Landing Gear)
-2. Enable front and rear stairways (_Aircraft > Ground Services > Stairways_)
-3. Enable baggage ramp (_Aircraft > Ground Services > Baggage_)
-4. Enable and raise front and rear catering trucks (_Aircraft > Ground Services > Catering_)
+1. Access _Aircraft > Ground Services_.
+2. Select `Enable Gear Chocks`.
+3. Select `Front Left` and `Rear Left` stairways.
+4. Select `Enable Baggage Ramp`.
+5. Select `Enable Catering Truck` and `Enable Rear Catering Truck`.
+6. Click on `Toggle Catering` to raise the catering trucks.
 
 ### 32. Shut Down
 
