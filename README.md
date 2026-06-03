@@ -89,7 +89,7 @@ ILS Frequency....: ___.__
 1. Access **MCDU**.
 2. Select `FMGC` system and wait for response.
 3. Press `INIT` button.
-4. Type `From/To` airports from your annotations and press `FROM/TO` button.
+4. Type `From/To` airports and press `FROM/TO` button (check annotations).
 5. Press `IRS INIT` > `ALIGN ON REF` > `CONFIRM ALIGN` buttons.
 6. Set `COST INDEX` to `50` (balanced).
 7. Set `CRZ FL` to: `200` (20000 ft) for small trips; `300` (30000 ft) for medium trips; `400` (40000 ft) for long trips.
@@ -137,8 +137,8 @@ ILS Frequency....: ___.__
 ### 14. MCDU - Radio Navigation 
 
 1. Press `RAD NAV` button.
-2. Set `ILS/FREQ` with the `ILS FREQUENCY` information (check annotations).
-3. Set `CRS` (below `ILS/FREQ`) with the `ILS COURSE` information (check annotations).
+2. Set `ILS/FREQ` with the `ILS Frequency` information (check annotations).
+3. Set `CRS` (below `ILS/FREQ`) with the `ILS Course` information (check annotations).
 
 ### 15. MCDU - Take Off Performance
 
