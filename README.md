@@ -245,7 +245,7 @@ ILS Frequency....: ___.__
 ### 26. Alignment Waypoint
 
 1. Press `BARO` knob on the **EFIS** to switch from `STD` to local QNH.
-2. Turn on `LAND` and `RWY TURN OFF` light switches.
+2. Turn on `RWY TURN OFF` and `LAND` light switches.
 3. Set `NOSE` light switch to `TAXI`.
 4. Set `AUTO BRK` to `LOW` or `MED` (depending on runway length).
 5. Arm `SPEED BRAKE` (verify white band is visible).
