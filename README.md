@@ -60,7 +60,7 @@ ILS Frequency....: ___.__
 
 ### 4. APU
 
-1. Turn on `APU MASTER` switch.
+1. Turn on `APU MASTER SW` switch.
 2. Turn on `APU START` switch and wait for `AVAIL` green light.
 3. Turn on `APU BLEED` switch.
 4. Turn on `PACK 1` and `PACK 2` switches (lights off).
@@ -181,7 +181,7 @@ ILS Frequency....: ___.__
 4. Turn on `ENG 2` switch and wait for engine stabilization (**engine 2 first** to provide primary hydraulic pressure).
 5. Turn on `ENG 1` switch and wait for engine stabilization.
 6. Set `ENG MODE` selector back to `NORM` when both engines are stable.
-7. Turn off `APU MASTER` switch.
+7. Turn off `APU MASTER SW` switch.
 
 ### 20. Taxi
 
@@ -279,7 +279,7 @@ ILS Frequency....: ___.__
 
 ### 29. Taxi To Gate
 
-1. Turn on `APU MASTER` switch.
+1. Turn on `APU MASTER SW` switch.
 2. Turn on `APU START` switch.
 4. During the taxi, set `FLAPS` to `0`.
 5. Desarm `SPEED BRAKE`.
@@ -310,7 +310,7 @@ ILS Frequency....: ___.__
 
 1. If this is the final flight of the day, proceed with the aircraft decommissioning below, otherwise jump to _Next Flight_ section.
 2. Turn off fuel pumps `R TK PUMPS` and `CTR TK` (lights off).
-3. Turn off `APU MASTER` switch.
+3. Turn off `APU MASTER SW` switch.
 4. Well Done!
 
 ### 33. Next Flight
