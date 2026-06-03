@@ -148,7 +148,7 @@ ILS Frequency....: ___.__
 
 ### 16. FCU
 
-1. View the **FCU**.
+1. View the **FCU (Flight Control Unit)**.
 2. Set `ALT` knob with the **MCDU** cruise altitude and **PUSH** it.
 3. **PUSH** the `SPD` knob to engage **Managed Speed Mode** (display shows: `---`).
 4. **PUSH** the `HDG` knob to engage **Managed Lateral Navigation** (display shows: `---`).
