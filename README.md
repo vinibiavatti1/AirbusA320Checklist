@@ -263,8 +263,8 @@ ILS Frequency....: ___.__
 7. While descending, set `FLAPS` from `1` to `FULL` respecting the **Approaching** speed reduction.
 8. Lower the `LANDING GEARS` lever to `DOWN`.
 9. **[ILS ONLY]** When both (horizontal and vertical) purple diamonds are displayed on the **PFD**, press the `APPR` button on **FCU**.
-10. **[ILS ONLY]** Wait and ensure that the glide slope `G/S` gets captured (turns green in **PFD**).
-11. If the landing runway is not equipped with an **ILS**, initiate the descent manually by setting lower altitude targets and **PULLing** the `ALT` knob on the **FCU** (`SHIFT + LEFT CLICK`).
+10. **[ILS ONLY]** Wait and ensure that the glide slope `G/S` gets captured (turns green in **PFD**), and follow the automated approaching.
+11. If the landing runway hasn't **ILS**, initiate the descent manually by setting lower altitude targets by **PULLing** the `ALT` knob on the **FCU** (`SHIFT + LEFT CLICK`).
 
 ### 28. Landing
 
