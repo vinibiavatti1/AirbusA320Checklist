@@ -1,6 +1,6 @@
 FLIGHT GEAR AIRBUS A320-FAMILY CHECKLIST 
 
-NOTES TEMPLATE (COPY)
+NOTES TEMPLATE (COPY IT)
 FROM/TO .............................. ____/____
 DEPARTURE RUNWAY ........................... ___
 ARRIVAL RUNWAY ............................. ___
