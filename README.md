@@ -10,6 +10,7 @@ Before diving into the cockpit procedures, ensure you have the following compone
 
 1. **FlightGear Flight Simulator:** Download and install the simulator from the official website: [FlightGear Official Website](https://www.flightgear.org).
 2. **Airbus A320-family Aircraft Pack:** Install the A320-family aircraft from the game catalog.
+3. **Active Flight Session:** Launch the game, select the Airbus A320, choose your starting airport (preferably at a gate or parking position), and click **Fly!** to leave the main menu and enter the 3D cockpit.
 
 ## Tip - Compact Checklist
 
