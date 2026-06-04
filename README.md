@@ -11,6 +11,10 @@ Before diving into the cockpit procedures, ensure you have the following compone
 1. **FlightGear Flight Simulator:** Download and install the simulator from the official website: [FlightGear Official Website](https://www.flightgear.org).
 2. **Airbus A320-family Aircraft Pack:** Install the A320-family aircraft from the game catalog.
 
+## Compact Checklist
+
+If you are already familiar with the aircraft systems, you can use the [Compact Checklist](https://github.com/vinibiavatti1/FlightGearA320Guide/blob/main/CHECKLIST.txt) for a fast, straight-to-the-point reference. Otherwise, if you feel you need more practice, just follow the comprehensive, step-by-step guide below!
+
 ## Preparation
 
 1. Copy the form template below to use as a guide for your annotations.
