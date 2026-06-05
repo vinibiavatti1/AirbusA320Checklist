@@ -272,17 +272,28 @@ ILS Frequency....: ___.__
 10. **[ILS ONLY]** Wait and ensure that the glide slope `G/S` gets captured (turns green in **PFD**), and follow the automated approaching.
 11. If the landing runway hasn't **ILS**, initiate the descent manually by setting lower altitude targets by **PULLing** the `ALT` knob on the **FCU** (`SHIFT + LEFT CLICK`).
 
-### 28. Landing
+### 28. **[ILS]** Landing
 
-1. When altitude reaches **100 ft**, set the `THRUST LEVERS` to `IDLE` (shortcut: `E`).
-2. Disable the `AP1` from joystick (press `SHIFT + D`) and start controlling the airplane manually (shortcut: `TAB`).
-3. Smoothly pull back the joystick to execute the flare.
-4. Upon touchdown, apply `MAX REVERSE` thrust (press `DELETE`) and use `B` for manual breaking if needed.
-5. When landing done, cancel reverse thrust (press `DELETE` again).
-6. Smoothly advance thrust levers to taxi speed (shortcut: `PG UP`).
-7. Transition to the gate (use `TAB + HOLD LEFT MOUSE BUTTON` to control, and `B` to break).
+1. When altitude reaches **500 ft** disable `AP1` from joystick (press `SHIFT + D`).
+2. Set the `THRUST LEVERS` to `IDLE` (shortcut: `E`).
+3. Start controlling the airplane manually (shortcut: `TAB`).
+4. Smoothly pull back the joystick to execute the flare.
+5. Upon touchdown, apply `MAX REVERSE` thrust (press `DELETE`) and use `B` for manual breaking if needed.
+6. When landing done, cancel reverse thrust (press `DELETE` again).
+7. Smoothly advance thrust levers to taxi speed (shortcut: `PG UP`).
+8. Transition to the gate (use `TAB + HOLD LEFT MOUSE BUTTON` to control, and `B` to break).
 
-### 29. Taxi To Gate
+### 29. Go Arround (If Necessary)
+
+1. If a **Go-Around** is necessary, do not hesitate, execute it immediately!
+2. Disable `AP1` from joystick (press `SHIFT + D`).
+3. Set the `THRUST LEVERS` to `TOGA` (shortcut: `F`).
+4. Raise the `LANDING GEARS` lever to `UP`.
+5. Back to **3000 ft** manually (shortcut: `TAB`).
+6. Turn on `AP1`.
+7. Turn back using `HDG` knob, intercept the GPS track again, then lower the `LANDING GEARS` and re-initiate the approach.
+
+### 30. Taxi To Gate
 
 1. Turn on `APU MASTER SW` switch.
 2. Turn on `APU START` switch.
@@ -291,7 +302,7 @@ ILS Frequency....: ___.__
 6. **[ILS ONLY]** Turn off `LS` switch in the **EFIS**.
 7. **[ILS ONLY]** Turn off `ILS` audio reception on the **RMP**.
 
-### 30. Parking
+### 31. Parking
 
 1. When reached the gate, turn on `PARK BRK` (shortcut: `Shift + B`).
 2. Set `THRUST LEVERS` to `IDLE` (shortcut: `E`).
@@ -302,7 +313,7 @@ ILS Frequency....: ___.__
 7. Turn off `BEACON` light swtich.
 8. Turn off `SEATBELTS` sign swtich.
 
-### 31. Arrival Boarding Services
+### 32. Arrival Boarding Services
 
 1. Access _Aircraft > Ground Services_.
 2. Select `Enable Gear Chocks`.
@@ -311,14 +322,14 @@ ILS Frequency....: ___.__
 5. Select `Enable Catering Truck` and `Enable Rear Catering Truck`.
 6. Click on `Toggle Catering` to raise the catering trucks.
 
-### 32. Shut Down
+### 33. Shut Down
 
 1. If this is the final flight of the day, proceed with the aircraft decommissioning below, otherwise jump to _Next Flight_ section.
 2. Turn off fuel pumps `R TK PUMPS` and `CTR TK` (lights off).
 3. Turn off `APU MASTER SW` switch.
 4. Well Done!
 
-### 33. Next Flight
+### 34. Next Flight
 
 1. If a turnaround flight is planned, follow the steps below:
 2. Access _Aircraft > Ground Services_.
