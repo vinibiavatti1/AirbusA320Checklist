@@ -197,21 +197,23 @@ LANDING GEARS ............................... ON
 [ILS] G/S ................................ GREEN
 [NO ILS] ALT ...... MANUAL PULLING (SHIFT + CLK)
 
-[ILS] LANDING
-CURRENT ALT .......................... CHECK 100
-THRUST LEVERS ......................... IDLE (E)
+LANDING
+CURRENT ALT .......................... CHECK 500
 AP1 ............................ OFF (SHIFT + D)
+AIRPLANE ............................... ALIGNED
+THRUST LEVERS ......................... IDLE (E)
 FLAIR ............................... DONE (TAB)
 REVERSE ............................. DONE (DEL)
 
-[MANUAL] LANDING
-CURRENT ALT ......................... CHECK 1000
+GO ARROUND (IF NECESSARY)
 AP1 ............................ OFF (SHIFT + D)
-AIRPLANE ............................... ALIGNED
-CURRENT ALT .......................... CHECK 100
-THRUST LEVERS ......................... IDLE (E)
-FLAIR ............................... DONE (TAB)
-REVERSE ............................. DONE (DEL)
+THRUST LEVERS ......................... TOGA (F)
+LANDING GEARS .............................. OFF
+ALT ......................... SET (DEFAULT 3000)
+ALT ....................... PULLED (SHIFT + CLK)
+AP1 ......................................... ON
+HDG TURN BACK ............. MANUAL (SHIFT + CLK)
+LANDING ............................ START AGAIN
 
 TAXI TO GATE
 THRUST LEVERS ...................... 20% (PG-UP)
