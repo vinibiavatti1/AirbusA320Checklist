@@ -175,6 +175,7 @@ ALT ............. 10000 AND PULLED (SHIFT + CLK)
 ALIGNMENT WAYPOINT
 CURRENT ALT ........................ CHECK 10000
 RWY TURN OFF ................................ ON
+LAND ........................................ ON
 NOSE ...................................... TAXI
 AUTO BRK ............................ LOW OR MED
 SPEED BRAKE .............................. ARMED
