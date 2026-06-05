@@ -272,7 +272,7 @@ ILS Frequency....: ___.__
 10. **[ILS ONLY]** Wait and ensure that the glide slope `G/S` gets captured (turns green in **PFD**), and follow the automated approaching.
 11. If the landing runway hasn't **ILS**, initiate the descent manually by setting lower altitude targets by **PULLing** the `ALT` knob on the **FCU** (`SHIFT + LEFT CLICK`).
 
-### 28. **[ILS]** Landing
+### 28. Landing
 
 1. When altitude reaches **500 ft** disable `AP1` from joystick (press `SHIFT + D`).
 2. Set the `THRUST LEVERS` to `IDLE` (shortcut: `E`).
