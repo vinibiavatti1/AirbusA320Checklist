@@ -291,7 +291,7 @@ ILS Frequency....: ___.__
 4. Raise the `LANDING GEARS` lever to `UP`.
 5. Back to **3000 ft** manually (shortcut: `TAB`).
 6. Turn on `AP1`.
-7. Turn back using `HDG` knob, intercept the GPS track again, then lower the `LANDING GEARS` and re-initiate the approach.
+7. Turn back using `HDG` knob, intercept the GPS track again, then lower the `LANDING GEARS` and re-initiate **Landing**.
 
 ### 30. Taxi To Gate
 
