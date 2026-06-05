@@ -80,9 +80,9 @@ ALIGN WAYPOINT .......... SET ({TO}/{INVCRS}/50)
 MAP ROUTE ............................. REVIEWED
 DISCONTINUITY ...................... ALL CLEARED
 
-MCDU RAD NAV
-[ILS] ILS/FREQ ............................. SET
-[ILS] ILS CRS .............................. SET
+[ILS] MCDU RAD NAV
+ILS/FREQ ................................... SET
+ILS CRS .................................... SET
 
 MCDU PERF
 V1 ........................... SET (DEFAULT 130)
@@ -197,10 +197,19 @@ LANDING GEARS ............................... ON
 [ILS] G/S ................................ GREEN
 [NO ILS] ALT ...... MANUAL PULLING (SHIFT + CLK)
 
-LANDING
+[ILS] LANDING
 CURRENT ALT .......................... CHECK 100
 THRUST LEVERS ......................... IDLE (E)
 AP1 ............................ OFF (SHIFT + D)
+FLAIR ............................... DONE (TAB)
+REVERSE ............................. DONE (DEL)
+
+[MANUAL] LANDING
+CURRENT ALT ......................... CHECK 1000
+AP1 ............................ OFF (SHIFT + D)
+AIRPLANE ............................... ALIGNED
+CURRENT ALT .......................... CHECK 100
+THRUST LEVERS ......................... IDLE (E)
 FLAIR ............................... DONE (TAB)
 REVERSE ............................. DONE (DEL)
 
