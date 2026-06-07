@@ -98,7 +98,11 @@ ILS Frequency....: ___.__
 4. Type `From/To` airports and press `FROM/TO` button (check annotations).
 5. Press `IRS INIT` > `ALIGN ON REF` > `CONFIRM ALIGN` buttons.
 6. Set `COST INDEX` to `50` (balanced).
-7. Set `CRZ FL` to: `200` (20000 ft) for small trips; `300` (30000 ft) for medium trips; `400` (40000 ft) for long trips.
+7. Set `CRZ FL` to:
+   - `100` (10000 ft) for tiny trips.
+   - `200` (20000 ft) for small trips.
+   - `300` (30000 ft) for medium trips.
+   - `400` (40000 ft) for long trips.
 
 ### 8. MCDU - Fuel Prediction
 
@@ -246,6 +250,7 @@ ILS Frequency....: ___.__
    - **150 NM** for **40000 ft**.
    - **100 NM** for **30000 ft**.
    - **50 NM** for **20000 ft**.
+   - **Keep Current Altitude** for **10000 ft**.
 3. Set the `ALT` knob on the **FCU** to **10000 ft**, and **PULL** it (`SHIFT + LEFT CLICK`).
 4. Ensure that the aircraft will hit the **Alignment Waypoint** at **10000 ft** altitude.
 
