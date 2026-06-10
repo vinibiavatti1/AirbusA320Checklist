@@ -247,7 +247,7 @@ ILS Frequency....: ___.__
 ### 25. Top Of Descent
 
 1. Depending on your cruise altitude below, initiate the descent at the specified distance before the **Alignment Waypoint**:
-   - **150 NM** for **40000 ft**.
+   - **150 NM** for **39000 ft**.
    - **100 NM** for **30000 ft**.
    - **50 NM** for **20000 ft**.
    - **Keep Current Altitude** for **10000 ft**.
