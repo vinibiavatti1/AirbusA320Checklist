@@ -102,7 +102,7 @@ ILS Frequency....: ___.__
    - `100` (10000 ft) for tiny trips.
    - `200` (20000 ft) for small trips.
    - `300` (30000 ft) for medium trips.
-   - `400` (40000 ft) for long trips.
+   - `390` (39000 ft) for long trips (max).
 
 ### 8. MCDU - Fuel Prediction
 
