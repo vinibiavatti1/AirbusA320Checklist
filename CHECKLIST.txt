@@ -67,7 +67,7 @@ FMGC ......................................... LOAD
 FROM/TO ....................................... SET
 IRS ......................................... ALIGN
 COST INDEX ..................................... 50
-CRZ FL .... SET (100 TY / 200 SM / 300 MD / 400 LG)
+CRZ FL .... SET (100 TY / 200 SM / 300 MD / 390 LG)
 
 MCDU INIT 2
 ZFW/ZFWCG ............................... CALCULATE
@@ -160,7 +160,7 @@ WAYPOINT ND DIST ........................... FOLLOW
 FLIGHT ...................................... ENJOY
 
 TOP OF DESCENT
-IF CRZ 40000 ............ START AT 150NM BEFORE WPT
+IF CRZ 39000 ............ START AT 150NM BEFORE WPT
 IF CRZ 30000 ............ START AT 100NM BEFORE WPT
 IF CRZ 20000 ............ START AT 050NM BEFORE WPT
 IF CRZ 10000 ............................. KEEP ALT
@@ -237,8 +237,8 @@ BAGGAGE RAMP ................................... ON
 CATERING TRUCKS ..................... ON AND TOGGLE
 
 SHUT DOWN (IF FINAL FLIGHT)
-R TK PUMPS .............................. CHECK OFF
-CTR TK PUMPS ............................ CHECK OFF
+R TK PUMPS .................................... OFF
+CTR TK PUMPS .................................. OFF
 APU MASTER SW ................................. OFF
 
 NEXT (IF NEXT FLIGHT)
