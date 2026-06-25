@@ -17,7 +17,7 @@ FROM/TO AIRPORTS ......................... ANNOTATE
 DEPARTURE RUNWAY ......................... ANNOTATE
 ARRIVAL RUNWAY ........................... ANNOTATE
 INVERSE COURSE ........................... ANNOTATE
-[ILS] ILS FREQUENCY ...................... ANNOTATE
+[ILS ONLY] ILS FREQUENCY ................. ANNOTATE
 
 EXTERNAL POWER
 PARK BRK ........................... ON (SHIFT + B)
@@ -82,8 +82,8 @@ ALIGN WAYPOINT ............. SET ({TO}/{INVCRS}/30)
 MAP ROUTE .................................. REVIEW
 DISCONTINUITY ........................... ALL CLEAR
 
-[ILS] MCDU RAD NAV
-ILS/FREQ ...................................... SET
+MCDU RAD NAV
+[ILS ONLY] ILS/FREQ ........................... SET
 
 MCDU PERF
 V1 .................................. SET (DFT 130)
@@ -179,10 +179,10 @@ RWY TURN OFF ................................... ON
 LAND ........................................... ON
 NOSE ......................................... TAXI
 BARO ........................................ LOCAL
-[ILS] LS ....................................... ON
+[ILS ONLY] LS .................................. ON
 AUTO BRK ............................... LOW OR MED
 SPEED BRAKE ................................... ARM
-[ILS] ILS AUDIO ................................ ON
+[ILS ONLY] ILS AUDIO ........................... ON
 
 APPROACHING
 MCDU PERF APPR PHASE ..................... ACTIVATE
@@ -191,10 +191,10 @@ SEATBELTS ...................................... ON
 CPT PREPARE FOR LANDING .................. ANNOUNCE
 FLAPS ...................... 1 TO 5 (RESPECT SPEED)
 LANDING GEARS .................................. ON
-[ILS] ILS MORSE CODE ...................... RECEIVE
-[ILS] LS GUIDE INDICATORS ............ DISPLAY BOTH
-[ILS] APPR ..................................... ON
-[ILS] PFD LOC & G/S ......................... GREEN
+[ILS ONLY] ILS MORSE CODE ................. RECEIVE
+[ILS ONLY] LS GUIDE INDICATORS ....... DISPLAY BOTH
+[ILS ONLY] APPR ................................ ON
+[ILS ONLY] PFD LOC & G/S .................... GREEN
 [NO ILS] FCU ALT & V/S ................ MANUAL PULL
 
 LANDING
@@ -222,7 +222,7 @@ APU START ...................................... ON
 TCAS ......................................... STBY
 FLAPS ........................................... 0
 SPEED BRAKE ................................ DISARM
-[ILS] ILS AUDIO ............................... OFF
+[ILS ONLY] ILS AUDIO .......................... OFF
 F/A LANDED ............................... ANNOUNCE
 
 PARKING
