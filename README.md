@@ -25,23 +25,22 @@ From/To..........: ____/____
 Departure Runway.: ___
 Arrival Runway...: ___
 Inverse Course...: ___
-ILS Course.......: ___
 ILS Frequency....: ___.__
 ```
 
 2. Annotate the `From` and `To` airport **ICAOs** (International Civil Aviation Organization) codes (ex: `SBGR/SBGL`).
 3. Access _Equipament > Map_.
-4. In the `Display:` menu, make sure the `Data` checkbox is enabled.
+4. In the `Display:` menu, make sure the `Data` and `Magnetic Hdgs` checkboxes are enabled.
 5. Navigate to **departure airport** and annotate the departure `Departure Runway` (check notes below). 
 6. Navigate to **destination airport** and annotate the arrival `Arrival Runway Code` and `Inverse Course` (check notes below).
-7. **[ILS ONLY]** Navigate to the beggining of the arrival runway **ILS Feather** and annotate the `ILS Course` and `ILS Frequency` (check notes below).
+7. **[ILS ONLY]** Navigate to the beggining of the arrival runway **ILS Feather** and annotate the `ILS Frequency` (check notes below).
 8. Ensure the template was full filled and proceed to the **Flight Guide**.
 
 > The `Departure Runway` and `Arrival Runway` are displayed in a information box over the airport runway (ex: `09L/27R`). Select the left or the right runway as your preference (ex: `09L`).
 
 > The `Inverse Course` is displayed in a information box over the airport runway, under the runway information (ex: `096/276`). Get the opposite number of the selected runway (ex: `276`).
 
-> The `ILS Course` and `ILS Frequency` are displayed at the beggining of the "ILS feather", in a information box (ex: `276 - 111.90MHz`). For this example, the course is `276` and the frequency is `111.90`. These information wont be available in case the landing runway has no **ILS** support.
+> The `ILS Frequency` is displayed at the beggining of the "ILS feather", in an information box (ex: `111.90MHz`). For this example, the frequency is `111.90`. These information wont be available in case the landing runway has no **ILS** support.
 
 ## Flight Guide
 
@@ -129,7 +128,7 @@ ILS Frequency....: ___.__
 ### 11. MCDU - Flight Plan Alignment Waypoint
 
 1. Select the `F-PLN DISCONTINUITY` left button.
-2. Type into the scratchpad the following format: `{To}/{Inverse Course}/50` (check annotations) (ex: `SBGL/329/50`).
+2. Type into the scratchpad the following format: `{To}/{Inverse Course}/30` (check annotations) (ex: `SBGL/329/30`).
 3. Press `NEXT WPT`.
 4. Save by pressing `TMPY INSERT *`.
 
@@ -144,7 +143,7 @@ ILS Frequency....: ___.__
 2. Select `F-PLN DISCONTINUITY` left button to remove the discontinuity point.
 3. Repeat the steps above until all `F-PLN DISCONTINUITY` messages are cleared.
 
-### 14. **[ILS ONLY]** MCDU - Radio Navigation 
+### 14. **[ILS ONLY]** MCDU - Radio Navigation
 
 1. If the landing runway has **ILS**, follow the instructions below:
 2. Press `RAD NAV` button.
@@ -200,22 +199,22 @@ ILS Frequency....: ___.__
 4. Adjust the `PITCH TRIM` wheel to match **MCDU** target (default: `UP0.1`).
 5. Set `FLAPS` to takeoff position (default: `1`).
 6. Arm `SPEED BRAKE` (verify white band is visible).
-7. Press `T.O CONFIG` button to test takeoff configuration.
-8. Check **ECAM** and confirm it displays `T.O CONFIG NORMAL` in green.
-9. Release `PARK BRK` (shortcut: `SHIFT + B`).
-10. Smoothly advance thrust levers to taxi speed (shortcut: `PG UP`).
-11. Taxi the aircraft to the takeoff runway (use `TAB + HOLD LEFT MOUSE BUTTON` to control, and `B` to break).
-12. During taxi, access _Aircraft > Announcements_ and trigger `Cpt - Doors Check`.
+7. Release `PARK BRK` (shortcut: `SHIFT + B`).
+8. Smoothly advance thrust levers to taxi speed (shortcut: `PG UP`).
+9. Taxi the aircraft to the takeoff runway (use `TAB + HOLD LEFT MOUSE BUTTON` to control, and `B` to break).
+10. During taxi, access _Aircraft > Announcements_ and trigger `Cpt - Doors Check`.
 
 ### 21. Before Takeoff
 
 1. At the runway holding point, turn on `PARK BRK` (shortcut: `SHIFT + B`)
-2. Turn on `RWY TURN OFF` light switch.
-3. Turn on `LAND` lights switches.
-4. Set `NOSE` light switch to `T.O`.
-5. Press `ALL` button on the `CALLS` panel to advise cabin crew.
-6. Set `TCAS` switch to `TA/RA`.
-7. Access _Aircraft > Announcements_ and trigger `Cpt - Prepare for Takeoff`.
+2. Press `T.O CONFIG` button to test takeoff configuration.
+3. Check **ECAM** and confirm it displays `T.O CONFIG NORMAL` in green.
+4. Turn on `RWY TURN OFF` light switch.
+5. Turn on `LAND` lights switches.
+6. Set `NOSE` light switch to `T.O`.
+7. Press `ALL` button on the `CALLS` panel to advise cabin crew.
+8. Set `TCAS` switch to `TA/RA`.
+9. Access _Aircraft > Announcements_ and trigger `Cpt - Prepare for Takeoff`.
 
 ### 22. Takeoff
 
