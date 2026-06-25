@@ -1,54 +1,54 @@
-FLIGHT GEAR AIRBUS A320-FAMILY CHECKLIST 
+FLIGHT GEAR AIRBUS A320-FAMILY CHECKLIST
+
+SIMULATOR CONFIG
+ALIGN IRS INSTANTLY ............................ ON
+MAP DATA ....................................... ON
+MAP MAGNETIC HDGS .............................. ON
 
 NOTES TEMPLATE (COPY IT)
 FROM/TO ................................. ____/____
 DEPARTURE RUNWAY .............................. ___
 ARRIVAL RUNWAY ................................ ___
 INVERSE COURSE ................................ ___
-ILS COURSE .................................... ___
 ILS FREQUENCY .............................. ___.__
 
-PREPARATION
+FLIGHT PLAN RESEARCH
 FROM/TO AIRPORTS ......................... ANNOTATE
 DEPARTURE RUNWAY ......................... ANNOTATE
 ARRIVAL RUNWAY ........................... ANNOTATE
 INVERSE COURSE ........................... ANNOTATE
-[ILS] ILS COURSE ......................... ANNOTATE
 [ILS] ILS FREQUENCY ...................... ANNOTATE
 
 EXTERNAL POWER
 PARK BRK ........................... ON (SHIFT + B)
 EXT PWR BOX .................................... ON
 EXT PWR ........................................ ON
-BAT 1 .......................................... ON
-BAT 2 .......................................... ON
-
-COCKPIT LIGHTS
-OVHD INTEG LT ................................. SET
-DOME .......................................... SET
-FCU INTEG LT .................................. SET
-MP INTEG LT ................................... SET
-MP FLOOD LTS .................................. SET
+BATS 1 & 2 ..................................... ON
 
 ADIRS
-ALIGN INSTANTLY CONFIG ......................... ON
 IR1 ........................................... NAV
 IR2 ........................................... NAV
 IR3 ........................................... NAV
 
+COCKPIT LIGHTS
+DOME LT ....................................... SET
+INTEG LTS ..................................... SET
+FLOOD LTS ..................................... SET
+
 APU
 APU MASTER SW .................................. ON
-APU START ............................ ON AND AVAIL
+APU START .............................. ON / AVAIL
 APU BLEED ...................................... ON
-PACK 1 ......................................... ON
-PACK 2 ......................................... ON
-PACK FLOW ..................................... SET
-COCKPIT ....................................... SET
-FWD CABIN ..................................... SET
-AFT CABIN ..................................... SET
-CREW SUPPLY .................................... ON
 EXT PWR ....................................... OFF
 EXT PWR BOX ................................... OFF
+
+CLIMATIZATION
+PACK 1 & 2 ..................................... ON
+PACK FLOW NORM ................................ SET
+TEMP (COCKPIT AND CABINS) ..................... SET
+
+OXYGEN
+CREW SUPPLY .................................... ON
 
 LIGHTS AND SIGNS
 STROBE ....................................... AUTO
@@ -61,11 +61,13 @@ DEPARTURE BORDING SERVICES
 STAIRWAYS ...................................... ON
 BAGGAGE RAMP ................................... ON
 CATERING TRUCKS ..................... ON AND TOGGLE
+F/A BOARDING ............................. ANNOUNCE
 
 MCDU INIT
-FMGC ......................................... LOAD
+FMGC ....................................... SELECT
 FROM/TO ....................................... SET
 IRS ......................................... ALIGN
+FLIGHT NO ..................................... SET
 COST INDEX ..................................... 50
 CRZ FL .... SET (100 TY / 200 SM / 300 MD / 390 LG)
 
@@ -76,13 +78,12 @@ FUEL PLANNING ............................. CONFIRM
 MCDU F-PLN
 DEPARTURE RUNWAY .............................. SET
 ARRIVAL RUNWAY ................................ SET
-ALIGN WAYPOINT ............. SET ({TO}/{INVCRS}/50)
+ALIGN WAYPOINT ............. SET ({TO}/{INVCRS}/30)
 MAP ROUTE .................................. REVIEW
 DISCONTINUITY ........................... ALL CLEAR
 
 [ILS] MCDU RAD NAV
 ILS/FREQ ...................................... SET
-ILS CRS ....................................... SET
 
 MCDU PERF
 V1 .................................. SET (DFT 130)
@@ -90,23 +91,28 @@ V2 .................................. SET (DFT 135)
 V3 .................................. SET (DFT 140)
 FLAPS/THS ....................... SET (DFT 1/UP0.1)
 
-FCU
-ALT .................................. SET AND PUSH
-HDG .......................................... PUSH
-SPD .......................................... PUSH
+AUTOPILOT SETUP
+FCU ALT .............................. SET AND PUSH
+FCU HDG ...................................... PUSH
+FCU SPD ...................................... PUSH
 
-DISABLE BOARDING SERVICES
+PUSHBACK
 GEAR CHOCKS ................................... OFF
 STAIRWAYS ..................................... OFF
 BAGGAGE RAMP .................................. OFF
 CATERING TRUCKS ............................... OFF
+PARK BRK .......................... OFF (SHIFT + B)
+PUSHBACK .................................... START
+
+ANNOUNCEMENTS
+F/A WELCOME .............................. ANNOUNCE
+CPT WELCOME .............................. ANNOUNCE
+CPT DOORS CHECK .......................... ANNOUNCE
+F/A SAFETY BRIEF ......................... ANNOUNCE
 
 ENGINES STARTUP
-PUSHBACK .................................. REQUEST
-PARK BRK ........................... ON (SHIFT + B)
-R TK PUMPS ..................................... ON
-CTR TK PUMPS ................................... ON
 BEACON ......................................... ON
+RTK & CTRTK FUEL PUMPS ......................... ON
 ENG MODE ................................ IGN/START
 ENG 2 ............................... ON AND STABLE
 ENG 1 ............................... ON AND STABLE
@@ -114,57 +120,58 @@ ENG MODE ..................................... NORM
 APU MASTER SW ................................. OFF
 
 TAXI
-WELCOME .................................. ANNOUNCE
+PUSHBACK ............................... CHECK DONE
 NOSE ......................................... TAXI
 AUTO BRK ...................................... MAX
 PITCH TRIM ........................ SET (DFT UP0.1)
 FLAPS ................................. SET (DFT 1)
 SPEED BRAKE ................................... ARM
-T.O CONFIG ................................. NORMAL
 PARK BRK .......................... OFF (SHIFT + B)
 THRUST LEVERS ......................... 20% (PG-UP)
-DOORS CHECK .............................. ANNOUNCE
-AIRPLANE ... AT HOLDING POINT (TAB + HOLD LEFT CLK)
+AIRPLANE .. DRIVE TO HOLDING POINT (TAB + LEFT CLK)
 PARK BRK ........................... ON (SHIFT + B)
 
 BEFORE TAKEOFF
+T.O CONFIG ......................... PRESS / NORMAL
 RWY TURN OFF ................................... ON
 LAND ........................................... ON
 NOSE .......................................... T.O
 ALL .......................................... CALL
 TCAS ........................................ TA/RA
-TAKEOFF .................................. ANNOUNCE
+CPT PREPARE FOR TAKEOFF .................. ANNOUNCE
 PARK BRK .......................... OFF (SHIFT + B)
-AIRPLANE ................................ AT RUNWAY
+AIRPLANE .......................... ALIGN AT RUNWAY
 
 TAKEOFF
-THRUST LEVERS ......... 50% THEN TOGA (PG-UP AND F)
+THRUST LEVERS ......................... 50% (PG-UP)
+THRUST LEVERS ............................ TOGA (F)
 ROTATE ...................................... AT V1
 
 CLIMB
 LANDING GEARS .................................. UP
 FLAPS ........................................... 0
+SPEED BRAKE ................................ DISARM
+A/THR .................................... CHECK ON
 TRUST LEVERS ................................... CL
 AP1 ............................................ ON
-A/THR .................................... CHECK ON
-SPEED BRAKE ................................ DISARM
 RWY TURN OFF .................................. OFF
 LAND ...................................... RETRACT
 NOSE .......................................... OFF
 BARO .......................................... STD
 
 CRUISE
-ALT CRZ ..................................... CHECK
+PFD ALT CRZ ................................. CHECK
 SEATBELTS ..................................... OFF
-WAYPOINT ND DIST ........................... FOLLOW
-FLIGHT ...................................... ENJOY
+F/A SEATBELT TURNED OFF .................. ANNOUNCE
 
-TOP OF DESCENT
-IF CRZ 39000 ............ START AT 150NM BEFORE WPT
-IF CRZ 30000 ............ START AT 100NM BEFORE WPT
-IF CRZ 20000 ............ START AT 050NM BEFORE WPT
-IF CRZ 10000 ............................. KEEP ALT
-ALT ................................ 10000 AND PULL
+WAIT FOR DESCENT
+IF CRZ 39000 .......... WAIT UNTIL 150NM BEFORE WPT
+IF CRZ 30000 .......... WAIT UNTIL 100NM BEFORE WPT
+IF CRZ 20000 .......... WAIT UNTIL 050NM BEFORE WPT
+
+DESCENT
+F/A DESCENT .............................. ANNOUNCE
+FCU ALT ............................ 10000 AND PULL
 
 ALIGNMENT WAYPOINT
 CURRENT ALT ........................... CHECK 10000
@@ -172,37 +179,37 @@ RWY TURN OFF ................................... ON
 LAND ........................................... ON
 NOSE ......................................... TAXI
 BARO ........................................ LOCAL
+[ILS] LS ....................................... ON
 AUTO BRK ............................... LOW OR MED
 SPEED BRAKE ................................... ARM
-APPROACHING ................................. START
+[ILS] ILS AUDIO ................................ ON
 
 APPROACHING
-MCDU PERF APPR PHASE ....................... ACTIVE
-[ILS] ILS AUDIO ................................ ON
-[ILS] LS ....................................... ON
-ALT ........... SET AND PULL (DFT 3000 SHIFT + CLK)
+MCDU PERF APPR PHASE ..................... ACTIVATE
+FCU ALT ....... SET AND PULL (DFT 3000 SHIFT + CLK)
 SEATBELTS ...................................... ON
-LANDING .................................. ANNOUNCE
+CPT PREPARE FOR LANDING .................. ANNOUNCE
 FLAPS ...................... 1 TO 5 (RESPECT SPEED)
 LANDING GEARS .................................. ON
 [ILS] ILS MORSE CODE ...................... RECEIVE
 [ILS] LS GUIDE INDICATORS ............ DISPLAY BOTH
 [ILS] APPR ..................................... ON
-[ILS] G/S ................................... GREEN
-[NO ILS] ALT .......................... MANUAL PULL
+[ILS] PFD LOC & G/S ......................... GREEN
+[NO ILS] FCU ALT & V/S ................ MANUAL PULL
 
 LANDING
-CURRENT ALT ............................. CHECK 100
+ALT ................................. CHECK 200~100
 AP1 ............................... OFF (SHIFT + D)
 FLAIR .................................... DO (TAB)
 THRUST LEVERS ............................ IDLE (E)
-REVERSE .................................. DO (DEL)
+REVERSE THRUST .......................... MAX (DEL)
+AUTOBREAK ................................. OFF (B)
 
 GO AROUND (IF NECESSARY)
 AP1 ............................... OFF (SHIFT + D)
 THRUST LEVERS ............................ TOGA (F)
 LANDING GEARS ................................. OFF
-ALT ....................... SET AND PULL (DFT 3000)
+FCU ALT ................... SET AND PULL (DFT 3000)
 AP1 ............................................ ON
 HDG TURN BACK .............................. MANUAL
 LANDING ............................... START AGAIN
@@ -211,19 +218,20 @@ TAXI TO GATE
 THRUST LEVERS ......................... 20% (PG-UP)
 APU MASTER SW .................................. ON
 APU START ...................................... ON
+[ILS] LS ...................................... OFF
+TCAS ......................................... STBY
 FLAPS ........................................... 0
 SPEED BRAKE ................................ DISARM
-[ILS] LS ...................................... OFF
 [ILS] ILS AUDIO ............................... OFF
+F/A LANDED ............................... ANNOUNCE
 
 PARKING
 PARK BRK ........................... ON (SHIFT + B)
 THRUST LEVERS ............................ IDLE (E)
 RNW TURN OFF .................................. OFF
-LAND .......................................... OFF
-NOSE ...................................... RETRACT
-TCAS ......................................... STBY
-APU START ................................... AVAIL
+LAND ...................................... RETRACT
+NOSE .......................................... OFF
+APU START ............................. CHECK AVAIL
 APU BLEED ...................................... ON
 ENG 1 ......................................... OFF
 ENG 2 ......................................... OFF
@@ -239,8 +247,9 @@ CATERING TRUCKS ..................... ON AND TOGGLE
 SHUT DOWN (IF FINAL FLIGHT)
 R TK PUMPS .................................... OFF
 CTR TK PUMPS .................................. OFF
+BATS 1 & 2 .................................... OFF
 APU MASTER SW ................................. OFF
 
-NEXT (IF NEXT FLIGHT)
+NEXT TRIP (IF NEXT FLIGHT)
 FUEL ....................... REFUEL (DFT 13000 LBS)
-NEXT STEP ................. PREPARATION > MCDU INIT
+JUMP TO .................. PREPARATION -> MCDU INIT
