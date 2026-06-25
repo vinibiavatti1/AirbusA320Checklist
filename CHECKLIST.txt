@@ -132,12 +132,12 @@ AIRPLANE .. DRIVE TO HOLDING POINT (TAB + LEFT CLK)
 PARK BRK ........................... ON (SHIFT + B)
 
 BEFORE TAKEOFF
-T.O CONFIG ......................... PRESS / NORMAL
 RWY TURN OFF ................................... ON
 LAND ........................................... ON
 NOSE .......................................... T.O
-ALL .......................................... CALL
 TCAS ........................................ TA/RA
+T.O CONFIG ......................... PRESS / NORMAL
+ALL .......................................... CALL
 CPT PREPARE FOR TAKEOFF .................. ANNOUNCE
 PARK BRK .......................... OFF (SHIFT + B)
 AIRPLANE .......................... ALIGN AT RUNWAY
