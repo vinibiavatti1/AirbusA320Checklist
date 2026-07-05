@@ -1,7 +1,7 @@
 FLIGHT GEAR AIRBUS A320-FAMILY CHECKLIST
 
 SIMULATOR CONFIG
-ALIGN IRS INSTANTLY ............................ ON
+ADIRS ALIGNS INSTANTLY ......................... ON
 MAP DATA ....................................... ON
 MAP MAGNETIC HDGS .............................. ON
 
