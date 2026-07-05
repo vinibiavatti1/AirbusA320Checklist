@@ -96,6 +96,12 @@ FCU ALT .............................. SET AND PUSH
 FCU HDG ...................................... PUSH
 FCU SPD ...................................... PUSH
 
+ANNOUNCEMENTS
+F/A WELCOME .............................. ANNOUNCE
+CPT WELCOME .............................. ANNOUNCE
+CPT DOORS CHECK .......................... ANNOUNCE
+F/A SAFETY BRIEF ......................... ANNOUNCE
+
 PUSHBACK
 GEAR CHOCKS ................................... OFF
 STAIRWAYS ..................................... OFF
@@ -103,12 +109,6 @@ BAGGAGE RAMP .................................. OFF
 CATERING TRUCKS ............................... OFF
 PARK BRK .......................... OFF (SHIFT + B)
 PUSHBACK .................................... START
-
-ANNOUNCEMENTS
-F/A WELCOME .............................. ANNOUNCE
-CPT WELCOME .............................. ANNOUNCE
-CPT DOORS CHECK .......................... ANNOUNCE
-F/A SAFETY BRIEF ......................... ANNOUNCE
 
 ENGINES STARTUP
 BEACON ......................................... ON
@@ -164,12 +164,11 @@ PFD ALT CRZ ................................. CHECK
 SEATBELTS ..................................... OFF
 F/A SEATBELT TURNED OFF .................. ANNOUNCE
 
-WAIT FOR DESCENT
+TOP OF DESCENT
 IF CRZ 39000 .......... WAIT UNTIL 150NM BEFORE WPT
 IF CRZ 30000 .......... WAIT UNTIL 100NM BEFORE WPT
 IF CRZ 20000 .......... WAIT UNTIL 050NM BEFORE WPT
-
-DESCENT
+IF CRZ 10000 ......................... SKIP DESCENT
 F/A DESCENT .............................. ANNOUNCE
 FCU ALT ............................ 10000 AND PULL
 
@@ -183,6 +182,7 @@ BARO ........................................ LOCAL
 AUTO BRK ............................... LOW OR MED
 SPEED BRAKE ................................... ARM
 [ILS ONLY] ILS AUDIO ........................... ON
+APPROACHING ................................. START
 
 APPROACHING
 MCDU PERF APPR PHASE ..................... ACTIVATE
